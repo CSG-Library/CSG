@@ -55,13 +55,9 @@ const SearchUi = styled.div`
                             font-weight: 400;
                             color: #999999;
                         }
-
                     }
-
                 }
-
             }
-
         }
         .content{
             >div{
@@ -73,7 +69,6 @@ const SearchUi = styled.div`
                     align-items:center;
                     font-size:20px;
                     width:auto;
-
                     span{
                         cursor: pointer;
                         width:20px;
@@ -99,8 +94,6 @@ const SearchUi = styled.div`
                         padding:0;
                         cursor: pointer;   
                         padding-left:4px;
-
-
                     }
                 }
             }
@@ -122,7 +115,6 @@ const SearchUi = styled.div`
                         font-weight: 400;
                         color: #999999;
                     }
-
                     }
             }
         }

@@ -3,9 +3,7 @@ import PreciseSearchUi  from '../ui/PreciseSearchUi'
  class PreciseSearch extends Component {
     render() {
         return (
-            <PreciseSearchUi>
-                
-            </PreciseSearchUi>
+            <PreciseSearchUi />
         )
     }
 }

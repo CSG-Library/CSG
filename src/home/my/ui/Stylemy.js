@@ -332,10 +332,8 @@ const StyBook = styled.div`
         .tp{
           width: 140px;
           height: 176px;
-          border:1px solid red;
-          background-color:pink;
           img{
-            width:100px;
+            width:100%;
             height:100%;
           }
         }

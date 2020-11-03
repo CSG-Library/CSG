@@ -12,7 +12,7 @@ const NavTwo = props => {
       { online: "在线图书馆" },
       { magazine: "电子杂志" },
       { paper: "电子报刊" },
-      { database: "资料库" },
+      { news: "资料库" },
       { rank: "热门排行" },
       { search: "精确搜索" },
       { bookshelf: "我的书架" },

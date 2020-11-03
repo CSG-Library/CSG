@@ -1,9 +1,17 @@
-import React from 'react';
+import React,{ useCallback } from 'react';
 import search from '@a/imgs/search.png';
 
 import { Ul, PageWrap } from './styleUl';
+import { withRouter } from 'react-router-dom';
 
 const UlWrap = (props) => {
+   const handleClick = useCallback(() => {
+      return () => {
+         console.log(props)
+         props.history.push('/home/comment')
+      }
+   })
+
    return (
       <Ul>
          <li>
@@ -21,7 +29,7 @@ const UlWrap = (props) => {
                   外加蛇蝎庶妹哔哔——呀
                </PageWrap>
                <h4>
-                  <div>
+                  <div onClick={handleClick()}>
                      <i className='iconfont'>&#xe637;</i>
                      <span>写书评</span>
                   </div>
@@ -214,4 +222,4 @@ const UlWrap = (props) => {
    )
 }
 
-export default UlWrap
+export default withRouter(UlWrap)

@@ -1,14 +1,23 @@
-import React from 'react';
+import React,{ useCallback } from 'react';
 import PropTypes from 'prop-types';
 import { Row, Col } from 'antd';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { actionCreator as ac } from '../';
+import { useHistory } from 'react-router-dom';
 
 const Maga = props => {
    let cateSide = useSelector(state => state.paperCate.cateSide)
    let dispatch = useDispatch()
    dispatch(ac.changeAside(cateSide))
+
+   let history = useHistory()
+
+   const handleClick = useCallback(() => {
+      return () => {
+         history.replace('/home/papernum')
+      }
+   })
 
    return (
       <section className='cont cont-top'>
@@ -16,7 +25,7 @@ const Maga = props => {
          <Row>
             {
                props.cate[cateSide] && props.cate[cateSide].magazine.map((v,i) => (
-                     <Col key={i+'yyj'} span={4}> {v} </Col>
+                     <Col key={i+'yyj'} span={4} onClick={handleClick()}> {v} </Col>
                   )
                )
             }

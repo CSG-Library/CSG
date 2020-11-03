@@ -27,7 +27,6 @@ module.exports = override(
       "@c": path.resolve(__dirname, "src/components"),
       "@u": path.resolve(__dirname, "src/utils"),
       "@s": path.resolve(__dirname, "src/store"),
-      "@o":path.resolve(__dirname,"src/home")
    }),
 
    // 配置装饰器的方法

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import { Pagination } from 'antd';
 import {StyBook} from './Stylemy'
+
+import img from '@a/imgs/novel.png'
 export default class Book extends Component {
   render() {
     return (
@@ -16,7 +18,7 @@ export default class Book extends Component {
             <li>
               <input type="checkbox" name="" id=""/>
               <div className='tp'>
-                <img src="../../assets/imgs/logo.png" alt=""/>
+                <img src={`${img}`} alt=""/>
               </div>
               <div className='box'>
                 <div className='txt'>
@@ -36,7 +38,7 @@ export default class Book extends Component {
             <li>
               <input type="checkbox" name="" id=""/>
               <div className='tp'>
-                <img src="../../assets/imgs/logo.png" alt=""/>
+                <img src={`${img}`} alt=""/>
               </div>
               <div className='box'>
                 <div className='txt'>

@@ -3,9 +3,7 @@ import LibraryNewUi from '../ui/LibraryNewUi'
 export class LibraryNew extends Component {
     render() {
         return (
-            <LibraryNewUi>
-               
-            </LibraryNewUi>
+            <LibraryNewUi />
         )
     }
 }

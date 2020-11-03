@@ -12,11 +12,6 @@ import Child from './Child';
 import Life from './Life';
 import Page404 from '../page404/Page404';
 
-
-import { ChapterDet } from '../chapterdetail';
-import { ChapterRead } from '../chapterdetail';
-
-
 const ThrHome = (props) => {
    // let { url } = props.match;
    let { url } = useRouteMatch();
@@ -64,9 +59,6 @@ const ThrHome = (props) => {
             <Route path={`${url}/success`} render={Success}></Route>
             <Route path={`${url}/child`} render={Child}></Route>
             <Route path={`${url}/life`} render={Life}></Route>
-
-            {/* <Route path={`${url}/chapterdet`}> <ChapterDet /></Route>
-            <Route path={`${url}/chapterpage`}> <ChapterRead /></Route> */}
             
             <Redirect from={`${url}`} to={`${url}/novel`}></Redirect>
             <Route><Page404></Page404></Route>

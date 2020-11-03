@@ -9,17 +9,29 @@ import { Div } from './styleRoute';
 
 // 导入二级路由及其余页面组件
 import ThrHome from './homepage/ThrHome';
-import { ChapterDet } from './chapterdetail'
-import { ChapterRead } from './chapterdetail'
+import { ChapterDet } from './chapterdetail';
+import { ChapterRead } from './chapterdetail';
+import { Comment } from './bookReview';
 
-// import { Online } from './onLine';
+import { LibraryNew } from './onlineLibrary';
+
 import { HotMag } from './hotMagazine';
+
 import { PaperCate } from './paperCate';
-// import { DataBase } from './dataBase';
+import { PaperNum } from './Newspaper';
+import { Paperpage } from './Newspaper';
+
+import { NewsContent } from './News';
+
 import { RankPop } from './rank';
+
+import { PreciseSearch } from './search';
 import { SearchRes } from './search';
-// import { BookShelf } from './bookShelf';
+
+import BookRouter from './my/BookRouter';
+
 // import { Mine } from './mine';
+
 import Page404 from './page404/Page404';
 
 @withRouter
@@ -29,15 +41,26 @@ class HomeRouter extends Component {
          { path: '/browse', component: ThrHome },
          { path: '/chapterdet', component: ChapterDet },
          { path: '/chapterpage', component: ChapterRead },
+         { path: '/comment', component: Comment },
 
 
-         // { path: '/online', component: Online },'
+         { path: '/online', component: LibraryNew },
+
          { path: '/magazine', component: HotMag },
+
          { path: '/paper', component: PaperCate },
-         // { path: '/database', component: DataBase },
+         { path: '/papernum', component: PaperNum },
+         { path: '/paperpage', component: Paperpage },
+
+         { path: '/news', component: NewsContent },
+
          { path: '/rank', component: RankPop },
-         { path: '/search', component: SearchRes },
-         // { path: '/bookshelf', component: BookShelf },
+
+         { path: '/search', component: PreciseSearch },
+         { path: '/searchres', component: SearchRes },
+
+         { path: '/bookshelf', component: BookRouter },
+
          // { path: '/mine', component: Mine }
       ]
    }
@@ -50,7 +73,7 @@ class HomeRouter extends Component {
             <main className="container">
                <NavOne></NavOne>
                <NavTwo {...this.props}></NavTwo>
-
+               
                <Switch>
                   {
                      this.state.routes.map(v => 
