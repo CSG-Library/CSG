@@ -174,7 +174,7 @@ const BookWraper = styled.div`
             }    
         }
         >div:nth-child(3){
-            width:254px;
+            /* width:254px; */
             height:262px;
             /* background-color:#8b6; */
             line-height:30px;

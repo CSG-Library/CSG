@@ -39,7 +39,7 @@ const loadDataAsync_ShortCom = () => {
       let result = await get({
         url: '/api/shortcom'
       })
-    //    console.log(result.data.shortdata)
+      //  console.log(result)
       dispatch(loadDataSync_ShortCom (result.data.shortdata))
     }
   }
@@ -56,8 +56,8 @@ const loadDataAsync_LongCom = () => {
       let result = await get({
         url: '/api/longcom'
       })
-    // console.log(result.data.longdata)
-    //   dispatch(loadDataSync_LongCom(result.data.longdata))
+    // console.log(result)
+      // dispatch(loadDataSync_LongCom(result.data.longdata))
     }
   }
 

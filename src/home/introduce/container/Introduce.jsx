@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import IntroduceUi from '../ui/IntroduceUi'
-
+// import { actionCreator as ac } from '@/home/introduce'
 import { connect } from 'react-redux'
+
 
 import { 
     // loadDataAsync, 
@@ -11,12 +12,13 @@ import {
 
 @connect(
     (state)=>{
-        //  console.log(state.introduce.list)
+        // console.log(state)
+        // console.log(state.introcude)
         //必须得return什么东西
         return{
             list:state.introduce.list
         }
-    },
+    }, 
     (dispatch)=>({
         // loadData(){
         //     dispatch(loadDataAsync())
@@ -33,7 +35,7 @@ import {
 class Introduce extends Component {
    
     render() {
-        // console.log(this.props+4444)
+        //  console.log(this.props)
         return (
             <div>
                 <IntroduceUi

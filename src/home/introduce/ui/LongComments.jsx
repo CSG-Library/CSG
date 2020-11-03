@@ -8,7 +8,7 @@ import {
 
 import img from '@a/images/lc1.png'
 const LongComments=()=> {
-    // render() {
+
         return (
             < LongCommentsWraper>
                  <TitleWraper
@@ -81,13 +81,12 @@ const LongComments=()=> {
                         </div>
                     </li>
                     <div>
-                        <span className='r'>所有长评（222）V</span>
+                        <span className='r'>所有长评（222）{`>`}</span>
                     </div>
                 </ul>
 
             </ LongCommentsWraper>
         );
-    // }
 }
 
 export default LongComments;

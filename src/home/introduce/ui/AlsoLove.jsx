@@ -14,11 +14,11 @@ import {
 const AlsoLoveList =[
 
     {
-        img:"http://localhost:3000/static/media/alsolove.c669761e.png",
+        img:"/static/media/alsolove.c669761e.png",
         pageName:'学好h5的重要性',
     },
     {
-        img:"http://localhost:3000/static/media/alsolove.c669761e.png",
+        img:"/static/media/alsolove.c669761e.png",
        pageName:'学好css的重要性',
     },
     {
