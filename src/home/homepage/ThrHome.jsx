@@ -65,8 +65,8 @@ const ThrHome = (props) => {
             <Route path={`${url}/child`} render={Child}></Route>
             <Route path={`${url}/life`} render={Life}></Route>
 
-            <Route path={`${url}/chapterdet`}> <ChapterDet /></Route>
-            <Route path={`${url}/chapterpage`}> <ChapterRead /></Route>
+            {/* <Route path={`${url}/chapterdet`}> <ChapterDet /></Route>
+            <Route path={`${url}/chapterpage`}> <ChapterRead /></Route> */}
             
             <Redirect from={`${url}`} to={`${url}/novel`}></Redirect>
             <Route><Page404></Page404></Route>

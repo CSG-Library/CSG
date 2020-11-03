@@ -7,8 +7,11 @@ import NavTwo from '@c/navTwo/NavTwo';
 import Foot from '@c/footer/Footer';
 import { Div } from './styleRoute';
 
-// 导入二级路由 各页面组件
+// 导入二级路由及其余页面组件
 import ThrHome from './homepage/ThrHome';
+import { ChapterDet } from './chapterdetail'
+import { ChapterRead } from './chapterdetail'
+
 // import { Online } from './onLine';
 import { HotMag } from './hotMagazine';
 import { PaperCate } from './paperCate';
@@ -24,6 +27,10 @@ class HomeRouter extends Component {
    state = {
       routes: [ 
          { path: '/browse', component: ThrHome },
+         { path: '/chapterdet', component: ChapterDet },
+         { path: '/chapterpage', component: ChapterRead },
+
+
          // { path: '/online', component: Online },'
          { path: '/magazine', component: HotMag },
          { path: '/paper', component: PaperCate },

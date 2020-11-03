@@ -9,7 +9,7 @@ import { ChapterRead } from '../'
 const Chapter = (props) => {
    const handleClick = useCallback(() => {
       return () => {
-         props.history.push('/home/browse/chapterpage')
+         props.history.push('/home/chapterpage')
       }
    })
 
