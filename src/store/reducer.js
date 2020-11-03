@@ -5,7 +5,11 @@ import { combineReducers } from 'redux';
 // import { reducer as paperCate} from '../home/paperCate/';
 import { reducer as paperCate} from '../home/paperCate';
 
+import {
+   reducer as introduce
+} from '../home/introduce'
 
 export default combineReducers({
    paperCate,
+   introduce
 })

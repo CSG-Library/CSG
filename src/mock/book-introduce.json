@@ -1,0 +1,29 @@
+{
+    "data":{
+        "book_introduce_detail":[
+            {   
+                "book_introduce":{
+                    "id":"1001",
+                    "title":"毒医王妃",
+                    "author":"蓝郁华",
+                    "translator":"无",
+                    "sub_title":"角色王妃",
+                    "page":"12315",
+                    "publish_company":"铁蛋文化传媒有限公司",
+                    "price":"1024元",
+                    "binding":"000",
+                    "publish_year":"2020.02.02",
+                    "rating":{
+                        "read":"999",
+                        "collection":"888",
+                        "pizhu":"777",
+                        "comment":"666",
+                        "score":"8",
+                        "max":"10"
+                    }
+               }
+                
+            }
+        ]
+    }
+}
