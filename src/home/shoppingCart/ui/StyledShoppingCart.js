@@ -63,6 +63,9 @@ const ShoppingCartListWrap = styled.table`
     tr{
       height: 100px;
     }
+    td{
+      vertical-align: middle;
+    }
     td:nth-child(1){
       position: relative;
       input{

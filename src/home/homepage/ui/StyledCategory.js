@@ -83,16 +83,17 @@ const BookCategoryWrap = styled.div`
                 height: 20px;
                 font-size: 14px;
                 color: #319DF7;
+                cursor: pointer;
                 img{
                   width: 21px;
                   height: 17px;
                   margin-right: 5px; 
                 }
                 &.comment{
-                  margin-right: 26px;
+                  margin-right: 11px;
                 }
                 &.to-bookshelf-btn{
-                  margin-right: 36px;
+                  margin-right: 16px;
                   img{
                     width: 17px;
                     height: 17px;

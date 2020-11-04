@@ -4,5 +4,7 @@
    "/api/maga": "/maga",
    "/api/introduce": "/introduce",
    "/api/longcom": "/longcom",
-   "/api/shortcom": "/shortcom"
+   "/api/shortcom": "/shortcom",
+   "/api/findAllbook": "/findAllbook",
+   "/api/findAllbookBytype": "/findAllbookBytype"
 }

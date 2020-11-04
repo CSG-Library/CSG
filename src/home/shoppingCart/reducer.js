@@ -5,9 +5,10 @@ import {
   DELNUM,
   ADDNUM,
   DELETE,
-  ALLCHANGE
+  ALLCHANGE,
+  ADDSHOPPINGCART
 } from './actionTypes'
- 
+  
 const defaultState = {
   allSelect: localStorage.getItem('allSelect') === 'true' ? true : false,
   shoppingCartList : JSON.parse(localStorage.getItem('shoppingCartList')) || 
@@ -41,6 +42,23 @@ const defaultState = {
 
 const reducer = (state = defaultState, action) => {
   switch(action.type){
+    case ADDSHOPPINGCART:
+      // console.log(action.item)
+      let bool = false
+      state.shoppingCartList.forEach(item => {
+        if(item.goods_id === action.obj.goods_id){
+          item.goods_num += 1
+          bool = true
+        }
+      })
+      if(!bool){
+        state.shoppingCartList.push(action.obj)
+      }
+      localStorage.setItem('allSelect', false)
+      localStorage.setItem('shoppingCartList', JSON.stringify(state.shoppingCartList))
+      return {
+        ...state
+      }
     case CHANGESTATUS:
       state.shoppingCartList.forEach(item => {
         if(item.goods_id === action.id){
@@ -87,6 +105,7 @@ const reducer = (state = defaultState, action) => {
         return item.goods_checked_status === false
       })
       let allSelect_del = (j.length === 0 ? true : false)
+      if(list.length === 0) allSelect_del = false
 
       localStorage.setItem('allSelect', allSelect_del)
       localStorage.setItem('shoppingCartList', JSON.stringify(list))

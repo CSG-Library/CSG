@@ -5,6 +5,8 @@ module.exports = function () {
       maga: require('./maga-cate.json'),
       introduce: require('./book-introduce.json'),
       longcom: require('./long-comments.json'),
-      shortcom: require('./short-comments.json')
+      shortcom: require('./short-comments.json'),
+      findAllbook: require('./homepage.json'),
+      findAllbookBytype: require('./homepageAside.json')
    }
 }
