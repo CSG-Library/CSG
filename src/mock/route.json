@@ -1,5 +1,8 @@
 {
-  "/api/introduce":"/introduce",
-  "/api/longcom":"/longcom",
-  "/api/shortcom":"/shortcom"
+   "/api/cate": "/cate",
+   "/api/corr": "/corr",
+   "/api/maga": "/maga",
+   "/api/introduce": "/introduce",
+   "/api/longcom": "/longcom",
+   "/api/shortcom": "/shortcom"
 }

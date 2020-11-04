@@ -1,11 +1,18 @@
-import { combineReducers } from 'redux'
+// redux的方法combineReducers 合并所有的reducer
+import { combineReducers } from 'redux-immutable';
 
-import {
-    reducer as introduce
-} from '../home/introduce'
+// import { reducer as paperCate} from '../home/paperCate/index';
+// import { reducer as paperCate} from '../home/paperCate/';
+import { reducer as paperCate} from '@h/paperCate';
 
-const reducer = combineReducers({
-    introduce
-} )
+import { reducer as introduce } from '@h/bookIntro';
 
-export default reducer
+import { reducer as category }from '@h/homepage';
+import { reducer as shoppingCart } from '@h/shoppingCart';
+
+export default combineReducers({
+   paperCate,
+   introduce,
+   category,
+   shoppingCart
+})

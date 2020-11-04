@@ -1,12 +1,12 @@
-import {createStore , applyMiddleware} from 'redux'
+import { createStore, applyMiddleware } from 'redux';
+import Immutable from 'immutable';
 
-import thunk from 'redux-thunk'
+import reducer from './reducer';
 
-import reducer from './reducer'
+import thunk from 'redux-thunk';
 
-const store = createStore(
-    reducer,
-    applyMiddleware(thunk)
-)
+const initialState = Immutable.Map()
 
-export default store
+const store = createStore(reducer, initialState, applyMiddleware(thunk));
+
+export default store;

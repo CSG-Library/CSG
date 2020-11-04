@@ -1,356 +1,211 @@
-/* *,
-::before,
-::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-} */
-*,
-::before,
-::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+*, ::before, ::after {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-html,
-body {
-  overflow: hidden;
-  height: 100%;
+html, body {
+   overflow: hidden;
+   height: 100%;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+   display: none;
 }
 
 html {
-  color: #212121;
-  font-size: 100px;
-  height: 100%;
-  -webkit-user-select: none;
-  user-select: none;
+   color: #212121;
+   /* font-size: 100px; */
+   height: 100%;
+   -webkit-user-select: none;
+   user-select: none;
 }
 
 body {
-  margin: 0;
-  font-size: 0.14em;
-  height: 100%;
-  line-height: 1.5;
-  font-family: MicrosoftYaHei, PingFangSC-Regular, Hiragino Sans GB,
-    Helvetica Neue, Helvetica, STHeiTi, sans-serif;
-  -webkit-font-smoothing: antialiased;
+   margin: 0;
+   font-size: 0.14em;
+   height: 100%;
+   line-height: 1.5;
+   font-family: MicrosoftYaHei, PingFangSC-Regular, Hiragino Sans GB, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+   -webkit-font-smoothing: antialiased;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video,
-input,
-textarea,
-button,
-select,
-xmp {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-weight: normal;
-  vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, button, select, xmp {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font: inherit;
+   font-weight: normal;
+   vertical-align: baseline;
 }
 
-input,
-textarea,
-button,
-select,
-pre,
-xmp,
-tt,
-code,
-kbd,
-samp {
-  line-height: inherit;
-  font-family: inherit;
+input, textarea, button, select, pre, xmp, tt, code, kbd, samp {
+   line-height: inherit;
+   font-family: inherit;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-small,
-big,
-input,
-textarea,
-button,
-select {
-  font-size: inherit;
+h1, h2, h3, h4, h5, h6, small, big, input, textarea, button, select {
+   font-size: inherit;
 }
 
-address,
-cite,
-dfn,
-em,
-i,
-optgroup,
-var {
-  font-style: normal;
+address, cite, dfn, em, i, optgroup, var {
+   font-style: normal;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  table-layout: fixed;
-  text-align: left;
+   border-collapse: collapse;
+   border-spacing: 0;
+   table-layout: fixed;
+   text-align: left;
 }
 
-ul,
-ol,
-menu,
-li {
-  list-style: none;
+ul, ol, menu, li {
+   list-style: none;
 }
 
-fieldset,
-img {
-  border: 0;
-  vertical-align: middle;
+fieldset, img {
+   border: 0;
+   vertical-align: middle;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+   display: block;
 }
 
-audio,
-canvas,
-video {
-  display: inline-block;
+audio, canvas, video {
+   display: inline-block;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "\0020";
+blockquote:before, blockquote:after, q:before, q:after {
+   content: "\0020";
 }
 
-textarea,
-pre,
-xmp {
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
+textarea, pre, xmp {
+   overflow: auto;
+   -webkit-overflow-scrolling: touch;
 }
 
 textarea {
-  resize: vertical;
+   resize: vertical;
 }
 
-input,
-textarea,
-button,
-select,
-summary,
-a {
-  outline: 0 none;
+input, textarea, button, select, summary, a {
+   outline: 0 none;
 }
 
-input,
-textarea,
-button,
-select {
-  color: inherit;
+input, textarea, button, select {
+   color: inherit;
 }
 
-input:disabled,
-textarea:disabled,
-button:disabled,
-select:disabled {
-  opacity: 1;
+input:disabled, textarea:disabled, button:disabled, select:disabled {
+   opacity: 1;
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+button::-moz-focus-inner, input::-moz-focus-inner {
+   padding: 0;
+   border: 0;
 }
 
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-input[type="file"]::-webkit-file-upload-button,
-input[type="search"]::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-  appearance: none;
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, input[type="search"]::-webkit-search-cancel-button {
+   -webkit-appearance: none;
+   appearance: none;
 }
 
 ::-webkit-details-marker {
-  display: none;
+   display: none;
 }
 
 mark {
-  background-color: rgba(0, 0, 0, 0);
+   background-color: rgba(0, 0, 0, 0);
 }
 
-a,
-ins,
-s,
-u,
-del {
-  text-decoration: none;
+a, ins, s, u, del {
+   text-decoration: none;
 }
 
-a,
-img {
-  -webkit-touch-callout: none;
+a, img {
+   -webkit-touch-callout: none;
 }
 
 a {
-  color: #00afc7;
+   color: #00afc7;
 }
 
-.g-clear::after,
-.g-mod::after {
-  display: block;
-  overflow: hidden;
-  clear: both;
-  height: 0;
-  content: "\0020";
+.g-clear::after, .g-mod::after {
+   display: block;
+   overflow: hidden;
+   clear: both;
+   height: 0;
+   content: "\0020";
 }
 
 @font-face {
-  font-family: yofont;
-  src: url(//ss.qunarzz.com/yo/font/1.0.3/yofont.woff) format("woff"),
-    url(//ss.qunarzz.com/yo/font/1.0.3/yofont.ttf) format("truetype");
-}
+   font-family: 'iconfont';  /* project id 2164627 */
+   src: url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.eot');
+   src: url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.eot?#iefix') format('embedded-opentype'),
+   url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.woff2') format('woff2'),
+   url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.woff') format('woff'),
+   url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.ttf') format('truetype'),
+   url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.svg#iconfont') format('svg');
+ }
 
-.yo-ico {
-  font-family: yofont !important;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  vertical-align: middle;
+.iconfont {
+   font-family: iconfont !important;
+   font-style: normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   vertical-align: middle;
 }
 
 .container-fluid {
-  width: 100%;
-  position: relative;
+   width: 100%;
+   position: relative;
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
-  position: relative;
+   width: 1200px;
+   margin: 0 auto;
+   position: relative;
 }
 
-.l {
-  float: left;
+.l{float: left;}
+.r{float:right;}
+.clear_fix:after{
+    content: '';
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
-.r {
-  float: right;
-}
-.clear_fix:after {
-  content: "";
-  display: block;
-  clear: both;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  visibility: hidden;
-}
-.clear_fix {
-  zoom: 1;
+.clear_fix{
+    zoom:1;
 }
 
-#root {
-  height: 100%;
-  width: 100%;
-  overflow-y: scroll;
+#root{
+   height: 100%;
+   overflow-y: scroll;
 }
+
+/* 
+zml未改
+@font-face {
+   font-family: yofont;
+   src: url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.eot');
+   src: url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.eot?#iefix') format('embedded-opentype'),
+   url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.woff2') format('woff2'),
+   url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.woff') format('woff'),
+   url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.ttf') format('truetype'),
+   url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.svg#iconfont') format('svg');
+
+   src: url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.eot');
+   src: url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.eot?#iefix') format('embedded-opentype'),
+   url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.woff2') format('woff2'),
+   url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.woff') format('woff'),
+   url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.ttf') format('truetype'),
+   url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.svg#iconfont') format('svg');
+}
+
+.yo-ico {
+   font-family: yofont !important; */

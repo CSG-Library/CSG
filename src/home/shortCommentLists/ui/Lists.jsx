@@ -3,11 +3,16 @@ import { useEffect , useState } from 'react'
 
 import {get} from '@u/http'
 
+<<<<<<< HEAD
 // import img from '@a/images/lc1.png'
 import {
     TitleWraper,
     ShortCommentListsWraper
 } from './StyledShortCommentLists'
+=======
+// import img from '@a/imgs/lc1.png'
+import { TitleWraper,ShortCommentListsWraper } from './StyledShortCommentLists'
+>>>>>>> deaaae47d5d037275d46b8d5004f3fb0cc39aa6c
 
 const Lists = () => {
     let [ data ,setdata] = useState(0)

@@ -1,19 +1,31 @@
-import axios from 'axios'
+import axios from 'axios';
 
-const get = ({url})=>{
-    return new Promise((resolve,reject)=>{
-        axios({
-            url
-        })
-        .then(result=>{
-            resolve(result)
-        })
-        .then(error=>{
-            reject(error)
-        })
-    }) 
+const get = ({ url }) => {
+   return new Promise((resolve, reject) => {
+      axios({
+         url
+      }).then(res => {
+         resolve(res);
+      }).then(error => {
+         reject(error);
+      })
+   })
 }
 
+const post = ({ url }) => {
+   return new Promise((resolve, reject) => {
+      axios({
+         url
+      }).then(res => {
+         resolve(res);
+      }).then(error => {
+         reject(error);
+      })
+   })
+}
+
+
 export {
-    get
+   get,
+   post
 }

@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
-import {Route ,Redirect,Switch} from 'react-router-dom'
+import React, { PureComponent } from 'react';
 
-import Home from './home/Home'
-import Login from './login/Login'
-import Page404 from './page404/Page404'
-class App extends Component {
-    render() {
-        return (
-             <Switch>
-                <Route path="/home" component={props => <Home {...props}></Home>}></Route>
+import { Route, Switch, Redirect } from 'react-router-dom';
 
-                <Route path="/login" component={props => <Login {...props}></Login>}></Route>
+import { TwoRouter } from './home';
+import Login from './login/Login';
+import Regsiter from './regsiter/Regsiter';
 
-                <Redirect from="" to="/home"></Redirect>
-                
-                <Route path="*" component={props => < Page404 {...props}></ Page404>}></Route>
-
-                
-            </Switch>
-        );
-    } 
+export default class App extends PureComponent {
+   render() {
+      return (
+         <Switch>
+            <Route path='/home' {...this.props}>
+               <TwoRouter />
+            </Route>
+            <Route path='/login' render={Login}></Route>
+            <Route path='/reg' children={Regsiter}></Route> 
+            <Redirect from='/' to='/home'></Redirect>
+         </Switch>
+      )
+   }
 }
- 
-export default App;
+

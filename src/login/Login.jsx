@@ -1,17 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-import {
-    Container
-} from './StyleLogin'
-
-class Login extends Component {
-    render() {
-        return (
-            <Container>
-                <h1>登陆</h1>
-            </Container>
-        );
-    }
+export default (props) => {
+   return (
+      <div>
+         <h1 style={{fontSize: '50px'}}>登录页面</h1>
+      </div>
+   )
 }
-
-export default Login;

@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from 'react';
 
-import img from '@a/images/details.png'
+// import img from '@a/imgs/details.png'
+
+import {get} from '@u/http'
 
 import {get} from '@u/http'
 

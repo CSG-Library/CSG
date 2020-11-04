@@ -1,0 +1,1 @@
+export const CHANGE_ASIDECAT = '/home/category/change_asideCat'

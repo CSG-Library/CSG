@@ -10,4 +10,6 @@ const ellipsis = (WrappedComp) => {
   `
 }
 
-export default ellipsis
+export default ellipsis;
+
+// 多行文本溢出 添加省略号

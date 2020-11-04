@@ -1,15 +1,15 @@
 import React from 'react';
 
-import{
-    TitleWraper
+import {
+   TitleWraper
 } from './StyleTitle'
 
 const Title = () => {
-    return (
-        <TitleWraper>
-            
-        </TitleWraper>
-    );
+   return (
+      <TitleWraper>
+
+      </TitleWraper>
+   );
 };
 
 export default Title;
