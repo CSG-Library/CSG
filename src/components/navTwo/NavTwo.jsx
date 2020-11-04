@@ -12,11 +12,11 @@ const NavTwo = props => {
       { online: "在线图书馆" },
       { magazine: "电子杂志" },
       { paper: "电子报刊" },
-      { news: "资料库" },
+      { news: "电子新闻" },
       { rank: "热门排行" },
       { search: "精确搜索" },
       { bookshelf: "我的书架" },
-      { mine: "我的身份:贡士" }
+      { cart: "我的购物车" }
    ])
 
    const history = useHistory()

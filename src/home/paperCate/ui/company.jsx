@@ -41,7 +41,7 @@ import { actionCreator as ac } from '../';
 // 类组件写法
 @connect(
    state => ({
-      cateSide: state.paperCate.cateSide
+      cateSide: state.getIn(['paperCate', 'cateSide'])
    }),
    dispatch => ({
       renderSide(cateSide) {

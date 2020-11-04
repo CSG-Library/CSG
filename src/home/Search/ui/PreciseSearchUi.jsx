@@ -69,7 +69,7 @@ class PreciseSearchUi extends Component {
 
    handleClick = () => {
       return () => {
-         this.props.history.replace("/home/searchres")
+         this.props.history.push("/home/searchres")
       }
    } 
 

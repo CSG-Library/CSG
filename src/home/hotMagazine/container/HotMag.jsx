@@ -4,7 +4,7 @@ import HotMagUi from '../ui/HotMagUi'
 
 const HotMag = (props) => {
    return (
-      <HotMagUi {...props}>nihao1</HotMagUi>
+      <HotMagUi {...props}></HotMagUi>
    )
 }
 

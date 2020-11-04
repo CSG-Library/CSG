@@ -13,9 +13,9 @@ class Page extends Component {
             <PaginationWraper className='container'>
               <Pagination 
               className='box'
-              defaultCurrent={1} 
-              responsive
-              total={500} 
+              defaultCurrent={1}
+              total={30} 
+              pageSize={10} 
               />  
             </PaginationWraper>
         );

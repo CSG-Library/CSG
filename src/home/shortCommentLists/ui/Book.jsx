@@ -1,6 +1,8 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 
-import img from '@a/images/details.png'
+// import img from '@a/imgs/details.png'
+
+import {get} from '@u/http'
 
 import { Button } from 'antd';
 
@@ -11,16 +13,73 @@ import {
 
 
 const Book = () => {
-    return (
+    let [state ,setstate] = useState(0)
+    useEffect(()=>{
+        (async()=>{
+            let result = await get({
+                url:'/api/introduce'
+            })
+            //  console.log(result.data.book_introduce_detail)
+            setstate({
+                state:result.data.book_introduce_detail[0]
+            })
+            
+        })()
+       
+    },[])
+    //  console.log(state)
+   
+   /*  if(state){
+        console.log(state.state.book_introduce)
+        let state = state.state.book_introduce
+    } */
+    
+    return ( 
         <BookWraper className='r'>
             <TitleWraper
             width="0 0 1px 0"
             >
                 <span>书籍</span>
             </TitleWraper>
+           
+            {/* {
+                state.state && state.state.map((v,i)=>{
+                    return (
+                         
+                        <div key={i} >    
+                        <div>
+                            <div>
+                            <img src={v.img} alt=""/>
+                            </div>
+                            <Button 
+                            className='button' 
+                            type="primary" 
+                            >
+                                阅读
+                            </Button>
+                        </div>
+                        <div >
+                        书名：{v.title}<br/>
+                        作者：{v.author}<br/>
+                        译者：{v.translator}<br/>
+                        副标题：{v.sub_title}<br/>
+                        页数：{v.page}<br/>
+                        出版社：{v.publish_company}<br/>
+                        定价：{v.price}<br/>
+                        装帧：{v.binding}<br/>
+                        出版年：{v.publish_year}<br/>
+                    </div>
+                    </div>
+            
+                    )
+                })
+            } */}
+          
+            { state.state ? (
+                <>
             <div>
                 <div>
-                    <img src={`${img}`} alt=""/>
+                    <img src={state.state.book_introduce.img} alt=""/>
                 </div>
                 <Button 
                 className='button' 
@@ -30,15 +89,15 @@ const Book = () => {
                 </Button>
             </div>
             <div >
-                书名：论惩罚PM的100种方法<br/>
-                作者：北科吴彦祖<br/>
-                译者：北科周润发<br/>
-                副标题：程序员上位之路<br/>
-                页数：1024<br/>
-                出版社：北京千锋教育出版社<br/>
-                定价：404元<br/>
-                装帧：404<br/>
-                出版年：2020.02.02<br/>
+                书名：{state.state.book_introduce.title}<br/>
+                作者：{state.state.book_introduce.author}<br/>
+                译者：{state.state.book_introduce.translator}<br/>
+                副标题：{state.state.book_introduce.sub_title}<br/>
+                页数：{state.state.book_introduce.page}<br/>
+                出版社：{state.state.book_introduce.publish_company}<br/>
+                定价：{state.state.book_introduce.price}<br/>
+                装帧：{state.state.book_introduce.binding}<br/>
+                出版年：{state.state.book_introduce.publish_year}<br/>
             </div>
             <div>
                 <p>著作权声明</p>
@@ -53,6 +112,9 @@ const Book = () => {
                     权等。
                 </span>
             </div>
+           
+                </>
+            ):""}
         </BookWraper>
     );
 };

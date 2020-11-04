@@ -25,7 +25,7 @@ import { actionCreator as ac } from '../'
 // }
 
 const Media = props => {
-   const cateSide = useSelector(state =>  state.paperCate.cateSide)
+   const cateSide = useSelector(state =>  state.getIn(['paperCate', 'cateSide']))
    const dispatch = useDispatch()
    useEffect(() => {
       dispatch(ac.changeAside(cateSide))

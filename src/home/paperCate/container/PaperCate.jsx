@@ -9,7 +9,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 const PaperCate = (props) => {
    // react-redux下的 hooks
-   const cate = useSelector(state => state.paperCate.cate) 
+   const cate = useSelector(state => state.getIn(['paperCate', 'cate'])) 
    const dispatch = useDispatch()
    // console.log(cate)
 

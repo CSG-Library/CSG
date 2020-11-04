@@ -9,7 +9,7 @@ const SepPage = props => {
    const onChange = useCallback(page => {
       // console.log(page)
       setCurrent({ current: page })
-   })
+   },[])
 
    return (
       <Sepwrap>

@@ -27,7 +27,7 @@ class Head extends PureComponent {
    
    handleClick(){
       return () => {
-         // this.props.history('/login')
+         // this.props.history.push('/login')
       }
    }
    

@@ -4,7 +4,7 @@ import {
     ListWraper
 } from './StyledRank'
 
-import img from '@a/images/rank.jpg'
+import img from '@a/imgs/rank.jpg'
 
 const List3 = () => {
     return (

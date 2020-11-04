@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { Switch, Route, Redirect,withRouter } from 'react-router-dom'
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 
 import MyAccount from './container/MyAccount';
 import MyBook from './container/MyBook'
@@ -15,7 +15,6 @@ class BookRouter extends PureComponent {
          { id: 1, path: '/book', name: '我的书架' },
          { id: 2, path: '/data', name: '个人资料' },
          { id: 3, path: '/switch', name: '切换账号' },
-         { id: 4, path: '/xxxx', name: 'xxx' },
       ],
       curIndex: 0,
    }
@@ -30,8 +29,8 @@ class BookRouter extends PureComponent {
    render() {
       let { url } = this.props.match;
       return (
-         <main 
-            className="container" 
+         <main
+            className="container"
             style={{ display: 'flex', justifyContent: 'space-between' }}
          >
             <SLeft>
@@ -60,8 +59,9 @@ class BookRouter extends PureComponent {
                <Route path={`${url}/data`}>
                   <MyData></MyData>
                </Route>
-               <Route path={`${url}/switch`}></Route>
-               <Route path={`${url}/xxx`}></Route>
+               <Route path={`${url}/switch`}>
+
+               </Route>
                <Redirect from={`${url}`} to={`${url}/account`}></Redirect>
             </Switch>
          </main>

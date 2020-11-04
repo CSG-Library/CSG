@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
 
 //  公共组件
-import Head from '@c/header/Header';
-import NavOne from '@c/navOne/NavOne';
-import NavTwo from '@c/navTwo/NavTwo';
-import Foot from '@c/footer/Footer';
 import { NewspapersNuUi } from './styleNewspaperReading'
 import { Pagination } from 'antd';
 import { withRouter } from 'react-router-dom';
@@ -20,7 +16,7 @@ class NewspapersNumUi extends Component {
 
    handleClick = () => {
       return () => {
-         this.props.history.replace('/home/paperpage')
+         this.props.history.push('/home/paperpage')
       }
    }
 

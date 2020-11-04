@@ -12,7 +12,7 @@ const AsideBar = (props) => {
    const [cate, setcate] = useState(null)
 
 // 使用 react-redux 下的Hooks(useSelector、useDispatch)钩子 可以代替@connect 
-   const cateSide = useSelector(state => state.paperCate.cateSide)
+   const cateSide = useSelector(state => state.getIn(['paperCate', 'cateSide']))
    const dispatch = useDispatch()
 
 // react下的 hook

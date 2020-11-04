@@ -8,21 +8,30 @@ import Foot from '@c/footer/Footer';
 import { Div } from './styleRoute';
 
 // 导入二级路由及其余页面组件
-import ThrHome from './homepage/ThrHome';
+import { HomeCategory } from './homepage';
+import { Introduce } from './bookIntro';
 import { ChapterDet } from './chapterdetail';
 import { ChapterRead } from './chapterdetail';
+import { ShortCommentList } from './shortCommentLists';
 import { Comment } from './bookReview';
 
+import { OnlineLibrary } from './onlineLibrary';
 import { LibraryNew } from './onlineLibrary';
 
+import { MagazineCategory } from './magazineCategory';
+import { MagIntro } from './magaIntro';
 import { HotMag } from './hotMagazine';
+import { MagContent } from './magaContent';
+// import { HotMagdet } from './hotMagazine';
 
 import { PaperCate } from './paperCate';
 import { PaperNum } from './Newspaper';
 import { Paperpage } from './Newspaper';
 
+import { News } from './News';
 import { NewsContent } from './News';
 
+import { Rank } from './rank';
 import { RankPop } from './rank';
 
 import { PreciseSearch } from './search';
@@ -30,7 +39,7 @@ import { SearchRes } from './search';
 
 import BookRouter from './my/BookRouter';
 
-// import { Mine } from './mine';
+import { ShoppingCart } from './shoppingCart';
 
 import Page404 from './page404/Page404';
 
@@ -38,30 +47,38 @@ import Page404 from './page404/Page404';
 class HomeRouter extends Component {
    state = {
       routes: [ 
-         { path: '/browse', component: ThrHome },
+         { path: '/browse', component: HomeCategory },
+         { path: '/introduce', component: Introduce },
          { path: '/chapterdet', component: ChapterDet },
          { path: '/chapterpage', component: ChapterRead },
+         { path: '/shortcomment', component: ShortCommentList },
          { path: '/comment', component: Comment },
 
+         { path: '/online', component: OnlineLibrary },
+         { path: '/onlinedet', component: LibraryNew },
 
-         { path: '/online', component: LibraryNew },
-
-         { path: '/magazine', component: HotMag },
+         { path: '/magazine', component: MagazineCategory },
+         { path: '/magadet', component: MagIntro },
+         { path: '/magahot', component: HotMag },
+         { path: '/magacontent', component: MagContent },
+         // { path: '/magazinedet', component: HotMagdet },
 
          { path: '/paper', component: PaperCate },
          { path: '/papernum', component: PaperNum },
          { path: '/paperpage', component: Paperpage },
 
-         { path: '/news', component: NewsContent },
+         { path: '/news', component: News },
+         { path: '/newcontent', component: NewsContent },
 
-         { path: '/rank', component: RankPop },
+         { path: '/rank', component: Rank },
+         { path: '/rankpop', component: RankPop },
 
          { path: '/search', component: PreciseSearch },
          { path: '/searchres', component: SearchRes },
 
          { path: '/bookshelf', component: BookRouter },
 
-         // { path: '/mine', component: Mine }
+         { path: '/cart', component: ShoppingCart }
       ]
    }
 
@@ -73,7 +90,7 @@ class HomeRouter extends Component {
             <main className="container">
                <NavOne></NavOne>
                <NavTwo {...this.props}></NavTwo>
-               
+
                <Switch>
                   {
                      this.state.routes.map(v => 

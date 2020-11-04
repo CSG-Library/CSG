@@ -1,6 +1,6 @@
 import React from 'react'
 
-import RankPopUi from '../ui/RankPopUi'
+import RankPopUi from '../popui/RankPopUi'
 
 const RankPop = (props) => {
    return (

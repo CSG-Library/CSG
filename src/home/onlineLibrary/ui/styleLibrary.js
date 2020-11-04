@@ -64,7 +64,7 @@ const LibraryContent = styled.div `
             img{
                 width: 438px;
                 height: 325px;
-                background: #FF9B32;
+                /* background: #FF9B32; */
                 margin-top:122px;
             }
             p{

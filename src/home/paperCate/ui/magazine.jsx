@@ -7,7 +7,7 @@ import { actionCreator as ac } from '../';
 import { useHistory } from 'react-router-dom';
 
 const Maga = props => {
-   let cateSide = useSelector(state => state.paperCate.cateSide)
+   let cateSide = useSelector(state => state.getIn(['paperCate', 'cateSide']))
    let dispatch = useDispatch()
    dispatch(ac.changeAside(cateSide))
 
@@ -15,7 +15,7 @@ const Maga = props => {
 
    const handleClick = useCallback(() => {
       return () => {
-         history.replace('/home/papernum')
+         history.push('/home/papernum')
       }
    })
 

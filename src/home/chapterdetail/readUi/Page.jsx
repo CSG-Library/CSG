@@ -4,7 +4,7 @@ import { PageWrap, H6Wrap } from './styleChapterRead';
 export default class App extends Component {
    handleClick = () => {
       return () => {
-
+         
       }
    }
 

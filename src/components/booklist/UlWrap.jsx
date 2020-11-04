@@ -1,8 +1,9 @@
-import React,{ useCallback } from 'react';
+import React,{ useCallback,useState } from 'react';
 import search from '@a/imgs/search.png';
 
 import { Ul, PageWrap } from './styleUl';
 import { withRouter } from 'react-router-dom';
+// import { useEffect } from 'react';
 
 const UlWrap = (props) => {
    const handleClick = useCallback(() => {
@@ -12,12 +13,22 @@ const UlWrap = (props) => {
       }
    })
 
+   const GoDetClick = useCallback(() => {
+      return () => {
+         props.history.push("/home/magazinedet")
+      }
+   })
+
+   const [list, setList] = useState([
+      
+   ])
+
    return (
       <Ul>
          <li>
-            <div><img src={`${search}`} width='124' height='180' alt="" /></div>
+            <div onClick={GoDetClick()}><img src={`${search}`} width='124' height='180' alt="" /></div>
             <div>
-               <h2>
+               <h2 onClick={GoDetClick()}>
                   <span>考试周刊</span>
                   <button>阅读</button>
                </h2>
