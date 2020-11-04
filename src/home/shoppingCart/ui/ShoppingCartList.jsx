@@ -5,7 +5,7 @@ import { ShoppingCartListWrap } from './StyledShoppingCart'
 const ShoppingCartList = (props) => {
 
   const { allSelect, allChangeHandler, shoppingList, changeHandler, delNumHandler, addNumHandler, deleteHandler } = props
-  
+
   return (
     <>
       <ShoppingCartListWrap>
