@@ -50,7 +50,9 @@ const ShoppingCartList = (props) => {
                       onChange={(e) => changeHandler(e.target.checked, value.goods_id)}/>
                   </td>
                   <td> 
-                    {value.goods_details}
+                    <p>
+                      {value.goods_details}
+                    </p>
                   </td>
                   <td>
                     <span 

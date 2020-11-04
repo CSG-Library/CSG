@@ -34,8 +34,8 @@ import { NewsContent } from './News';
 import { Rank } from './rank';
 import { RankPop } from './rank';
 
-import { PreciseSearch } from './search';
-import { SearchRes } from './search';
+import { PreciseSearch } from './Search';
+import { SearchRes } from './Search';
 
 import BookRouter from './my/BookRouter';
 
