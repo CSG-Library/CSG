@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Pagination } from 'antd';
 import { StyBook } from './Stylemy'
 
-import img from '@a/imgs/novel.png';
+
 
 const list = [
    {
