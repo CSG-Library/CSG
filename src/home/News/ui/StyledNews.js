@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const MagazineWrap = styled.div`
   width: 100%;
   overflow: hidden;
+  margin-top: 35px;
   div.container{
     width: 1199px;
     overflow: hidden;

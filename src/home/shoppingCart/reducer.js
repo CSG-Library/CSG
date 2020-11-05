@@ -63,7 +63,7 @@ const reducer = (state = defaultState, action) => {
       state.shoppingCartList.forEach(item => {
         if(item.goods_id === action.id){
           item.goods_checked_status = action.checked
-        }
+        } 
       })
       let i = state.shoppingCartList.filter(item => {
         return item.goods_checked_status === false
