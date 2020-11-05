@@ -51,6 +51,7 @@ const ShoppingCartList = (props) => {
                   </td>
                   <td> 
                     <p>
+                      <span>{value.goods_name}</span>
                       {value.goods_details}
                     </p>
                   </td>

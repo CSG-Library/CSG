@@ -92,6 +92,9 @@ const ShoppingCartListWrap = styled.table`
         /* position: absolute;
         top: 35%; */
         float: left;
+        span{
+          display: block;
+        }
       }
     }
     td:nth-child(3){

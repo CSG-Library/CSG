@@ -19,14 +19,14 @@ import { get, post } from "@u/http"
 
     addShoppingCart(data){
       return () => {
-        let obj = {
+        let obj = { 
           goods_id: data.book_id,
           goods_num: 1,
           goods_details: data.book_info,
           goods_price: data.book_price,
           goods_checked_status: false,
           goods_img: data.book_img,
-          goods_checked_status: false
+          goods_name: data.book_name
         }
 
         dispatch(actionCreator.addShoppingCart(obj))
