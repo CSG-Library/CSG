@@ -9,10 +9,14 @@ import { reducer as introduce } from '@h/bookIntro';
 
 import { reducer as category }from '@h/homepage';
 import { reducer as shoppingCart } from '@h/shoppingCart';
+import { reducer as onlineLibray } from '@h/onlineLibrary';
+
+
 
 export default combineReducers({
    paperCate,
    introduce,
    category,
-   shoppingCart
+   shoppingCart,
+   onlineLibray
 })
