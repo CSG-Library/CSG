@@ -318,6 +318,11 @@ const StyBook = styled.div`
   }
   >div:nth-child(2){
     ul{
+      height:680px;
+      display:flex;
+      flex-direction:column;
+      overflow-y:scroll;
+      flex-wrap:no-wrap;
       li{
         height:310px;
         display:flex;
