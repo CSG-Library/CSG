@@ -1,33 +1,31 @@
 import React, { Component } from 'react'
-import {connect} from 'react-redux'
+import { connect } from 'react-redux'
 import { loadDataAsync } from '../actionCreator'
-
 
 import Book from '../ui/Book'
 
-
 @connect(
-  (state)=>{
-    return{
-      // list:state.my.list
+  (state) => {
+    return {
+      list: state.getIn(["my", "list"])
     }
   },
-  (dispatch)=>({
-    loadData(){
+  (dispatch) => ({
+    loadData() {
       dispatch(loadDataAsync())
     }
   })
 )
 class MyAccount extends Component {
-  componentDidMount(){
+  componentDidMount() {
     this.props.loadData()
   }
-  render() {
 
-    console.log(this.props)
+  render() {
+    // console.log(this.props.list)
     return (
-      <Book></Book>
-    )
+      <Book {...this.props}></Book>
+      )
   }
 }
 
