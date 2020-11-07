@@ -8,10 +8,9 @@ const _ = require("underscore");
 
 
 const Book = (props) => {
-   // console.log(props);
-   console.log('------45555');
-   let {list}=props
-let [state,setState]=useState({info:[],list:[]})
+   console.log(props);
+   let {list} = props
+   let [state,setState] = useState({info:[], list: props.list })
 
    useEffect(()=>{
       setState({
@@ -20,7 +19,7 @@ let [state,setState]=useState({info:[],list:[]})
       })
    },[list])
 
-   // console.log(state.list)
+   console.log(state)
    return (
       <StyBook>
          <div>
@@ -84,7 +83,7 @@ let [state,setState]=useState({info:[],list:[]})
                                  <p>共{v.descNum}章</p>
                                  {state.info.indexOf(i) >-1 && <button onClick={()=>{
                                     state.list.splice(state.list.indexOf(v),1)
-                                    state.info.splice(state.info.indexOf(i),1)
+                                    state.info.splice(state.list.indexOf(i),1)
                                     console.log(state.info);
                                     setState({
                                        info:state.info,

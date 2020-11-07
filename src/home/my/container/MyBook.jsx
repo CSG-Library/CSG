@@ -24,8 +24,8 @@ class MyAccount extends Component {
   render() {
     // console.log(this.props.list)
     return (
-      <Book {...this.props}></Book>
-      )
+      this.props.list.length > 0 && <Book {...this.props}></Book>
+    )
   }
 }
 
