@@ -20,7 +20,7 @@ import AboutBook from './AboutBook'
 
  const IntroduceUi =(props)=> {
     //  console.log(props)
-    const shortcomment = memoize(list => list.slice(0, 3))
+    // const shortcomment = memoize(list => list.slice(0, 3))
     //  const abc = shortcomment(props.list)
     //  console.log(abc)
     // const longcomment = memoize(list => list.slice(0, 3))
@@ -35,7 +35,7 @@ import AboutBook from './AboutBook'
                     <BookMenu></BookMenu>
                     <AlsoLove></AlsoLove>
                     <ShortComments
-                     list={shortcomment(props.list)}
+                    //  list={shortcomment(props.list)}
                     ></ShortComments>
                     <LongComments></LongComments>
                 </div>

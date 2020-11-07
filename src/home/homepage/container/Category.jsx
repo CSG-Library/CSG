@@ -21,6 +21,7 @@ class Category extends Component {
     curPageNum: 2
   }
 
+  
   // 分页按钮
   ClickPageNumHandler = (pageNum) => {
     return () => {
@@ -43,7 +44,9 @@ class Category extends Component {
       curPageNum : this.state.curPageNum + 1
     }) 
   }
+  
   render() {
+    //  console.log(this.props)
     return (
       <>
         <CategoryUI

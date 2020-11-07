@@ -311,7 +311,7 @@ const AlsoLoveWraper = styled.div`
         ul{
             display:flex;
             margin-top:26px;
-            background-color:#58b;
+            /* background-color:#58b; */
             overflow-x:scroll;
             li{
                 flex:1;

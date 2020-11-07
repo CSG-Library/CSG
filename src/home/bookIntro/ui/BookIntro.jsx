@@ -14,13 +14,13 @@ const BookIntro = () => {
    })
    let style1 = {
       height: 104,
-      backgroundColor: '#f56c',
+      // backgroundColor: '#f56c',
       // transition:' all 1s',
       lc: 4
    }
    let style2 = {
       height: '100%',
-      backgroundColor: '#d84',
+      // backgroundColor: '#d84',
    }
 
    const handleClick = () => {

@@ -4,5 +4,5 @@
    "/api/maga": "/maga",
    "/api/introduce": "/introduce",
    "/api/longcom": "/longcom",
-   "/api/shortcom": "/shortcom"
-}
+   "/api/user/bookEssay": "/bookEssay"
+} 

@@ -1,4 +1,4 @@
-import React, { useState }/* , { Component }  */ from 'react';
+import React, { useState ,usecallBack} from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { TitleWraper, BookMenuWraper } from './StyledIntroduce'
@@ -48,11 +48,12 @@ const BookMenu = () => {
    }
    let style2 = {
       height: '100%',
-      backgroundColor: '#d84',
+      // backgroundColor: '#d84',
    }
    //函数时组件中，setState有bug，如果还是直接返回一个原值，总是不能拿到最新的数据，所以我们要返回一个新值，这样每次都会拿到新值
    let history = useHistory()
-   const handleClick1 = (v) => {
+
+   const handleClick1 =(v) => {
       return () => {
          setState(() => {
             let newstate = v.id

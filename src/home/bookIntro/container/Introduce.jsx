@@ -12,11 +12,12 @@ import {
 
 @connect(
     (state)=>{
-        // console.log(state)
+        console.log(state.introduce)
         // console.log(state.introcude)
         //必须得return什么东西
         return{
-            list:state.getIn(['introduce', 'list'])
+            // list:state.getIn(['introduce', 'list'])
+            // list:state.introduce
         }
     }, 
     (dispatch)=>({
