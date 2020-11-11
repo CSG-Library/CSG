@@ -365,7 +365,7 @@
                 "year":" 2011.06.21"
             }
         ],
-        "book_reding":[
+        "book_reading":[
             {
                 "img":"https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3130796396,2668692117&fm=11&gp=0.jpg",
                 "name":"前端一号"
@@ -378,10 +378,10 @@
                 "name":"前端三号"
             },
             {
-                "img":"https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3130796396,2668692117&fm=11&gp=0.jpg",
+                "img":"https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1308808993,2060597189&fm=26&gp=0.jpg",
                 "name":"前端四号"
             }, {
-                "img":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2780734162,1455108168&fm=26&gp=0.jpg",
+                "img":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2972008604,1311542082&fm=26&gp=0.jpg",
                 "name":"前端五号"
             },
             {
@@ -389,7 +389,7 @@
                 "name":"前端六号"
             },
             {
-                "img":"https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3130796396,2668692117&fm=11&gp=0.jpg",
+                "img":"https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2762697048,4040207074&fm=11&gp=0.jpg",
                 "name":"前端七号"
             }, {
                 "img":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2780734162,1455108168&fm=26&gp=0.jpg",

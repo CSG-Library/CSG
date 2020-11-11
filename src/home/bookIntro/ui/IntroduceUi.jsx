@@ -28,7 +28,7 @@ import AboutBook from './AboutBook'
         book_club,
         book_intro,
         book_menu,
-        book_reding,
+        book_reading,
         book_video,
         details,
         long_comments
@@ -69,7 +69,7 @@ import AboutBook from './AboutBook'
                     <AboutBook
                     about_book={about_book}
                     book_video={book_video}
-                    book_reding={book_reding}
+                    book_reading={book_reading}
                     book_club={book_club}
                     ></AboutBook>
                 </div>
