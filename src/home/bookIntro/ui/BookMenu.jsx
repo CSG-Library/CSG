@@ -31,25 +31,26 @@ const MenuList = [
    { id: 24, number: '第二十五章', title: '人大霸气' },
 ]
 
-const BookMenu = () => {
+const BookMenu = (props) => {
+   // console.log(props.book_menu)
    let [menuList] = useState(MenuList)
 
-   let [isShow, setIsShow] = useState({
-      show: false,
-   })
+   // let [isShow, setIsShow] = useState({
+   //    show: false,
+   // })
 
    let [state, setState] = useState(0)
 
-   let style1 = {
-      height: 52,
-      // backgroundColor:'#f56c',
-      // transition:' all 1s',
-      // lc:4
-   }
-   let style2 = {
-      height: '100%',
-      // backgroundColor: '#d84',
-   }
+   // let style1 = {
+   //    height: 52,
+   //    // backgroundColor:'#f56c',
+   //    // transition:' all 1s',
+   //    // lc:4
+   // }
+   // let style2 = {
+   //    height: '100%',
+   //    // backgroundColor: '#d84',
+   // }
    //函数时组件中，setState有bug，如果还是直接返回一个原值，总是不能拿到最新的数据，所以我们要返回一个新值，这样每次都会拿到新值
    let history = useHistory()
 
@@ -82,10 +83,10 @@ const BookMenu = () => {
             <span>书籍目录</span>
          </TitleWraper>
          <ul
-            style={isShow.show ? style2 : style1}
+            // style={isShow.show ? style2 : style1}
          >
             {
-               menuList.map((v, i) => {
+               /* menuList.map */props.book_menu.map((v, i) => {
                   return (<li
                      key={i}
                      onClick={handleClick1(v)}
@@ -99,7 +100,7 @@ const BookMenu = () => {
             }
          </ul>
          {
-            <div onClick={handleClick2()}>查看更多V</div>
+            <div onClick={handleClick2()}>查看更多{`>`}</div>
          }
       </ BookMenuWraper>
    );

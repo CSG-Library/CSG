@@ -10,7 +10,8 @@ import { Row, Col/* , Divider  */} from 'antd';
 import img1 from '@a/imgs/xiazai.png'
 import img3 from '@a/imgs/video.png'
 
-const  AboutBook=()=> {
+const  AboutBook=(props)=> {
+    console.log(props)
     // render() {
         return (
             <AboutBookWraper>
@@ -24,31 +25,25 @@ const  AboutBook=()=> {
                         本书的其他版本
                     </div>
                     <ul>
-                        <li>
+                        {
+                            props.about_book.map((v,i)=>{
+                                return (
+                                    <li
+                                    key={i}
+                                    >
+                                        {v.press}&nbsp;
+                                        版次&nbsp;
+                                        {v.year} 出版
+                                    </li>
+                                )
+                            })
+                        }
+                        {/* <li>
                             兴华书店出版社&nbsp;
                             版次&nbsp;
                             2016.02.13 出版
-                        </li>
-                        <li>
-                            兴华书店出版社&nbsp;
-                            版次&nbsp;
-                            2016.02.13 出版
-                        </li>
-                        <li>
-                            兴华书店出版社&nbsp;
-                            版次&nbsp;
-                            2016.02.13 出版
-                        </li>
-                        <li>
-                            兴华书店出版社&nbsp;
-                            版次&nbsp;
-                            2016.02.13 出版
-                        </li>
-                        <li>
-                            兴华书店出版社&nbsp;
-                            版次&nbsp;
-                            2016.02.13 出版
-                        </li>
+                        </li> */}
+                        
                     </ul>
                     <div>查看更多V</div>
                 </div>
@@ -68,6 +63,7 @@ const  AboutBook=()=> {
                                 <span>前端一号</span>
                             </Col>
                             <Col span={6}>
+                                
                                 <img src={`${img1}`} alt=""/>
                                 <span>前端一号</span>
                             </Col>

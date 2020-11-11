@@ -39,11 +39,11 @@ const BookCategory = (props) => {
   // })
   // var data = document.getElementsByTagName('li');
   
-  const handleClick = useCallback(()=>{
-    return (e)=>{
-      history.push('/home/introduce')
+  const handleClick = useCallback((book_id)=>{
+    return ()=>{
+      history.push('/home/introduce' , {book_id})
       //  console.log(myRef)
-      // console.log(e.target)
+      // console.log(book_id)
     }
   }) 
 
@@ -72,13 +72,11 @@ const BookCategory = (props) => {
                className='book-img' 
                src="http://www.csg99.com/modules/article/images/nocover.jpg" 
                alt=""
-               onClick={handleClick()}
+             
                />
               <div className='book-content'>
-                <h3 onClick={handleClick()}
-                // ref='myRef'
-                >毒医王妃
-                <span onClick={handleClick()}>
+                <h3 >毒医王妃
+                <span onClick={handleClick(1)}>
                 阅读
                 </span>
                 </h3>
@@ -108,7 +106,12 @@ const BookCategory = (props) => {
             <li>
               <img className='book-img' src="http://www.csg99.com/modules/article/images/nocover.jpg" alt=""/>
               <div className='book-content'>
-                <h3>毒医王妃<span>阅读</span></h3>
+                <h3 >毒医王妃
+                  <span
+                    onClick={handleClick(2)}
+                  >阅读</span>
+        
+                </h3>
                 <h4>作者/出版年月/出版社/装帧/译者名字</h4>
                 <p><span>简介：</span>阿三打撒大厦的哈岁的哈克傻傻的卡号的爱看书的卡刷道具卡还是的空间按时打卡蝴蝶卡活动就卡死哈开始的卡刷点卡</p>
 

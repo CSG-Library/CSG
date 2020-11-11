@@ -19,7 +19,20 @@ import AboutBook from './AboutBook'
 
 
  const IntroduceUi =(props)=> {
-    //  console.log(props)
+    // console.log(props.list[0])
+    const {
+        short_comments,
+        about_book,
+        also_love,
+        author_detail,
+        book_club,
+        book_intro,
+        book_menu,
+        book_reding,
+        book_video,
+        details,
+        long_comments
+    } = props.list[0]
     // const shortcomment = memoize(list => list.slice(0, 3))
     //  const abc = shortcomment(props.list)
     //  console.log(abc)
@@ -29,18 +42,36 @@ import AboutBook from './AboutBook'
         <Container>
             <main className = 'container'>
                 <div className = 'l'>
-                    <Details></Details>
-                    <BookIntro></BookIntro>
-                    <AuthorIntro></AuthorIntro>
-                    <BookMenu></BookMenu>
-                    <AlsoLove></AlsoLove>
+                    <Details 
+                     details={ details}
+                    ></Details>
+                    <BookIntro
+                     book_intro={ book_intro}
+                    ></BookIntro>
+                    <AuthorIntro
+                    author_detail={author_detail}
+                    ></AuthorIntro>
+                    <BookMenu
+                    book_menu={book_menu}
+                    ></BookMenu>
+                    <AlsoLove
+                     also_love={ also_love}
+                    ></AlsoLove>
                     <ShortComments
                     //  list={shortcomment(props.list)}
+                    short_comments={short_comments}
                     ></ShortComments>
-                    <LongComments></LongComments>
+                    <LongComments
+                    long_comments={long_comments}
+                    ></LongComments>
                 </div>
                 <div className='r'>
-                    <AboutBook></AboutBook>
+                    <AboutBook
+                    about_book={about_book}
+                    book_video={book_video}
+                    book_reding={book_reding}
+                    book_club={book_club}
+                    ></AboutBook>
                 </div>
             </main>
         </Container>
@@ -49,7 +80,7 @@ import AboutBook from './AboutBook'
 }
 
 // 函数式组件绑定类型检查,注意大小写
-IntroduceUi.propTypes = {
-    list : PropTypes.array
-}
+// IntroduceUi.propTypes = {
+//     list : PropTypes.array
+// }
 export default IntroduceUi;

@@ -11,6 +11,7 @@ import { withRouter } from 'react-router-dom';
 
 @withRouter
 class Details extends Component {
+
    state = {
       size: 'large'
    }
@@ -21,19 +22,26 @@ class Details extends Component {
       }
    }
 
+   
    render() {
+      // console.log(this.props)
+      const details  = this.props.details
+      // console.log(details)
       return (
          <DetailsWraper>
+            
             <TitleWraper
                width="0 0 1px 0"
             // borderColor='#000'
             >
                <span>书籍详情</span>
             </TitleWraper>
-            <div >
+            <div>
+              
                <div>
                   <div>
-                     <img src={`${img}`} alt="" />
+                     {/* <img src={`${img}`} alt="" /> */}
+                     <img src={details.img} alt=""/>
                   </div>
                   <Button
                      className='button'
@@ -42,32 +50,35 @@ class Details extends Component {
                      onClick={this.handleClick()}
                   >
                      阅读
-                        </Button>
+                  </Button>
                </div>
                <div >
-                  书名：论惩罚PM的100种方法<br />
-                        作者：北科吴彦祖<br />
-                        译者：北科周润发<br />
-                        副标题：程序员上位之路<br />
-                        页数：1024<br />
-                        出版社：北京千锋教育出版社<br />
-                        定价：404元<br />
-                        装帧：404<br />
-                        出版年：2020.02.02<br />
+                  书名：{details.book_name}<br />
+                  作者：{details.book_author}<br />
+                  译者：{details.book_translator}<br />
+                  副标题：{details.book_subtitle}<br />
+                  页数：{details.book_page}<br />
+                  出版社：{details.book_publish_company}<br />
+                  定价：{details.book_price}<br />
+                  装帧：{details.book_binding}<br />
+                  出版年：{details.book_publish_year}<br />
                </div>
-               <div >
+               <div>
                   <div>
                      <div className='star'>
                         <Rate allowHalf defaultValue={4} />
                                 &nbsp; &nbsp;
-                                <span>8分</span>
+                        <span>{details.rating.score}分</span>
                      </div>
                      <div>
-                        999人阅读 &nbsp;&nbsp; 520人收藏
-                            </div>
+                     {details.rating.read}人阅读 
+                     &nbsp;&nbsp; 
+                     {details.rating.collection}人收藏
+                     </div>
                      <div>
-                        888人批注（666人评论）
-                            </div>
+                     {details.rating.pizhu}人批注
+                     （{details.rating.comment}人评论）
+                     </div>
                      <div style={{ float: 'left' }}>
                         <Rate disabled defaultValue={5} />
                             &nbsp; &nbsp; &nbsp;60%
@@ -81,7 +92,7 @@ class Details extends Component {
                             &nbsp; &nbsp; &nbsp;2%
                             <Rate disabled defaultValue={0} />
                             &nbsp; &nbsp; &nbsp;评分
-                            </div>
+                      </div>
                   </div>
                   <div>
                      <div>
@@ -98,8 +109,9 @@ class Details extends Component {
                      </div>
                   </div>
                </div>
+              
             </div>
-
+            
          </DetailsWraper>
       );
    }
