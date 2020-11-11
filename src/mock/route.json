@@ -5,10 +5,7 @@
    "/api/introduce": "/introduce",
    "/api/longcom": "/longcom",
    "/api/shortcom": "/shortcom",
-<<<<<<< HEAD
    "/api/findAllbook": "/findAllbook",
-   "/api/findAllbookBytype": "/findAllbookBytype"
-=======
+   "/api/findAllbookBytype": "/findAllbookBytype",
    "/api/library":"/library"
->>>>>>> master
 }
