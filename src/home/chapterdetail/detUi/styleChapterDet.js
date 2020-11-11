@@ -37,13 +37,14 @@ const AsideWrap = styled.aside`
          line-height: 76px;
       }
       img {
-         width: 100%auto;
+         width: 140px;
       }
       h3 {
          line-height: 16px;
          margin-top: 30px;
       }
       h4 {
+         font-size: 14px;
          line-height: 42px;
       }
       h5 {
@@ -79,6 +80,7 @@ const ChapterWrap = styled.div`
       line-height: 22px;
       span {
          width: 90px;
+         line-height: 36px;
          display: inline-block;
          text-align: center;
          border-bottom: 2px solid #319DF7;
@@ -103,6 +105,9 @@ const MoreWrap = styled.div`
       margin-bottom: 16px;
       dt {
          width: 100%;
+         img{
+            width: 100%;
+         }
       }
       dd {
          text-align: center;

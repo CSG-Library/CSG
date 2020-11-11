@@ -9,8 +9,6 @@ import {
     AlsoLoveWraper
 } from './StyledIntroduce'
 
-
-
 const AlsoLoveList =[
 
     {

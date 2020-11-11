@@ -1,4 +1,4 @@
-import React, { useState }/* , { Component }  */ from 'react';
+import React, { useState, useCallback }/* , { Component }  */ from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { TitleWraper, BookMenuWraper } from './StyledIntroduce'
@@ -52,7 +52,7 @@ const BookMenu = () => {
    }
    //函数时组件中，setState有bug，如果还是直接返回一个原值，总是不能拿到最新的数据，所以我们要返回一个新值，这样每次都会拿到新值
    let history = useHistory()
-   const handleClick1 = (v) => {
+   const handleClick1 = useCallback((v) => {
       return () => {
          setState(() => {
             let newstate = v.id
@@ -60,19 +60,21 @@ const BookMenu = () => {
             // console.log(state)
             return newstate
          })
-         history.push('/home/chapterpage')
+         history.push('/home/chapterpage', { book_id: v.id })
       }
-   }
+   }, [history])
 
-   const handleClick2 = () => {
+   const handleClick2 = useCallback((book_id) => {
       // console.log(isShow.show,isShow)
       // setIsShow({
       //    show: !isShow.show,
       // })
+      console.log(book_id)
       return () => {
-         history.push('/home/chapterdet')
+         history.push('/home/chapterdet', { book_id })
       }
-   }
+   }, [history])
+
    return (
       < BookMenuWraper>
          <TitleWraper
@@ -98,7 +100,7 @@ const BookMenu = () => {
             }
          </ul>
          {
-            <div onClick={handleClick2()}>查看更多V</div>
+            <div onClick={handleClick2(MenuList[5].id)}>查看更多V</div>
          }
       </ BookMenuWraper>
    );

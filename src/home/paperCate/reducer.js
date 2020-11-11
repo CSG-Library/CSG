@@ -2,7 +2,7 @@ import { LOADDATA, CHANGECATESIDE } from './actionTypes';
 
 const defaultState = {
    cate: [],
-   cateSide: 0
+   cateSide: Number(localStorage.getItem("cateSide"))
 }
 
 const reducer = (state = defaultState, action) => {

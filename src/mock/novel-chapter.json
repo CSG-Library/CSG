@@ -1,0 +1,127 @@
+{
+   "data": [
+      {
+         "book_id": 0,
+         "book_type": "novel",
+         "book_title": "宦妃还朝",
+         "book_auth": "鸭圣婆",
+         "book_cate": "古风言情",
+         "book_isEnd": false,
+         "book_num": 10,
+         "book_price": 159,
+         "book_checked": false,
+         "book_img": "http://localhost:3000/static/media/novel.70330666.png",
+         "detail": [
+            {"chapter-id": 1, "chapter-name": "第一章 自告奋勇", "chapter-checked": false},
+            {"chapter-id": 2, "chapter-name": "第二章 穿越花轿", "chapter-checked": false},
+            {"chapter-id": 3, "chapter-name": "第三章 替你而活", "chapter-checked": false},
+            {"chapter-id": 4, "chapter-name": "第四章 给你好看", "chapter-checked": false},
+            {"chapter-id": 5, "chapter-name": "第五章 王爷抱我", "chapter-checked": false},
+            {"chapter-id": 6, "chapter-name": "第六章 上不上钩", "chapter-checked": false}
+         ] 
+      },
+      {
+         "book_id": 1,
+         "book_type": "novel",
+         "book_title": "天下第一妃",
+         "book_auth": "鸭圣婆",
+         "book_cate": "历史言情",
+         "book_isEnd": false,
+         "book_num": 9,
+         "book_price": 169,
+         "book_checked": false,
+         "book_img": "http://localhost:3000/static/media/details.810581e9.png",
+         "detail": [
+            {"chapter-id": 1, "chapter-name": "第一章 自告奋勇", "chapter-checked": false},
+            {"chapter-id": 2, "chapter-name": "第二章 穿越花轿", "chapter-checked": false},
+            {"chapter-id": 3, "chapter-name": "第三章 替你而活", "chapter-checked": false},
+            {"chapter-id": 4, "chapter-name": "第四章 给你好看", "chapter-checked": false},
+            {"chapter-id": 5, "chapter-name": "第五章 王爷抱我", "chapter-checked": false},
+            {"chapter-id": 6, "chapter-name": "第六章 上不上钩", "chapter-checked": false}
+         ] 
+      },
+      {
+         "book_id": 2,
+         "book_type": "novel",
+         "book_title": "遮天",
+         "book_auth": "辰东",
+         "book_cate": "玄幻",
+         "book_isEnd": true,
+         "book_num": 20,
+         "book_price": 179,
+         "book_checked": false,
+         "book_img": "http://www.paoshu8.com/files/article/image/1/1011/1011s.jpg",
+         "detail": [
+            {"chapter-id": 1, "chapter-name": "第一章 星空中的青铜巨棺", "chapter-checked": false},
+            {"chapter-id": 2, "chapter-name": "第二章 素问", "chapter-checked": false},
+            {"chapter-id": 3, "chapter-name": "第三章 今昔", "chapter-checked": false},
+            {"chapter-id": 4, "chapter-name": "第四章 荒古铜刻", "chapter-checked": false},
+            {"chapter-id": 5, "chapter-name": "第五章 李小曼", "chapter-checked": false},
+            {"chapter-id": 6, "chapter-name": "第六章 封禅之地", "chapter-checked": false},
+            {"chapter-id": 7, "chapter-name": "第七章 五色土坛", "chapter-checked": false},
+            {"chapter-id": 8, "chapter-name": "第八章 星空古路", "chapter-checked": false},
+            {"chapter-id": 9, "chapter-name": "第九章 铜棺内第三十人", "chapter-checked": false}
+         ] 
+      },
+      {
+         "book_id": 3,
+         "book_type": "novel",
+         "book_title": "斗破苍穹",
+         "book_auth": "天蚕土豆",
+         "book_cate": "玄幻",
+         "book_isEnd": true,
+         "book_num": 19,
+         "book_price": 189,
+         "book_checked": false,
+         "book_img": "https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1714022596,3570728104&fm=179&app=35&f=JPEG?w=267&h=356&s=8111C5307F9247E35DC8A1C30300A0B7",
+         "detail": [
+            {"chapter-id": 1, "chapter-name": "第一章 陨落的天才", "chapter-checked": false},
+            {"chapter-id": 2, "chapter-name": "第二章 斗气大陆", "chapter-checked": false},
+            {"chapter-id": 3, "chapter-name": "第三章 客人", "chapter-checked": false},
+            {"chapter-id": 4, "chapter-name": "第四章 云岚宗", "chapter-checked": false},
+            {"chapter-id": 5, "chapter-name": "第五章 聚气散", "chapter-checked": false},
+            {"chapter-id": 6, "chapter-name": "第六章 炼药师", "chapter-checked": false}
+         ] 
+      },
+      {
+         "book_id": 4,
+         "book_type": "novel",
+         "book_title": "雪中悍刀行",
+         "book_auth": "烽火戏诸侯",
+         "book_cate": "历史玄侠",
+         "book_isEnd": true,
+         "book_num": 12,
+         "book_price": 69,
+         "book_checked": false,
+         "book_img": "https://www.12zw.com/d/image/0/761/761s.jpg",
+         "detail": [
+            {"chapter-id": 1, "chapter-name": "第一章 小二上酒", "chapter-checked": false},
+            {"chapter-id": 2, "chapter-name": "第二章 白狐儿脸", "chapter-checked": false},
+            {"chapter-id": 3, "chapter-name": "第三章 两个酒窝", "chapter-checked": false},
+            {"chapter-id": 4, "chapter-name": "第四章 去那座山摘山楂", "chapter-checked": false},
+            {"chapter-id": 5, "chapter-name": "第五章 天下第一美人", "chapter-checked": false},
+            {"chapter-id": 6, "chapter-name": "第六章 走一个", "chapter-checked": false}
+         ] 
+      },
+      {
+         "book_id": 5,
+         "book_type": "novel",
+         "book_title": "神墓",
+         "book_auth": "辰东",
+         "book_cate": "玄幻奇幻",
+         "book_isEnd": true,
+         "book_num": 11,
+         "book_price": 77,
+         "book_checked": false,
+         "book_img": "https://www.booktxt.net/files/article/image/1/1239/1239s.jpg",
+         "detail": [
+            {"chapter-id": 1, "chapter-name": "第一章 远古神墓", "chapter-checked": false},
+            {"chapter-id": 2, "chapter-name": "第二章 惊艳", "chapter-checked": false},
+            {"chapter-id": 3, "chapter-name": "第三章 小恶魔公主", "chapter-checked": false},
+            {"chapter-id": 4, "chapter-name": "第四章 后羿屠龙", "chapter-checked": false},
+            {"chapter-id": 5, "chapter-name": "第五章 暗战", "chapter-checked": false},
+            {"chapter-id": 6, "chapter-name": "第六章 血战惊魂", "chapter-checked": false}
+         ] 
+      }
+   ]
+}

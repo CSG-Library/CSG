@@ -1,0 +1,1 @@
+export const CHANGEINDEX = 'components/navtwo'
