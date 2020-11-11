@@ -14,10 +14,10 @@ const AsideBar = (props) => {
           list.map(item => {
             return (
               <li 
-                key={item.cateId}
-                className={asideCate === item.cateName ? 'active' : ''}
-                onClick={() => onChangeAsideCate(item.cateName)}
-              >{item.cateName}（{item.num}）</li>
+                key={item.bookTypeId} 
+                className={asideCate === item.bookTypeName ? 'active' : ''}
+                onClick={() => onChangeAsideCate(item.bookTypeName)}
+              >{item.bookTypeName}（{item.bookTypeNum}）</li>
             )
           })
         }

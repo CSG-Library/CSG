@@ -8,10 +8,13 @@ const DELETE = 'home/shoppingCart/delete'
 
 const ALLCHANGE = 'home/shoppingCart/allChange'
 
+const ADDSHOPPINGCART = 'home/shoppingCart/addShoppingCart'
+
 export {
    CHANGESTATUS,
    DELNUM,
    ADDNUM,
    DELETE,
-   ALLCHANGE
+   ALLCHANGE,
+   ADDSHOPPINGCART
 }

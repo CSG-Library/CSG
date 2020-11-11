@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const ShoppingCartUiWrap = styled.div`
+  margin-top: 30px;
   width: 100%;
   overflow: hidden;
   div.container{
@@ -40,19 +41,19 @@ const ShoppingCartUiWrap = styled.div`
 `
 
 const ShoppingCartListWrap = styled.table`
-  width: 1000px;
+  width: 1000px; 
   overflow: hidden;
   border-bottom: 2px solid #ddd;
   thead{
     overflow: hidden;
     tr{
-      border: 2px solid #666;
+      text-align: center;
       th{
         padding: 15px 5px;
       }
       th:nth-child(1){
         input{
-          margin-right: 27px;
+          margin-right: 38px;
         }
       }
     }
@@ -62,21 +63,39 @@ const ShoppingCartListWrap = styled.table`
     tr{
       height: 100px;
     }
+    td{
+      vertical-align: middle;
+    }
     td:nth-child(1){
+      position: relative;
       input{
         float: right;
         margin-right: 5px;
+        /* position: absolute; */
+        /* margin-top: 25px; */
       }
       img{
         width: 68px;
         height: 68px;
         float: right;
         margin-right: 10px;
+        /* position: absolute; */
+        /* margin-top: 25px; */
       }
     }
     td:nth-child(2){
       font-size: 14px;
       color: #878787;
+      position: relative;
+      p{
+        /* padding-bottom: 20px; */
+        /* position: absolute;
+        top: 35%; */
+        float: left;
+        span{
+          display: block;
+        }
+      }
     }
     td:nth-child(3){
       text-align: center;

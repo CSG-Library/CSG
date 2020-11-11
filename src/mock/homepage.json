@@ -1,0 +1,86 @@
+{
+  "error_code": 0,
+  "data": [{
+    "book_id": 1,
+    "book_name": "毒医王妃",
+    "book_info": "穿越而来，她自带防毒雷达。哔哔——啥？姨 外加蛇蝎庶妹哔哔——呀！包办婚姻，老公还看不上 系，凭她超高智商",
+    "book_img": "http://www.csg99.com/modules/article/images/nocover.jpg" ,
+    "book_author":"作者",
+    "book_date ":"2019-10-11",
+    "book_publisher":"出版社",
+    "book_binding":"装帧",
+    "book_translator":"translator",
+    "sort":1,
+    "show":true,
+    "book_price": 50
+  },{
+    "book_id": "2",
+    "book_name": "帝王非常道",
+    "book_info": "穿越而来，她自带防毒雷达。哔哔——啥？姨 外加蛇蝎庶妹哔哔——呀！包办婚姻，老公还看不上 系，凭她超高智商",
+    "book_img": "http://www.csg99.com/modules/article/images/nocover.jpg" ,
+    "book_author":"作者",
+    "book_date ":"2019-10-11",
+    "book_publisher":"出版社",
+    "book_binding":"装帧",
+    "book_translator":"translator",
+    "sort":1,
+    "show":true,
+    "book_price": 100
+  },{
+    "book_id": "3",
+    "book_name": "帝王非常道",
+    "book_info": "穿越而来，她自带防毒雷达。哔哔——啥？姨 外加蛇蝎庶妹哔哔——呀！包办婚姻，老公还看不上 系，凭她超高智商",
+    "book_img": "http://www.csg99.com/modules/article/images/nocover.jpg" ,
+    "book_author":"作者",
+    "book_date ":"2019-10-11",
+    "book_publisher":"出版社",
+    "book_binding":"装帧",
+    "book_translator":"translator",
+    "sort":1,
+    "show":true,
+    "book_price": 100
+  },{
+    "book_id": "4",
+    "book_name": "帝王非常道",
+    "book_info": "穿越而来，她自带防毒雷达。哔哔——啥？姨 外加蛇蝎庶妹哔哔——呀！包办婚姻，老公还看不上 系，凭她超高智商",
+    "book_img": "http://www.csg99.com/modules/article/images/nocover.jpg" ,
+    "book_author":"作者",
+    "book_date ":"2019-10-11",
+    "book_publisher":"出版社",
+    "book_binding":"装帧",
+    "book_translator":"translator",
+    "sort":1,
+    "show":true,
+    "book_price": 150
+  },{
+    "book_id": "5",
+    "book_name": "帝王非常道",
+    "book_info": "穿越而来，她自带防毒雷达。哔哔——啥？姨 外加蛇蝎庶妹哔哔——呀！包办婚姻，老公还看不上 系，凭她超高智商",
+    "book_img": "http://www.csg99.com/modules/article/images/nocover.jpg" ,
+    "book_author":"作者",
+    "book_date ":"2019-10-11",
+    "book_publisher":"出版社",
+    "book_binding":"装帧",
+    "book_translator":"translator",
+    "sort":1,
+    "show":true,
+    "book_price": 150
+  },{
+    "book_id": "6", 
+    "book_name": "帝王非常道",
+    "book_info": "穿越而来，她自带防毒雷达。哔哔——啥？姨 外加蛇蝎庶妹哔哔——呀！包办婚姻，老公还看不上 系，凭她超高智商",
+    "book_img": "http://www.csg99.com/modules/article/images/nocover.jpg" ,
+    "book_author":"作者",
+    "book_date ":"2019-10-11",
+    "book_publisher":"出版社",
+    "book_binding":"装帧",
+    "book_translator":"translator",
+    "sort":1,
+    "show":true,
+    "book_price": 100
+  }
+  ],
+  "page_now":0,
+  "all_books":999,
+  "page_num":6
+}

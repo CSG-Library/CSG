@@ -5,5 +5,8 @@
    "/api/introduce": "/introduce",
    "/api/longcom": "/longcom",
    "/api/shortcom": "/shortcom",
-   "/api/bookdata": "/bookdata"
+   "/api/bookdata": "/bookdata",
+   "/api/findAllbook": "/findAllbook",
+   "/api/findAllbookBytype": "/findAllbookBytype",
+   "/api/library":"/library"
 }
