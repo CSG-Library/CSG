@@ -81,43 +81,9 @@ const BookCategory = (props) => {
                 )
               })
             }
-            {/* <li>
-              <img 
-               className='book-img' 
-               src="http://www.csg99.com/modules/article/images/nocover.jpg" 
-               alt=""
-               onClick={handleClick()}
-               />
-              <div className='book-content'>
-                <h3>毒医王妃<span onClick={handleClick()}>阅读</span></h3>
-                <h4>作者/出版年月/出版社/装帧/译者名字</h4>
-                <p><span>简介：</span>阿三打撒大厦的哈岁的哈克傻傻的卡号的爱看书的卡刷道具卡还是的空间按时打卡蝴蝶卡活动就卡死哈开始的卡刷点卡</p>
-
-                <div>
-                  <span className='comment'>
-                    <img src="/img/comment.png" alt=""/>
-                    写书评
-                  </span>
-                  <span className='to-bookshelf-btn'>
-                    <img src="/img/add-bookshelf.png" alt=""/>
-                    加入书架
-                  </span>
-                  <span className='recommend-btn'>
-                    <img src="/img/recommend.png" alt=""/>
-                    推荐
-                  </span>
-                  <span 
-                    className='add-shoppingcart-btn'
-                    // onClick={addShoppingCart()}
-                  >
-                    <img src="/img/shopping-cart.png" alt=""/>
-                    购买
-                  </span>
-                </div>
-              </div>
-            </li> */}
           </ul>
-        
+      
+        </section>
         <PagerWrap>
           <Pager
             totalPageNum={totalPageNum}
@@ -128,7 +94,6 @@ const BookCategory = (props) => {
           >
           </Pager>
         </PagerWrap>
-        </section>
       </div>
     </BookCategoryWrap>
   );
