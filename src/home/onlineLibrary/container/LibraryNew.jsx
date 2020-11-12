@@ -19,7 +19,6 @@ import { connect } from "react-redux"
 class LibraryNew extends Component {
    
   componentDidMount(){
-      console.log(1);
     this.props.loadData()
   }
 

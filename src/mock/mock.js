@@ -8,6 +8,7 @@ module.exports = function () {
       shortcom: require('./short-comments.json'),
       findAllbook: require('./homepage.json'),
       findAllbookBytype: require('./homepageAside.json'),
-      library:require('./library.json')
+      library:require('./library.json'),
+      findAllMagazineByTypeId: require('./magazineCategoryBookList.json')
    }
 }

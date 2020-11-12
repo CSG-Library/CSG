@@ -13,7 +13,7 @@ const BookCategory = (props) => {
    }
   })
 
-  const { allList, asideList,addShoppingCart, asideCate, onChangeAsideCate, totalPageNum, curPageNum, onClickPageNum, onClickLeftPageBtn, onClickRightPageBtn } = props
+  const { allList, asideList,addShoppingCart, asideCate, onChangeAsideCate, totalPageNum, curPageNum, onClickPageNum, onClickLeftPageBtn, onClickRightPageBtn, pageShowNum } = props
   
   const list = {
     title: '书籍分类',
@@ -91,6 +91,7 @@ const BookCategory = (props) => {
             onClickPageNum={onClickPageNum}
             onClickLeftPageBtn={onClickLeftPageBtn}
             onClickRightPageBtn={onClickRightPageBtn}
+            pageShowNum={pageShowNum}
           >
           </Pager>
         </PagerWrap>

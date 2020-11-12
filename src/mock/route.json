@@ -7,5 +7,6 @@
    "/api/shortcom": "/shortcom",
    "/api/findAllbook": "/findAllbook",
    "/api/findAllbookBytype": "/findAllbookBytype",
-   "/api/library":"/library"
+   "/api/library":"/library",
+   "/api/findAllMagazineByTypeId": "/findAllMagazineByTypeId"
 }

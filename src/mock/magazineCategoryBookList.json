@@ -1,0 +1,132 @@
+{
+  "error_code": 0,
+  "data": [{
+    "magazined_id": 1001,
+    "magazined_typeid": "1",
+    "magazined_name": "PlayStation",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img1.png"
+  },
+  {
+    "magazined_id": 1002, 
+    "magazined_typeid": "1",
+    "magazined_name": "都市生活",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img2.png"
+  },
+  {
+    "magazined_id": 1003,
+    "magazined_typeid": "1",
+    "magazined_name": "TIME",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img3.png"
+  },
+  {
+    "magazined_id": 1004,
+    "magazined_typeid": "1",
+    "magazined_name": "智族",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img4.png"
+  },
+  {
+    "magazined_id": 1005,
+    "magazined_typeid": "1",
+    "magazined_name": "瑞丽",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img5.png"
+  },
+  {
+    "magazined_id": 1006,
+    "magazined_typeid": "1",
+    "magazined_name": "伊周",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img6.png"
+  },
+  {
+    "magazined_id": 1007,
+    "magazined_typeid": "1",
+    "magazined_name": "风尚",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img7.png"
+  },
+  {
+    "magazined_id": 1008,
+    "magazined_typeid": "1",
+    "magazined_name": "男士时装",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img8.png"
+  },
+  {
+    "magazined_id": 1009,
+    "magazined_typeid": "1",
+    "magazined_name": "尚舞",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img9.png"
+  },
+  {
+    "magazined_id": 1010,
+    "magazined_typeid": "1",
+    "magazined_name": "OUT100",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img10.png"
+  },
+  {
+    "magazined_id": 1011,
+    "magazined_typeid": "1",
+    "magazined_name": "OUT",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img11.png"
+  },
+  {
+    "magazined_id": 1012,
+    "magazined_typeid": "1",
+    "magazined_name": "瑞丽",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img12.png"
+  },{
+    "magazined_id": 1013,
+    "magazined_typeid": "1",
+    "magazined_name": "PlayStation",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img1.png"
+  },
+  {
+    "magazined_id": 1014, 
+    "magazined_typeid": "1",
+    "magazined_name": "都市生活",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img2.png"
+  },
+  {
+    "magazined_id": 1015,
+    "magazined_typeid": "1",
+    "magazined_name": "TIME",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img3.png"
+  },
+  {
+    "magazined_id": 1016,
+    "magazined_typeid": "1",
+    "magazined_name": "智族",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img4.png"
+  },
+  {
+    "magazined_id": 1017,
+    "magazined_typeid": "1",
+    "magazined_name": "瑞丽",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img5.png"
+  },
+  {
+    "magazined_id": 1018,
+    "magazined_typeid": "1",
+    "magazined_name": "伊周",
+    "magazined_info": "",
+    "magazined_img": "/img/magazined_img6.png"
+  }
+  ],
+  "page_now":0,
+  "all_books":999,
+  "page_num":15
+}

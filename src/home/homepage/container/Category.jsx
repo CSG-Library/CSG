@@ -83,7 +83,6 @@ class Category extends Component {
     })
   }
   render() {
-    console.log(this.state.totalPageNum)
     return (
       <>
         <CategoryUI
@@ -97,6 +96,7 @@ class Category extends Component {
           onClickLeftPageBtn={this.ClickLeftPageBtnHandler}
           onClickRightPageBtn={this.ClickRightPageBtnHandler}
           addShoppingCart={this.props.addShoppingCart}
+          pageShowNum={this.state.pageShowNum}
         ></CategoryUI>
       </>
     );
