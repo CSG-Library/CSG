@@ -8,26 +8,7 @@ import { withRouter } from 'react-router-dom';
 
 const BookCategory = (props) => {
   // const myRef = React.createRef();
-   const list = {
-      title: '书籍分类',
-      list: [
-         {
-         cateId: 0,
-         cateName: '小说',
-         num: 999 
-         },
-         {
-         cateId: 1,
-         cateName: '文艺',
-         num: 666 
-         },
-         {
-         cateId: 2,
-         cateName: '青春',
-         num: 233 
-         }
-      ]
-   }
+ 
 
   const history = useHistory()
   //  console.log( history)
