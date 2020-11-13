@@ -17,11 +17,12 @@ class Details extends Component {
 
    handleClick = () => {
       return () => {
-         this.props.history.push('/home/chapterpage')
+         this.props.history.push('/home/chapterdet', {  })
       }
    }
 
    render() {
+      console.log(this.props);
       return (
          <DetailsWraper>
             <TitleWraper
@@ -40,20 +41,18 @@ class Details extends Component {
                      type="primary"
                      size={this.state.size}
                      onClick={this.handleClick()}
-                  >
-                     阅读
-                        </Button>
+                  >阅读</Button>
                </div>
-               <div >
-                  书名：论惩罚PM的100种方法<br />
-                        作者：北科吴彦祖<br />
-                        译者：北科周润发<br />
-                        副标题：程序员上位之路<br />
-                        页数：1024<br />
-                        出版社：北京千锋教育出版社<br />
-                        定价：404元<br />
-                        装帧：404<br />
-                        出版年：2020.02.02<br />
+               <div>
+                     书名：毒医王妃<br />
+                     作者：蓝华月<br />
+                     译者：无<br />
+                     副标题：绝色王妃<br />
+                     页数：12135<br />
+                     出版社：铁蛋文化有限公司<br />
+                     定价：123元<br />
+                     装帧：000<br />
+                     出版年：1999.09.09<br />
                </div>
                <div >
                   <div>

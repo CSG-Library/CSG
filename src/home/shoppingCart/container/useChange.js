@@ -15,19 +15,19 @@ const useChange = () => {
     return () => {
       dispatch(actionCreator.delNumHandler(id))
     }
-  })
+  }, [dispatch])
 
   const addNumHandler = useCallback((id) => {
     return () => {
       dispatch(actionCreator.addNumHandler(id))
     }
-  })
+  }, [dispatch])
 
   const deleteHandler = useCallback((id) => {
     return () => {
       dispatch(actionCreator.deleteHandler(id))
     }
-  })
+  }, [dispatch])
 
   const allChangeHandler = (e) => {
     // console.log(e.target.checked)

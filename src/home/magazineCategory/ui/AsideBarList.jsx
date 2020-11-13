@@ -25,11 +25,11 @@ const AsideBarList = () => {
 
   return (
     <>
-      <AsideBar
+      <AsideBar 
         list={list}
       >
       </AsideBar>
-      <h1 style={{width: '100%', height: '37px'}}></h1>
+      <h1 style={{width: '100%', height: '37px'}}>1</h1>
       <AsideBar
         list={list}
       >

@@ -4,7 +4,7 @@ import { SaveCheckAction } from './actionCreator';
 import { useHistory } from 'react-router-dom'
 
 const useSaveState = () => {
-   const [text, setText] = useState([
+   const [text] = useState([
       // {id:0, path: '/home/browse', name:"分类浏览"}
       { browse: "分类浏览" },
       { online: "在线图书馆" },

@@ -8,7 +8,7 @@ const Chapter = (props) => {
       return () => {
          props.history.push('/home/chapterpage', {book_id:id})
       }
-   })
+   }, [props.history])
 
    let { detlist, book_id } = props;
    let list = detlist[book_id] && detlist[book_id]['detail'];

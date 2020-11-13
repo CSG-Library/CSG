@@ -5,7 +5,7 @@ import UlWrap from '@c/booklist/UlWrap';
 
 const ResComWrap = (props) => {
    return (
-      <UlWrap></UlWrap>
+      <UlWrap currentPageList={props.currentPageList}></UlWrap>
    )
 }
 

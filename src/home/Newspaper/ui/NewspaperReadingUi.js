@@ -1,10 +1,5 @@
 import React, { Component } from 'react'
 
-// 公共组件
-import Head from '@c/header/Header';
-import NavOne from '@c/navOne/NavOne';
-import NavTwo from '@c/navTwo/NavTwo';
-import Foot from '@c/footer/Footer';
 import { NewspaperUi } from './styleNewspaperReading'
 class NewspaperReadingUi extends Component {
    render() {

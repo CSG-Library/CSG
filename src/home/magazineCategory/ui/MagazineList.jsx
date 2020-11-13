@@ -11,7 +11,7 @@ const MagazineList = () => {
       return () => {
          history.push('/home/magadet')
       }
-   })
+   }, [history])
 
 
   return (

@@ -8,18 +8,18 @@ const Aside = (props) => {
       return () => {
          props.history.goBack()
       }
-   })
+   }, [props.history])
 
    const GoShelfClick = useCallback((v) => {
       return () => {
          console.log(v)
          props.history.push('/home/bookshelf/book')
       }
-   })
-
+   }, [props.history])
    
    let { detlist, book_id } = props;
    let list = detlist && detlist[book_id];
+
    return (
       <AsideWrap>
          <button onClick={handleClick()}> 
@@ -29,7 +29,7 @@ const Aside = (props) => {
          <div>
             <h2>{list && list['book_title']}</h2> 
             <img src={list && list['book_img']} alt=""/>
-            <h3>作者：{list && list['book_auth']}</h3>
+            <h3>作者：{list && list['book_author']}</h3>
             <h4>分类：{list && list['book_cate']}</h4>
             <h5>状态：{list && list['book_isEnd'] ? '已完结':'未完结'}</h5>
          </div>

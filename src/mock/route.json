@@ -8,5 +8,6 @@
    "/api/bookdata": "/bookdata",
    "/api/findAllbook": "/findAllbook",
    "/api/findAllbookBytype": "/findAllbookBytype",
-   "/api/library":"/library"
+   "/api/library":"/library",
+   "/api/rankArticle": "/rankArticle"
 }

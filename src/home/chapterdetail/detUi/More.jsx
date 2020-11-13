@@ -8,7 +8,7 @@ const More = (props) => {
       return () => {
          history.push('/home/introduce', {book_id})
       }
-   })
+   }, [history])
 
    return (
       <MoreWrap>

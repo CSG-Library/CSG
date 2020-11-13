@@ -1,4 +1,4 @@
-import React, { Component, useCallback } from 'react';
+import React, { Component } from 'react';
 import { PageWrap, H6Wrap } from './styleChapterRead';
 
 export default class App extends Component {

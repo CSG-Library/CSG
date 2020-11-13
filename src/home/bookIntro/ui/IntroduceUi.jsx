@@ -19,10 +19,10 @@ import AboutBook from './AboutBook'
 
 
  const IntroduceUi =(props)=> {
-    //  console.log(props)
+     console.log(props)
     const shortcomment = memoize(list => list.slice(0, 3))
-    //  const abc = shortcomment(props.list)
-    //  console.log(abc)
+   //   const abc = shortcomment(props.list)
+   //   console.log(abc)
     // const longcomment = memoize(list => list.slice(0, 3))
 
     return (

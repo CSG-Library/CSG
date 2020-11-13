@@ -11,7 +11,7 @@ const Library = (props) => {
       localStorage.setItem('libraryId',id)
       history.push('/home/onlinedet', {id})
     }
-  })
+  }, [history])
   
   return (
     <>

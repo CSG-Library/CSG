@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, createRef } from 'react';
 
 import { Nav } from '@c/styleComp';
 import img from '@a/imgs/logo.png';
@@ -18,26 +18,34 @@ import { withRouter } from 'react-router-dom';
 }))
 @withRouter
 class NavOne extends PureComponent {
+   constructor(props) {
+      super(props)
+      this.v = createRef()
+   }
+
    state = {
       text: ['藏书阁','视频文化','读书广场','原创','读书会活动','书店'],
       v: ''
    }
 
    handleChange = (e) => {
+      console.log(this.v.current.value);
       this.setState({ v: e.target.value })
    }
 
    handleKeyUp = (e) => {
+      console.log(this.v.current.value);
       if(e.keyCode === 13) {
          this.props.addList(this.state.v)
          this.setState({ v: '' })
-         this.props.history.push('/home/searchres')
+         this.props.history.push('/home/searchres', {  })
       }
    }
    handleClick = () => {
+      console.log(this.v.current.value);
       this.props.addList(this.state.v)
       this.setState({ v: '' })
-      this.props.history.push('/home/searchres')
+      this.props.history.push('/home/searchres', {  })
    }
 
    render() {
@@ -56,7 +64,8 @@ class NavOne extends PureComponent {
             <div>
                <input 
                   type="search" 
-                  value={this.state.v} 
+                  // value={this.state.v} 
+                  ref={this.v}
                   placeholder="搜索海量图书" 
                   onChange={this.handleChange.bind(this)} 
                   onKeyUp={this.handleKeyUp.bind(this)}

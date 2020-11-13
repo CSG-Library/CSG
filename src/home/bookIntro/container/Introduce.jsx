@@ -40,16 +40,12 @@ class Introduce extends Component {
          </div>
       );
    }
-   componentDidMount() {
+   componentDidUpdate() {
       // this.props.loadData()
       this.props.loadData_ShortCom()
       this.props.loadData_LongCom()
       // console.log(this.props.list)
       //  console.log(this.props.loadData_ShortCom)
-   }
-   componentDidUpdate() {
-      //   console.log(this.props.list)
-      // console.log(this.props)
    }
 }
 

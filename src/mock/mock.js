@@ -9,6 +9,7 @@ module.exports = function () {
       bookdata: require('./novel-chapter.json'),
       findAllbook: require('./homepage.json'),
       findAllbookBytype: require('./homepageAside.json'),
-      library:require('./library.json')
+      library: require('./library.json'),
+      rankArticle: require('./rank-article-list.json')
    }
 }

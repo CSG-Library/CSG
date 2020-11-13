@@ -1,35 +1,42 @@
 import styled from 'styled-components';
 
 const Sepwrap = styled.div`
-   .ant-pagination{
-      margin: 60px 0;
       display: flex;
       justify-content: center;
-      li{
-         button{
-            width: 20px;
-            height: 38px;
-            background: #319DF7;
-            svg{
-               color: #FFFFFF;
+      height: 80px;
+      margin: 30px auto;
+      p, ul, select{
+         height: 32px;
+      }
+      p{
+         padding: 5px;
+         margin: 0 5px;
+         border: 1px solid #333;
+         cursor: pointer;
+      }
+      ul {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         li {
+            width: 32px;
+            padding: 5px;
+            margin: 0 5px;
+            text-align: center;
+            border: 1px solid #333;
+            cursor: pointer;
+            &.active{
+               background: #319DF7;
+               color: #fff
             }
          }
-         &.ant-pagination-prev{
-            min-width: 0;
-            margin: 0;
-         }
-         &.ant-pagination-item{
-            width: 50px;
-            height: 38px;
-            line-height: 38px;
-            color: #319DF7;
-            font-size: 22px;
-            border: none;
-            margin: 0;
-            background: #eee;
-         }
       }
-   }
+      select {
+         width: 80px;
+         border: 1px solid #333;
+         font-size: 14px;
+         margin-left: 20px;
+      }
 `
 
 export {

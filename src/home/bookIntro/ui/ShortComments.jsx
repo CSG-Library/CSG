@@ -44,7 +44,7 @@ const ShortComments=(props)=> {
       return () => {
          history.push('/home/shortcomment')
       }
-    })
+    }, [history])
 
     return (
         <ShortCommentsWraper>

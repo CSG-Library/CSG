@@ -1,5 +1,4 @@
 import { 
-    LOADDATA ,
     LOADDATA_ShortCom,
     LOADDATA_LongCom
 
@@ -57,7 +56,7 @@ const loadDataAsync_LongCom = () => {
         url: '/api/longcom'
       })
     // console.log(result)
-      // dispatch(loadDataSync_LongCom(result.data.longdata))
+      dispatch(loadDataSync_LongCom(result))
     }
   }
 

@@ -17,7 +17,7 @@ const Maga = props => {
       return () => {
          history.push('/home/papernum')
       }
-   })
+   }, [history])
 
    return (
       <section className='cont cont-top'>

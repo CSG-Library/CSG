@@ -11,7 +11,7 @@ const BookCategory = (props) => {
    return () => {
       props.history.push('/home/introduce')
    }
-  })
+  }, [props.history])
 
   const { allList, asideList,addShoppingCart, asideCate, onChangeAsideCate, totalPageNum, curPageNum, onClickPageNum, onClickLeftPageBtn, onClickRightPageBtn } = props
   
