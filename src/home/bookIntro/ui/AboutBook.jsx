@@ -84,7 +84,7 @@ const  AboutBook=(props)=> {
            show4: !isShow4.show4,
         })
      }
-    console.log(props)
+    // console.log(props)
     // render() {
         return (
             <AboutBookWraper>
@@ -195,7 +195,7 @@ const  AboutBook=(props)=> {
                      style={isShow4.show4 ? style8 : style7}
                     >
                         {/* <li>
-                            <div>
+                            <div> 
                                 <img src={`${img3}`} alt=""/>
                             </div>
                             <div>

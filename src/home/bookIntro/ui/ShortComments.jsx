@@ -1,5 +1,7 @@
-import React,{ useCallback }from 'react';
+import React,{ useState,useCallback }from 'react';
 import PropsTypes from 'prop-types'
+
+import Dialog from '@c/dialog/Dialog'
 import { useHistory }  from 'react-router-dom';
 
 import {
@@ -38,13 +40,60 @@ const ShortComments=(props)=> {
     //     }
     // }
 
+    let [isShow , setIsShow] = useState({
+        show:true,
+    })
+    let [list , setList] = useState([])
+    /* setList(list=props.short_comments)
+    console.log(list) */
+    const List = props.short_comments
+    // console.log(List)
+    // const style1 = {
+    //     display:none
+    //     // height:370,
+    //     // backgroundColor:'#f56c',
+    //     // transition:' all 1s',
+    // }
+    // const style2 = {
+    //     display:block,
+    //     // height:375,
+    //     // backgroundColor:'#d84',
+    // }
     const history = useHistory()
+
     const GoShortComClick = useCallback(() => {
       return () => {
          history.push('/home/shortcomment')
       }
     })
 
+    const handleClick = useCallback(()=>{
+        setIsShow({
+            show:!isShow.show
+        })
+    })
+    
+    const handleDeleteClick = useCallback(()=>{
+        return (keywords)=>{
+            // console.log(keywords)
+            // console.log(1)
+            setIsShow({
+                show:!isShow.show
+            })
+        }
+        
+    })
+
+    const handleReceiveKeywords = useCallback(()=>{
+        return (title,keywords, time)=>{
+            console.log(title,keywords,time)
+            // console.log(1)
+            // setList(List.push)
+            setIsShow({
+                show:!isShow.show
+            })
+        }
+    })
     return (
         <ShortCommentsWraper>
         <TitleWraper
@@ -53,8 +102,11 @@ const ShortComments=(props)=> {
         >
             <span>三言两语（{'<'}140字的评论）</span>
         </TitleWraper>
-        <div className='r'>
-                点击评论
+        <div 
+        className='r'
+        onClick={handleClick}
+        >
+            点击评论
         </div>
         <ul
             /* style={isShow.show?style2:style1} */
@@ -111,6 +163,14 @@ const ShortComments=(props)=> {
             <div className='r' onClick={handleClick1}>查看更多V</div>
         }  */}
         </div>
+        {
+            isShow.show?(
+            <Dialog 
+            onDeleteClick={handleDeleteClick()}
+            onReceiveKeywords={handleReceiveKeywords()}
+            ></Dialog>)
+            :" "
+        }
         </ShortCommentsWraper>
     );
 }
