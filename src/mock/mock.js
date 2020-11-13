@@ -13,6 +13,8 @@ module.exports = function () {
       library: require('./library.json'),
       rankArticle: require('./rank-article-list.json'),
       mybook:require('./my-book.json'),
-      bookEssay: require('./short-comments.json')
+      bookEssay: require('./short-comments.json'),
+      library:require('./library.json'),
+      findAllMagazineByTypeId: require('./magazineCategoryBookList.json')
    }
 }

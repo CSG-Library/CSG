@@ -36,10 +36,12 @@ import { get, post } from "@u/http"
 )
 class Category extends Component {
   state = {
-    totalPageNum: 5,
-    curPageNum: 2,
+    totalPageNum: 0,
+    curPageNum: 1,
     allList: [],
-    asideList: []
+    filterList: [],
+    asideList: [],
+    pageShowNum: 6
   }
 
   
@@ -47,7 +49,7 @@ class Category extends Component {
   ClickPageNumHandler = (pageNum) => {
     return () => {
       this.setState({
-        curPageNum: pageNum
+        curPageNum: pageNum,
       })
     }
   }
@@ -65,7 +67,22 @@ class Category extends Component {
       curPageNum : this.state.curPageNum + 1
     }) 
   }
-  
+
+  componentDidMount = async () => {
+
+    let list = await post({
+      url: "http://localhost:3000/api/findAllbook"
+    })
+
+    let _asideList = await get({
+      url: "http://localhost:3000/api/findAllbookBytype"
+    })
+    this.setState({
+      allList: list.data.data,
+      totalPageNum: Math.ceil(list.data.data.length / this.state.pageShowNum),
+      asideList: _asideList.data.data
+    })
+  }
   render() {
     //  console.log(this.props)
     return (
@@ -81,6 +98,7 @@ class Category extends Component {
           onClickLeftPageBtn={this.ClickLeftPageBtnHandler}
           onClickRightPageBtn={this.ClickRightPageBtnHandler}
           addShoppingCart={this.props.addShoppingCart}
+          pageShowNum={this.state.pageShowNum}
         ></CategoryUI>
       </>
     );

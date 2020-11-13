@@ -34,7 +34,8 @@ const BookCategoryWrap = styled.div`
           height: 181px;
           display: flex;
           margin: 0 16px 60px 16px;
-          justify-content: flex-start;
+          /* justify-content: flex-start; */
+          overflow: hidden;
           &:nth-child(odd){
             margin-right: 32px;
           }
@@ -154,6 +155,9 @@ const AsideTab = styled.aside`
 `
 
 const PagerWrap = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
   float: right;
 `
 

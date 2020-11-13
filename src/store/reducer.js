@@ -12,6 +12,7 @@ import { reducer as introduce } from '@h/bookIntro';
 import { reducer as category }from '@h/homepage';
 import { reducer as shoppingCart } from '@h/shoppingCart';
 import { reducer as onlineLibray } from '@h/onlineLibrary';
+import { reducer as magazineCategory } from '@h/magazineCategory'
 
 import { reducer as navOne } from '@c/navOne/reducer';
 import { reducer as navTwo } from '@c/navTwo/reducer';
@@ -30,5 +31,7 @@ export default combineReducers({
    navTwo,
    onlineLibray,
    rankSeaArticle,
-   my
+   my,
+   onlineLibray,
+   magazineCategory
 })

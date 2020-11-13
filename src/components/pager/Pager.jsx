@@ -13,7 +13,7 @@ const Pager = (props) => {
       onClick={onClickPageNum(i)}
     >{i}</span>)
   }
-  return (
+  return ( 
     <PagerWrap>
       <span 
         className="left-btn"

@@ -12,5 +12,6 @@
    "/api/library":"/library",
    "/api/rankArticle": "/rankArticle",
    "/api/mybook":"/mybook",
-   "/api/user/bookEssay": "/bookEssay"
+   "/api/user/bookEssay": "/bookEssay",
+   "/api/findAllMagazineByTypeId": "/findAllMagazineByTypeId"
 }
