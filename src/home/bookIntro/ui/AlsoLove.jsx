@@ -1,7 +1,7 @@
 import React, { useState }/* , { Component } */ from 'react';
 //注意正常写li的时候，这种@代理路径会自动转变，能解析，
 //但是用map遍历时候要注意mock数据中图片的路径要写成正常路径，可以在网页中打开控制台看一下
-//  import img from '@a/images/alsolove.png'
+ import img from '@a/imgs/alsolove.png'
 
 
 import {
@@ -11,7 +11,7 @@ import {
 
 const AlsoLoveList =[
 
-    {
+   /*  {
         img:"/static/media/alsolove.c669761e.png",
         pageName:'学好h5的重要性',
     },
@@ -36,11 +36,11 @@ const AlsoLoveList =[
         pageName:'学好React的重要性',
     },
     {
-        img:"/static/media/alsolove.c669761e.png",
+        img:"http://localhost:3000/home/introduce/static/media/alsolove.c669761e.png",
         pageName:'学好java的重要性',
-    }
+    } */
     //注意不要写成这种路径
-    /* {
+   /*  {
         "img":"@a/images/alsolove.png",
         pageName:'学好java的重要性',
     } */
@@ -63,7 +63,7 @@ const AlsoLove=()=> {
                 <span>喜欢这本书的人也喜欢</span>
             </TitleWraper>
             <ul>
-                {
+                {/* {
                     alsoLoveList.map((v,i)=>{
                         return (
                             <li
@@ -77,13 +77,7 @@ const AlsoLove=()=> {
                             </li>
                         )
                     })
-                }
-                {/* <li>
-                    <div>
-                        <img src={`${img}`} alt=""/>
-                    </div>
-                    <div>防止脱发三十六计</div>
-                </li>
+                } */}
                 <li>
                     <div>
                         <img src={`${img}`} alt=""/>
@@ -101,7 +95,13 @@ const AlsoLove=()=> {
                         <img src={`${img}`} alt=""/>
                     </div>
                     <div>防止脱发三十六计</div>
-                </li> */}
+                </li>
+                <li>
+                    <div>
+                        <img src={`${img}`} alt=""/>
+                    </div>
+                    <div>防止脱发三十六计</div>
+                </li>
             </ul>
         </AlsoLoveWraper>
     );

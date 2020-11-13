@@ -32,20 +32,14 @@ const MenuList = [
    { id: 25, title: '第二十六章 雷雾森林的雷泽' }
 ]
 
-const BookMenu = () => {
+const BookMenu = (props) => {
+   // console.log(props.book_menu)
    let [menuList] = useState(MenuList)
 
    let [isShow, setIsShow] = useState({ show: false })
 
    let [state, setState] = useState(0)
 
-   let style1 = {
-      height: 52,
-   }
-   let style2 = {
-      height: '100%',
-      backgroundColor: '#d84',
-   }
    let history = useHistory()
    const handleClick1 = useCallback((v) => {
       return () => {
@@ -66,9 +60,10 @@ const BookMenu = () => {
          <TitleWraper width="0 0 1px 0">
             <span>书籍目录</span>
          </TitleWraper>
-         <ul style={isShow.show ? style2 : style1}>
+         <ul>
             {
-               menuList.map((v, i) => (<li
+               props.book_menu.map((v, i) => 
+                  (<li
                      key={i}
                      onClick={handleClick1(v)}
                      className={v.id === state ? 'active' : ''}

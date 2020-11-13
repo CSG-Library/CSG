@@ -10,6 +10,7 @@ const SepPage = props => {
    }
 
    return (
+      
       <Sepwrap>
          <p onClick={props.onTpFirst}>首页</p>
          <p onClick={props.onTpPrev}>上一页</p>

@@ -2,6 +2,7 @@
    "/api/cate": "/cate",
    "/api/corr": "/corr",
    "/api/maga": "/maga",
+   
    "/api/introduce": "/introduce",
    "/api/longcom": "/longcom",
    "/api/shortcom": "/shortcom",
@@ -10,6 +11,6 @@
    "/api/findAllbookBytype": "/findAllbookBytype",
    "/api/library":"/library",
    "/api/rankArticle": "/rankArticle",
-   "/api/mybook":"/mybook"
-   
+   "/api/mybook":"/mybook",
+   "/api/user/bookEssay": "/bookEssay"
 }

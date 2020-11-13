@@ -42,6 +42,7 @@ class Category extends Component {
     asideList: []
   }
 
+  
   // 分页按钮
   ClickPageNumHandler = (pageNum) => {
     return () => {
@@ -64,41 +65,9 @@ class Category extends Component {
       curPageNum : this.state.curPageNum + 1
     }) 
   }
-
-  // 
-  // addShoppingCart = (data) => {
-  //   return () => {
-  //     // localStorage.setItem('allSelect', false)
-
-      // let obj = {
-      //   goods_id: data.book_id,
-      //   goods_num: 1,
-      //   goods_details: data.book_info,
-      //   goods_price: data.book_price,
-      //   goods_checked_status: false,
-      //   goods_img: data.book_img
-      // }
-
-
-  //   }
-  // }
-
-  componentDidMount = async () => {
-
-    let list = await post({
-      url: "http://localhost:3000/api/findAllbook"
-    })
-
-    let _asideList = await get({
-      url: "http://localhost:3000/api/findAllbookBytype"
-    })
-
-    this.setState({
-      allList: list.data.data,
-      asideList: _asideList.data.data
-    })
-  }
+  
   render() {
+    //  console.log(this.props)
     return (
       <>
         <CategoryUI

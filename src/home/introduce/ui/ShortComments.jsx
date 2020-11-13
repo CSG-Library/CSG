@@ -1,6 +1,6 @@
-import React,{ useCallback }from 'react';
+import React/* , { Component }  */,{ useState }from 'react';
 import PropsTypes from 'prop-types'
-import { useHistory }  from 'react-router-dom';
+
 
 import {
     TitleWraper,
@@ -8,8 +8,8 @@ import {
 } from './StyledIntroduce'
 
 const ShortComments=(props)=> {
-    // console.log(props)
-    /* let [isShow , setIsShow] = useState({
+    /* console.log(props)
+    let [isShow , setIsShow] = useState({
         show:false,
         // height:100
     })
@@ -32,19 +32,12 @@ const ShortComments=(props)=> {
     }
 */
     //  console.log(props.list)
-    // const handleClick=(v)=>
-    //     return()=>{
-    //         console.log(v)
-    //     }
-    // }
-
-    const history = useHistory()
-    const GoShortComClick = useCallback(() => {
-      return () => {
-         history.push('/home/shortcomment')
-      }
-    }, [history])
-
+    const handleClick=(v)=>{
+        // console.log(v)
+        return()=>{
+            console.log(v)
+        }
+    }
     return (
         <ShortCommentsWraper>
         <TitleWraper
@@ -60,14 +53,13 @@ const ShortComments=(props)=> {
             /* style={isShow.show?style2:style1} */
         >
             {
-                props.short_comments.map((v,i)=>{
+                props.list && props.list.map((v,i)=>{
                     return (
                         <li 
                         key={i}
-                       /*  onClick={handleClick(v)
-                        } */
+                        onClick={handleClick(v)}
                         >
-                            <span>{v.title}</span>
+                            <span>{v.name}</span>
                             <span>
                                 评论时间 
                                 &nbsp;
@@ -84,7 +76,7 @@ const ShortComments=(props)=> {
                     )
                 })
             }
-           {/*  <li>
+            {/* <li>
                 <span>评论人</span>
                 <span>评论时间:
                     2020-02-02&nbsp;
@@ -95,16 +87,10 @@ const ShortComments=(props)=> {
                 </span>
             </li> */}
             
-            
         </ul>
         
-        <div >
-        <span className='r' 
-         /* onClick={handleClick()} */
-         onClick={GoShortComClick()}
-         >
-            所有短评（222）{`>`}
-        </span>
+        <div>
+        <span className='r'>所有短评（222）{`>`}</span>
             {/* {isShow.show?
             <div className='r' onClick={handleClick1}>向上收起</div>
             :

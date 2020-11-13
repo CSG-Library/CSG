@@ -3,6 +3,7 @@ module.exports = function () {
       cate: require('./paper-cate.json'),
       corr: require('./paper-corr.json'),
       maga: require('./maga-cate.json'),
+      
       introduce: require('./book-introduce.json'),
       longcom: require('./long-comments.json'),
       shortcom: require('./short-comments.json'),
@@ -11,6 +12,7 @@ module.exports = function () {
       findAllbookBytype: require('./homepageAside.json'),
       library: require('./library.json'),
       rankArticle: require('./rank-article-list.json'),
-      mybook:require('./my-book.json')
+      mybook:require('./my-book.json'),
+      bookEssay: require('./short-comments.json')
    }
 }
