@@ -17,6 +17,7 @@ import { reducer as navTwo } from '@c/navTwo/reducer';
 
 import { reducer as myComp } from '@h/my/reducer';
 import { reducer as rankSeaArticle } from '@h/Search';
+import {reducer as my} from '@h/my'
 
 export default combineReducers({
    paperCate,
@@ -28,5 +29,6 @@ export default combineReducers({
    navTwo,
    myComp,
    onlineLibray,
-   rankSeaArticle
+   rankSeaArticle,
+   my
 })

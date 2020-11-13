@@ -10,6 +10,7 @@ module.exports = function () {
       findAllbook: require('./homepage.json'),
       findAllbookBytype: require('./homepageAside.json'),
       library: require('./library.json'),
-      rankArticle: require('./rank-article-list.json')
+      rankArticle: require('./rank-article-list.json'),
+      mybook:require('./my-book.json')
    }
 }

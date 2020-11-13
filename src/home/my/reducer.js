@@ -1,7 +1,8 @@
-import { SAVECOMP } from './actionTypes';
+import { SAVECOMP, LOADDATA } from './actionTypes';
 
 const defaultState = {
-   routeIndex: Number(localStorage.getItem("routeIndex"))
+   routeIndex: Number(localStorage.getItem("routeIndex")),
+   list:[]
 }
 
 const reducer = (state = defaultState, action) => {
@@ -10,6 +11,10 @@ const reducer = (state = defaultState, action) => {
          return {
             ...state,
             routeIndex: action.routeIndex
+         }
+      case LOADDATA:
+         return{
+            list:action.list
          }
       default:
          return state
