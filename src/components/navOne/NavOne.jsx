@@ -38,14 +38,14 @@ class NavOne extends PureComponent {
       if(e.keyCode === 13) {
          this.props.addList(this.state.v)
          this.setState({ v: '' })
-         this.props.history.push('/home/searchres', {  })
+         this.props.history.push('/home/searchres', { arr:[] })
       }
    }
    handleClick = () => {
       console.log(this.v.current.value);
       this.props.addList(this.state.v)
       this.setState({ v: '' })
-      this.props.history.push('/home/searchres', {  })
+      this.props.history.push('/home/searchres', { arr:[] })
    }
 
    render() {

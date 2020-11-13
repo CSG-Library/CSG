@@ -88,7 +88,9 @@ class PreciseSearchUi extends Component {
    handleClick = (content) => {
       return () => {
          if(content === -1) {
-            this.props.history.push("/home/searchres")
+            this.props.history.push("/home/searchres", {
+               arr: []
+            })
          } else if(content === 0) {
             this.props.history.push("/home/searchres", { 
                arr: this.props.renderData.rank_data,
