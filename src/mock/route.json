@@ -8,5 +8,6 @@
    "/api/findAllbook": "/findAllbook",
    "/api/findAllbookBytype": "/findAllbookBytype",
    "/api/library":"/library",
-   "/api/findAllMagazineByTypeId": "/findAllMagazineByTypeId"
+   "/api/findAllMagazineByTypeId": "/findAllMagazineByTypeId",
+   "/api/homepageCate": "/homepageCate"
 }
