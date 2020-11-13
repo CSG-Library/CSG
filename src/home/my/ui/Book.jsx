@@ -3,7 +3,7 @@ import React, { useState,useEffect } from 'react'
 import { StyBook } from './Stylemy'
 
 //引入--自动生成数组的工具包
-const _ = require("underscore");
+import _ from "underscore";
 
 
 const Book = (props) => {

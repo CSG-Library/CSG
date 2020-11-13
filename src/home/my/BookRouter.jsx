@@ -11,7 +11,7 @@ import { connect } from 'react-redux';
 
 @withRouter
 @connect(state => ({
-   routeIndex: state.getIn(['myComp', 'routeIndex'])
+   routeIndex: state.getIn(['my', 'routeIndex'])
 }), dispatch => ({
    saveIndex(routeIndex){
       dispatch(SaveCompAction(routeIndex))

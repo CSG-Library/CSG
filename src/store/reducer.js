@@ -15,9 +15,9 @@ import { reducer as onlineLibray } from '@h/onlineLibrary';
 import { reducer as navOne } from '@c/navOne/reducer';
 import { reducer as navTwo } from '@c/navTwo/reducer';
 
-import { reducer as myComp } from '@h/my/reducer';
+// import { reducer as myComp } from '@h/my';
 import { reducer as rankSeaArticle } from '@h/Search';
-import {reducer as my} from '@h/my'
+import { reducer as my } from '@h/my'
 
 export default combineReducers({
    paperCate,
@@ -27,7 +27,6 @@ export default combineReducers({
    shoppingCart,
    navOne,
    navTwo,
-   myComp,
    onlineLibray,
    rankSeaArticle,
    my
