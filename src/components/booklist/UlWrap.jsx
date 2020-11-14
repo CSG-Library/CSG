@@ -34,7 +34,7 @@ const UlWrap = (props) => {
                            <i className='iconfont'>&#xe637;</i>
                            <span>写书评</span>
                         </div>
-                        <div onClick={AddShelf()}>
+                        <div onClick={AddShelf(v)}>
                            <i className='iconfont'>&#xe60f;</i>
                            <span>加入书架</span>
                         </div>

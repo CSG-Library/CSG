@@ -317,85 +317,76 @@ const StyBook = styled.div`
     }
   }
   >div:nth-child(2){
-    ul{
-      height:680px;
-      display:flex;
-      flex-direction:column;
-      overflow-y:scroll;
-      flex-wrap:no-wrap;
-      li{
-        height:310px;
-        display:flex;
-        /* margin:67px 0; */
-        padding-top:67px;
-        border-bottom:1px solid #eee;
-        input{
-          width:30px;
-          height:30px;
-          margin:73px 50px 0 10px;
-        }
-        .tp{
-          width: 140px;
-          height: 176px;
-          img{
-            width:100%;
-            height:100%;
-          }
-        }
-        .box{
-          margin-left:30px;
-          .txt{
-            display:flex;
-            width:520px;
-            margin:20px 0 0px 0px;
-            height:16px;
-            font-size: 16px;
-            font-weight: 400;
-            color: #666666;
-            justify-content:space-between;
-            h3{
-              font-size: 14px;
-              font-weight: 400;
-              color: #999999;
+      ul{
+         height:680px;
+         display:flex;
+         flex-direction:column;
+         overflow-y:scroll;
+         flex-wrap:no-wrap;
+         li{
+         height:310px;
+         display:flex;
+         /* margin:67px 0; */
+         padding-top:67px;
+         border-bottom:1px solid #eee;
+         input{
+            width:30px;
+            height:30px;
+            margin:73px 50px 0 10px;
+         }
+         .tp{
+            width: 140px;
+            height: 176px;
+            img{
+               width:100%;
+               height:100%;
             }
-          }
-          .info{
-            display:flex;
-            justify-content:space-between;
-            margin:36px 0;
-            line-height: 14px;
-            font-size: 14px;
-            font-weight: 400;
-            color: #999999;
-          }
-          .num{
-            display:flex;
-            justify-content:space-between;
-            font-size: 14px;
-            font-weight: 400;
-            color: #999999;
-            button{
-              width:80px;
-              height:40px;
-              background-color:#319DF7;
-              color:#fff;
-              font-size:20px;
+         }
+         .box{
+            margin-left:30px;
+            .txt{
+               display:flex;
+               width:520px;
+               margin:20px 0 0px 0px;
+               height:16px;
+               font-size: 16px;
+               font-weight: 400;
+               color: #666666;
+               justify-content:space-between;
+               h3{
+               font-size: 14px;
+               font-weight: 400;
+               color: #999999;
+               }
             }
-          }
-        }
-        
+            .info{
+               display:flex;
+               justify-content:space-between;
+               margin:36px 0;
+               line-height: 14px;
+               font-size: 14px;
+               font-weight: 400;
+               color: #999999;
+            }
+            .num{
+               display:flex;
+               justify-content:space-between;
+               font-size: 14px;
+               font-weight: 400;
+               color: #999999;
+               button{
+               width:80px;
+               height:40px;
+               background-color:#319DF7;
+               color:#fff;
+               font-size:20px;
+               }
+            }
+         }
+         
+         }
       }
-    }
-  }
-  >div:last-child{
-    width:200px;
-    height:50px;  
-    font-size: 20px;
-    font-weight: 400;
-    color: #999999;
-    margin-left:580px;
-    margin-top:10px;
-  }
+   }
 `
 
 
@@ -474,7 +465,7 @@ const StyDatum = styled.div`
   
 `
 
-const StyData=styled.div`
+const StyData = styled.div`
   margin-left:85px;
   margin-top:30px;
   /* margin-left:36px; */
@@ -535,12 +526,12 @@ const StyData=styled.div`
   }
 `
 export {
-  SLeft,
-  StyLeft,
-  StyAcco,
-  StyPay,
-  StyBook,
-  StyDatum,
-  StyData,
+   SLeft,
+   StyLeft,
+   StyAcco,
+   StyPay,
+   StyBook,
+   StyDatum,
+   StyData,
 
 }

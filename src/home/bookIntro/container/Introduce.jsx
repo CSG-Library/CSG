@@ -21,7 +21,7 @@ class Introduce extends Component {
                 url:`/api/introduce/introduce?book_id=${this.props.location.state.book_id}`
                
             }) 
-            // console.log(result.data)
+            console.log(result)
             this.setState(()=>({
                 data:result.data
              })) 
@@ -34,7 +34,7 @@ class Introduce extends Component {
 
         
         render() {
-            // console.log(this.props.location.state.book_id)
+            console.log(this.props)
             const { book_id } = this.props.location.state
             // console.log(this.state.data)
             // const list = (this.state.data&&this.state.data.)

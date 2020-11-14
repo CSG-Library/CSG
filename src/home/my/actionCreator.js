@@ -1,4 +1,4 @@
-import { SAVECOMP, LOADDATA } from './actionTypes'
+import { SAVECOMP, LOADDATA, ADDBOOKSHELF } from './actionTypes'
 
 import { get } from '@u/http.js'
 
@@ -28,8 +28,16 @@ const loadDataAsync=(tab,index)=>{
    } 
 }
 
-export {
+const addBookShelf = bookObj => {
+   return {
+      type: ADDBOOKSHELF,
+      bookObj
+   }
+}
+
+export default{
    SaveCompAction,
    loadDataSync,
-   loadDataAsync
+   loadDataAsync,
+   addBookShelf
 }

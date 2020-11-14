@@ -15,7 +15,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 50
+         "book_price": 50,
+         "book_finish": false,
+         "book_num": 120
       },
       {
          "book_id": 2,
@@ -31,7 +33,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": false,
+         "book_num": 120
       },
       {
          "book_id": 3,
@@ -47,7 +51,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": false,
+         "book_num": 119
       },
       {
          "book_id": 4,
@@ -63,7 +69,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 150
+         "book_price": 150,
+         "book_finish": true,
+         "book_num": 117
       },
       {
          "book_id": 5,
@@ -79,7 +87,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 150
+         "book_price": 150,
+         "book_finish": true,
+         "book_num": 118
       },
       {
          "book_id": 6,
@@ -95,7 +105,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": true,
+         "book_num": 105
       },
       {
          "book_id": 7,
@@ -111,7 +123,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": false,
+         "book_num": 106
       },
       {
          "book_id": 8,
@@ -127,7 +141,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": false,
+         "book_num": 107
       },
       {
          "book_id": 1,
@@ -143,7 +159,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 50
+         "book_price": 50,
+         "book_finish": true,
+         "book_num": 108
       },
       {
          "book_id": 2,
@@ -159,7 +177,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": true,
+         "book_num": 101
       },
       {
          "book_id": 3,
@@ -175,7 +195,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": true,
+         "book_num": 101
       },
       {
          "book_id": 4,
@@ -191,7 +213,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 150
+         "book_price": 150,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 5,
@@ -207,7 +231,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 150
+         "book_price": 150,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 6,
@@ -223,7 +249,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 7,
@@ -239,7 +267,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 1,
@@ -255,7 +285,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 50
+         "book_price": 50,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 2,
@@ -271,7 +303,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 3,
@@ -287,7 +321,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 100
+         "book_price": 100,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 4,
@@ -303,7 +339,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 150
+         "book_price": 150,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 5,
@@ -319,7 +357,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 150
+         "book_price": 150,
+         "book_finish": true,
+         "book_num": 101
       },
       {
          "book_id": 6,
@@ -335,7 +375,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 29
+         "book_price": 29,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 7,
@@ -351,7 +393,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 29
+         "book_price": 29,
+         "book_finish": true,
+         "book_num": 101
       },
       {
          "book_id": 1,
@@ -367,7 +411,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 202
+         "book_price": 202,
+         "book_finish": true,
+         "book_num": 9999
       },
       {
          "book_id": 2,
@@ -383,7 +429,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 151
+         "book_price": 151,
+         "book_finish": true,
+         "book_num": 1222
       },
       {
          "book_id": 3,
@@ -399,7 +447,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 119
+         "book_price": 119,
+         "book_finish": true,
+         "book_num": 77
       },
       {
          "book_id": 4,
@@ -415,7 +465,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 29
+         "book_price": 29,
+         "book_finish": false,
+         "book_num": 66
       },
       {
          "book_id": 5,
@@ -431,7 +483,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 110
+         "book_price": 110,
+         "book_finish": true,
+         "book_num": 888
       },
       {
          "book_id": 6,
@@ -447,7 +501,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 32
+         "book_price": 32,
+         "book_finish": false,
+         "book_num": 222
       },
       {
          "book_id": 7,
@@ -463,7 +519,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 88
+         "book_price": 88,
+         "book_finish": true,
+         "book_num": 777
       },
       {
          "book_id": 8,
@@ -479,7 +537,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 66
+         "book_price": 66,
+         "book_finish": true,
+         "book_num": 666
       },
       {
          "book_id": 9,
@@ -495,7 +555,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 60
+         "book_price": 60,
+         "book_finish": true,
+         "book_num": 400
       }
    ],
    "article_data": [
@@ -512,7 +574,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 77
+         "book_price": 77,
+         "book_finish": false,
+         "book_num": 900
       },
       {
          "book_id": 2,
@@ -527,7 +591,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 36
+         "book_price": 36,
+         "book_finish": false,
+         "book_num": 100
       },
       {
          "book_id": 3,
@@ -542,7 +608,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 10
+         "book_price": 10,
+         "book_finish": false,
+         "book_num": 300
       },
       {
          "book_id": 4,
@@ -557,7 +625,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 20
+         "book_price": 20,
+         "book_finish": true,
+         "book_num": 201
       },
       {
          "book_id": 5,
@@ -572,7 +642,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 20
+         "book_price": 20,
+         "book_finish": true,
+         "book_num": 99
       },
       {
          "book_id": 6,
@@ -587,7 +659,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 30
+         "book_price": 30,
+         "book_finish": true,
+         "book_num": 101
       },
       {
          "book_id": 7,
@@ -602,7 +676,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 70
+         "book_price": 70,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 8,
@@ -617,7 +693,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 50
+         "book_price": 50,
+         "book_finish": false,
+         "book_num": 101
       },
       {
          "book_id": 9,
@@ -632,7 +710,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 60
+         "book_price": 60,
+         "book_finish": true,
+         "book_num": 102
       },
       {
          "book_id": 10,
@@ -647,7 +727,9 @@
          "book_translator": "translator",
          "sort": 1,
          "show": true,
-         "book_price": 90
+         "book_price": 90,
+         "book_finish": true,
+         "book_num": 101
       }
    ],
    "page_now": 0,

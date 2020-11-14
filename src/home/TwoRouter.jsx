@@ -56,7 +56,7 @@ class HomeRouter extends Component {
 
          { path: '/online', component: OnlineLibrary },
          { path: '/onlinedet', component: LibraryNew },
-
+ 
          { path: '/magazine', component: MagazineCategory },
          { path: '/magadet', component: MagIntro },
          { path: '/magahot', component: HotMag },

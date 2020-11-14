@@ -6,7 +6,7 @@ import MyBook from './container/MyBook'
 import MyData from './container/MyData'
 import { SLeft } from './ui/Stylemy'
 
-import { SaveCompAction } from './actionCreator'
+import { actionCreator as ac } from './'
 import { connect } from 'react-redux';
 
 @withRouter
@@ -14,7 +14,7 @@ import { connect } from 'react-redux';
    routeIndex: state.getIn(['my', 'routeIndex'])
 }), dispatch => ({
    saveIndex(routeIndex){
-      dispatch(SaveCompAction(routeIndex))
+      dispatch(ac.SaveCompAction(routeIndex))
    }
 }))
 class BookRouter extends PureComponent {

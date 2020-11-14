@@ -1,5 +1,6 @@
 import { useCallback } from 'react';
 // import { useHistory } from 'react-router-dom';
+import { actionCreator as acr } from '@h/my';
 import { actionCreator as ac } from '@h/shoppingCart';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -9,11 +10,22 @@ const useAddSome = () => {
    // console.log(shoppingCartList)
    const dispatch = useDispatch()
 
-   const AddShelf = useCallback(() => {
-      // return () => {
-      //    history.push('/home/comment')
-      // }
-   }, [])
+   const AddShelf = useCallback((v) => {
+      return () => {
+         // console.log(v);
+         let bookObj = {
+            book_id: v.book_id,
+            book_name: v.book_name,
+            book_img: v.book_img,
+            book_date: v.book_date,
+            book_statu: false,
+            book_finish: v.book_finish,
+            book_num: v.book_num
+         }
+
+         dispatch(acr.addBookShelf(bookObj))
+      }
+   }, [dispatch])
 
    const AddRecommen = useCallback(() => {
       // return () => {

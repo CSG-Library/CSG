@@ -11,7 +11,7 @@
             "book_price":"624元",
             "book_binding":"000",
             "book_publish_year":"2020.03.03",
-            "img":"http://localhost:3000/static/media/details.810581e9.png",
+            "img":"/img/index-list-2.png",
             "rating":{
                 "read":"678",
                 "collection":"985",
@@ -220,7 +220,7 @@
             "book_price":"1024元",
             "book_binding":"000",
             "book_publish_year":"2020.02.02",
-            "img":"http://localhost:3000/static/media/details.810581e9.png",
+            "img":"/img/details.png",
             "rating":{
                 "read":"2345",
                 "collection":"888",

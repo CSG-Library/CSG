@@ -2,10 +2,7 @@ import React/* , { Component }  */from 'react';
 import PropTypes from 'prop-types'
 import memoize from 'memoize-one'
 
-import {
-    Container
-} from './StyledIntroduce'
-
+import { Container } from './StyledIntroduce'
 
 // 书籍介绍页组件
 import Details from './Details'

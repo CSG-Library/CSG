@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { loadDataAsync } from '../actionCreator'
+import { actionCreator as ac } from '../'
 
 import Book from '../ui/Book'
 
@@ -12,7 +12,7 @@ import Book from '../ui/Book'
   },
   (dispatch) => ({
     loadData() {
-      dispatch(loadDataAsync())
+      dispatch(ac.loadDataAsync())
     }
   })
 )

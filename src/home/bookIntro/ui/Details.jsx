@@ -18,7 +18,6 @@ class Details extends Component {
       }
    }
 
-   
    render() {
       // console.log(this.props)
       const details  = this.props.details

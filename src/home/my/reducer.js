@@ -1,8 +1,9 @@
-import { SAVECOMP, LOADDATA } from './actionTypes';
+import { SAVECOMP, LOADDATA, ADDBOOKSHELF } from './actionTypes';
 
 const defaultState = {
    routeIndex: Number(localStorage.getItem("routeIndex")),
-   list:[]
+   list:[],
+   shelfList:JSON.parse(localStorage.getItem("shelfList")) || []
 }
 
 const reducer = (state = defaultState, action) => {
@@ -14,7 +15,19 @@ const reducer = (state = defaultState, action) => {
          }
       case LOADDATA:
          return{
+            ...state,
             list:action.list
+         }
+
+      case ADDBOOKSHELF: 
+         console.log(action.bookObj);
+         let shelfArr = state.shelfList.filter(v => v.book_id !== action.bookObj.book_id)
+         state.shelfList.push(action.bookObj)
+
+         localStorage.setItem('shelfList', JSON.stringify(state.shelfList))
+         return {
+            ...state,
+            shelfList: shelfArr
          }
       default:
          return state
