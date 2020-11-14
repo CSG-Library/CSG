@@ -14,10 +14,11 @@ export default class App extends PureComponent {
                <TwoRouter />
             </Route>
             <Route path='/login' render={Login}></Route>
-            <Route path='/reg' children={Regsiter}></Route> 
+            <Route path='/reg' children={Regsiter}></Route>
+            <Route path='/pay'></Route>
             <Redirect from='/' to='/home'></Redirect>
          </Switch>
       )
-   }
+   } 
 }
 

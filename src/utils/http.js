@@ -24,8 +24,22 @@ const post = ({ url }) => {
    })
 }
 
+const postC = ({ url, data, method }) => {
+   return new Promise((resolve, reject) => {
+      axios({
+         url,
+         method,
+         data
+      }).then(res => {
+         resolve(res);
+      }).then(error => {
+         reject(error);
+      })
+   })
+}
 
 export {
    get,
-   post
+   post,
+   postC
 }
