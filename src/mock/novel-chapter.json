@@ -1,0 +1,3975 @@
+{
+   "data": [
+      {
+         "book_id": 0,
+         "book_type": "novel",
+         "book_title": "宦妃还朝",
+         "book_auth": "鸭圣婆",
+         "book_cate": "古风言情",
+         "book_isEnd": false,
+         "book_num": 10,
+         "book_price": 159,
+         "book_checked": false,
+         "book_img": "https://img.33yq.com/image/33/33500/33500s.jpg",
+         "detail": [
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 自告奋勇",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 穿越花轿",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 替你而活",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 给你好看",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 王爷抱我",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 自告奋勇",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 穿越花轿",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 替你而活",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 给你好看",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 王爷抱我",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 自告奋勇",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 穿越花轿",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 替你而活",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 给你好看",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 王爷抱我",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 自告奋勇",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 穿越花轿",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 替你而活",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 给你好看",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 王爷抱我",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 自告奋勇",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 穿越花轿",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 替你而活",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 给你好看",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 王爷抱我",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 6,
+               "chapter-name": "第六章 上不上钩",
+               "chapter-checked": false
+            }
+         ]
+      },
+      {
+         "book_id": 1,
+         "book_type": "novel",
+         "book_title": "天下第一妃",
+         "book_author": "鸭圣婆",
+         "book_cate": "历史言情",
+         "book_isEnd": false,
+         "book_num": 9,
+         "book_price": 169,
+         "book_checked": false,
+         "book_img": "https://www.cc148.com/files/article/image/24/24104/24104s.jpg",
+         "detail": [
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 自告奋勇",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 穿越花轿",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 替你而活",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 给你好看",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 王爷抱我",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 6,
+               "chapter-name": "第六章 上不上钩",
+               "chapter-checked": false
+            }
+         ]
+      },
+      {
+         "book_id": 2,
+         "book_type": "novel",
+         "book_title": "遮天",
+         "book_author": "辰东",
+         "book_cate": "玄幻",
+         "book_isEnd": true,
+         "book_num": 20,
+         "book_price": 179,
+         "book_checked": false,
+         "book_img": "http://www.paoshu8.com/files/article/image/1/1011/1011s.jpg",
+         "detail": [
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 星空中的青铜巨棺",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 素问",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 今昔",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 荒古铜刻",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 李小曼",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 6,
+               "chapter-name": "第六章 封禅之地",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 7,
+               "chapter-name": "第七章 五色土坛",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 8,
+               "chapter-name": "第八章 星空古路",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 9,
+               "chapter-name": "第九章 铜棺内第三十人",
+               "chapter-checked": false
+            }
+         ]
+      },
+      {
+         "book_id": 3,
+         "book_type": "novel",
+         "book_title": "斗破苍穹",
+         "book_author": "天蚕土豆",
+         "book_cate": "玄幻",
+         "book_isEnd": true,
+         "book_num": 19,
+         "book_price": 189,
+         "book_checked": false,
+         "book_img": "https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1714022596,3570728104&fm=179&app=35&f=JPEG?w=267&h=356&s=8111C5307F9247E35DC8A1C30300A0B7",
+         "detail": [
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 陨落的天才",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 斗气大陆",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 客人",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 云岚宗",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 聚气散",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 6,
+               "chapter-name": "第六章 炼药师",
+               "chapter-checked": false
+            }
+         ]
+      },
+      {
+         "book_id": 4,
+         "book_type": "novel",
+         "book_title": "雪中悍刀行",
+         "book_author": "烽火戏诸侯",
+         "book_cate": "历史玄侠",
+         "book_isEnd": true,
+         "book_num": 12,
+         "book_price": 69,
+         "book_checked": false,
+         "book_img": "https://www.12zw.com/d/image/0/761/761s.jpg",
+         "detail": [
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 小二上酒",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 白狐儿脸",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 两个酒窝",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 去那座山摘山楂",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 天下第一美人",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 6,
+               "chapter-name": "第六章 走一个",
+               "chapter-checked": false
+            }
+         ]
+      },
+      {
+         "book_id": 5,
+         "book_type": "novel",
+         "book_title": "神墓",
+         "book_author": "辰东",
+         "book_cate": "玄幻奇幻",
+         "book_isEnd": true,
+         "book_num": 11,
+         "book_price": 77,
+         "book_checked": false,
+         "book_img": "https://www.booktxt.net/files/article/image/1/1239/1239s.jpg",
+         "detail": [
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 1,
+               "chapter-name": "第一章 远古神墓",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 2,
+               "chapter-name": "第二章 惊艳",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 3,
+               "chapter-name": "第三章 小恶魔公主",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 4,
+               "chapter-name": "第四章 后羿屠龙",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 5,
+               "chapter-name": "第五章 暗战",
+               "chapter-checked": false
+            },
+            {
+               "chapter-id": 6,
+               "chapter-name": "第六章 血战惊魂",
+               "chapter-checked": false
+            }
+         ]
+      },
+      {
+         "book_id": 6,
+         "book_img": "http://www.vipxs.la/files/article/image/8/8846/8846s.jpg",
+         "book_title": "不朽凡人",
+         "book_type": "novel",
+         "book_author": "鹅是老五",
+         "book_intro": "我，只有凡根，一介凡人！我，叫莫无忌！我，要不朽",
+         "book_checked": false,
+         "book_cate": "玄幻奇幻",
+         "detail": [
+            {
+               "chapter-id": 1,
+               "chapter-checked": false,
+               "chapter-name": "第一章 落魄王子",
+               "href": "/8_8846/4596946.html"
+            },
+            {
+               "chapter-id": 2,
+               "chapter-checked": false,
+               "chapter-name": "第二章 活着的艰难",
+               "href": "/8_8846/4596947.html"
+            },
+            {
+               "chapter-id": 3,
+               "chapter-checked": false,
+               "chapter-name": "第三章 只是凡根",
+               "href": "/8_8846/4596948.html"
+            },
+            {
+               "chapter-id": 4,
+               "chapter-checked": false,
+               "chapter-name": "第四章 一饭之恩",
+               "href": "/8_8846/4596949.html"
+            },
+            {
+               "chapter-id": 5,
+               "chapter-checked": false,
+               "chapter-name": "第五章 有些事情我很忌",
+               "href": "/8_8846/4596950.html"
+            },
+            {
+               "chapter-id": 6,
+               "chapter-checked": false,
+               "chapter-name": "第六章 丹汉炼药",
+               "href": "/8_8846/4596951.html"
+            },
+            {
+               "chapter-id": 7,
+               "chapter-checked": false,
+               "chapter-name": "第七章 首席炼药师",
+               "href": "/8_8846/4596952.html"
+            },
+            {
+               "chapter-id": 8,
+               "chapter-checked": false,
+               "chapter-name": "第八章 极品灵根",
+               "href": "/8_8846/4596953.html"
+            },
+            {
+               "chapter-id": 9,
+               "chapter-checked": false,
+               "chapter-name": "第九章 无实力无尊严",
+               "href": "/8_8846/4596954.html"
+            },
+            {
+               "chapter-id": 10,
+               "chapter-checked": false,
+               "chapter-name": "第十章 一线曙光",
+               "href": "/8_8846/4596955.html"
+            },
+            {
+               "chapter-id": 11,
+               "chapter-checked": false,
+               "chapter-name": "第十一章 就是你了",
+               "href": "/8_8846/4596956.html"
+            },
+            {
+               "chapter-id": 12,
+               "chapter-checked": false,
+               "chapter-name": "第十二章 将轰动炼药界",
+               "href": "/8_8846/4596957.html"
+            },
+            {
+               "chapter-id": 13,
+               "chapter-checked": false,
+               "chapter-name": "第十三章 莫无忌的担忧",
+               "href": "/8_8846/4596958.html"
+            },
+            {
+               "chapter-id": 14,
+               "chapter-checked": false,
+               "chapter-name": "第十四章 轰动的九命疗伤",
+               "href": "/8_8846/4596959.html"
+            },
+            {
+               "chapter-id": 15,
+               "chapter-checked": false,
+               "chapter-name": "第十五章 火爆再现",
+               "href": "/8_8846/4596960.html"
+            },
+            {
+               "chapter-id": 16,
+               "chapter-checked": false,
+               "chapter-name": "第十六章 开拓经脉",
+               "href": "/8_8846/4596961.html"
+            },
+            {
+               "chapter-id": 17,
+               "chapter-checked": false,
+               "chapter-name": "第十七章 功亏一篑",
+               "href": "/8_8846/4596962.html"
+            },
+            {
+               "chapter-id": 18,
+               "chapter-checked": false,
+               "chapter-name": "第十八章 终于明白",
+               "href": "/8_8846/4596963.html"
+            },
+            {
+               "chapter-id": 19,
+               "chapter-checked": false,
+               "chapter-name": "第十九章 推出去杀了",
+               "href": "/8_8846/4596964.html"
+            },
+            {
+               "chapter-id": 20,
+               "chapter-checked": false,
+               "chapter-name": "第二十章 生死之间",
+               "href": "/8_8846/4596965.html"
+            },
+            {
+               "chapter-id": 21,
+               "chapter-checked": false,
+               "chapter-name": "第二十一章 寻找退路",
+               "href": "/8_8846/4596966.html"
+            },
+            {
+               "chapter-id": 22,
+               "chapter-checked": false,
+               "chapter-name": "第二十二章 加入寒府",
+               "href": "/8_8846/4596967.html"
+            },
+            {
+               "chapter-id": 23,
+               "chapter-checked": false,
+               "chapter-name": "第二十三章 你就是莫无忌？",
+               "href": "/8_8846/4596968.html"
+            },
+            {
+               "chapter-id": 24,
+               "chapter-checked": false,
+               "chapter-name": "第二十四章 雷雾森林",
+               "href": "/8_8846/4596969.html"
+            },
+            {
+               "chapter-id": 25,
+               "chapter-checked": false,
+               "chapter-name": "第二十五章 被逼入雷雾森林",
+               "href": "/8_8846/4596970.html"
+            },
+            {
+               "chapter-id": 26,
+               "chapter-checked": false,
+               "chapter-name": "第二十六章 雷雾森林的雷泽",
+               "href": "/8_8846/4596972.html"
+            },
+            {
+               "chapter-id": 27,
+               "chapter-checked": false,
+               "chapter-name": "第二十七章 损失惨重",
+               "href": "/8_8846/4596972.html"
+            },
+            {
+               "chapter-id": 28,
+               "chapter-checked": false,
+               "chapter-name": "第二十八章 找上门来",
+               "href": "/8_8846/4596973.html"
+            },
+            {
+               "chapter-id": 29,
+               "chapter-checked": false,
+               "chapter-name": "第二十九章 小心谨慎",
+               "href": "/8_8846/4596974.html"
+            },
+            {
+               "chapter-id": 30,
+               "chapter-checked": false,
+               "chapter-name": "第三十章 离开饶州",
+               "href": "/8_8846/4596975.html"
+            },
+            {
+               "chapter-id": 31,
+               "chapter-checked": false,
+               "chapter-name": "第三十一章 莫无忌的改变",
+               "href": "/8_8846/4596976.html"
+            },
+            {
+               "chapter-id": 32,
+               "chapter-checked": false,
+               "chapter-name": "第三十二章 道不同",
+               "href": "/8_8846/4596977.html"
+            },
+            {
+               "chapter-id": 33,
+               "chapter-checked": false,
+               "chapter-name": "第三十三章 朋友的酒",
+               "href": "/8_8846/4596978.html"
+            },
+            {
+               "chapter-id": 34,
+               "chapter-checked": false,
+               "chapter-name": "第三十四章 海边散市",
+               "href": "/8_8846/4596979.html"
+            },
+            {
+               "chapter-id": 35,
+               "chapter-checked": false,
+               "chapter-name": "第三十五章 散市女奴",
+               "href": "/8_8846/4600975.html"
+            },
+            {
+               "chapter-id": 36,
+               "chapter-checked": false,
+               "chapter-name": "第三十六章 莫家女人",
+               "href": "/8_8846/4600976.html"
+            },
+            {
+               "chapter-id": 37,
+               "chapter-checked": false,
+               "chapter-name": "第三十七章 灭门",
+               "href": "/8_8846/4602534.html"
+            },
+            {
+               "chapter-id": 38,
+               "chapter-checked": false,
+               "chapter-name": "第三十八章 救人",
+               "href": "/8_8846/4603804.html"
+            },
+            {
+               "chapter-id": 39,
+               "chapter-checked": false,
+               "chapter-name": "第三十九章 追杀",
+               "href": "/8_8846/4604290.html"
+            },
+            {
+               "chapter-id": 40,
+               "chapter-checked": false,
+               "chapter-name": "第四十章 别离",
+               "href": "/8_8846/46064095.html"
+            },
+            {
+               "chapter-id": 41,
+               "chapter-checked": false,
+               "chapter-name": "第四十一章 名额被夺",
+               "href": "/8_8846/4607238.html"
+            },
+            {
+               "chapter-id": 42,
+               "chapter-checked": false,
+               "chapter-name": "第四十二章 救命之恩救命还（求推荐票）",
+               "href": "/8_8846/4608375.html"
+            },
+            {
+               "chapter-id": 43,
+               "chapter-checked": false,
+               "chapter-name": "第四十三章 莫无忌的实力",
+               "href": "/8_8846/4608376.html"
+            },
+            {
+               "chapter-id": 44,
+               "chapter-checked": false,
+               "chapter-name": "第四十四章 遭遇海妖围攻",
+               "href": "/8_8846/4608924.html"
+            },
+            {
+               "chapter-id": 45,
+               "chapter-checked": false,
+               "chapter-name": "第四十五章 有种的人",
+               "href": "/8_8846/46400053.html"
+            },
+            {
+               "chapter-id": 46,
+               "chapter-checked": false,
+               "chapter-name": "第四十六章 借雷杀敌",
+               "href": "/8_8846/46400054.html"
+            },
+            {
+               "chapter-id": 47,
+               "chapter-checked": false,
+               "chapter-name": "第四十七章 洛海商楼的贡献分",
+               "href": "/8_8846/464040770.html"
+            },
+            {
+               "chapter-id": 48,
+               "chapter-checked": false,
+               "chapter-name": "第四十八章 帝都长洛城",
+               "href": "/8_8846/4640407740.html"
+            },
+            {
+               "chapter-id": 49,
+               "chapter-checked": false,
+               "chapter-name": "第四十九章 入住天洛酒楼",
+               "href": "/8_8846/4612386.html"
+            },
+            {
+               "chapter-id": 50,
+               "chapter-checked": false,
+               "chapter-name": "第五十章 不朽凡人诀",
+               "href": "/8_8846/46504005.html"
+            },
+            {
+               "chapter-id": 51,
+               "chapter-checked": false,
+               "chapter-name": "第五十一章 练气基础",
+               "href": "/8_8846/46505289.html"
+            },
+            {
+               "chapter-id": 52,
+               "chapter-checked": false,
+               "chapter-name": "第五十二章 希望越大，失望越大",
+               "href": "/8_8846/46506630.html"
+            },
+            {
+               "chapter-id": 53,
+               "chapter-checked": false,
+               "chapter-name": "第五十三章 初窥修炼",
+               "href": "/8_8846/46507838.html"
+            },
+            {
+               "chapter-id": 54,
+               "chapter-checked": false,
+               "chapter-name": "第五十四章 十个呼吸",
+               "href": "/8_8846/46507839.html"
+            },
+            {
+               "chapter-id": 55,
+               "chapter-checked": false,
+               "chapter-name": "第五十五章 拓脉一层",
+               "href": "/8_8846/465088250.html"
+            },
+            {
+               "chapter-id": 56,
+               "chapter-checked": false,
+               "chapter-name": "第五十六章 昂贵的炼药设备",
+               "href": "/8_8846/4620003.html"
+            },
+            {
+               "chapter-id": 57,
+               "chapter-checked": false,
+               "chapter-name": "第五十七章 始终都是朋友",
+               "href": "/8_8846/4620889.html"
+            },
+            {
+               "chapter-id": 58,
+               "chapter-checked": false,
+               "chapter-name": "第五十八章 组队出海",
+               "href": "/8_8846/46235033.html"
+            },
+            {
+               "chapter-id": 59,
+               "chapter-checked": false,
+               "chapter-name": "第五十九章 单枪匹马",
+               "href": "/8_8846/4623900.html"
+            },
+            {
+               "chapter-id": 60,
+               "chapter-checked": false,
+               "chapter-name": "第六十章 有实力才有尊敬",
+               "href": "/8_8846/4624694.html"
+            },
+            {
+               "chapter-id": 61,
+               "chapter-checked": false,
+               "chapter-name": "第六十一章 大度（求推荐票）",
+               "href": "/8_8846/4625095.html"
+            },
+            {
+               "chapter-id": 62,
+               "chapter-checked": false,
+               "chapter-name": "第六十二章 跃仙门大会",
+               "href": "/8_8846/4625752.html"
+            },
+            {
+               "chapter-id": 63,
+               "chapter-checked": false,
+               "chapter-name": "第六十三章 揪心的相遇",
+               "href": "/8_8846/46276274.html"
+            },
+            {
+               "chapter-id": 64,
+               "chapter-checked": false,
+               "chapter-name": "第六十四章 丹师九品",
+               "href": "/8_8846/4628607.html"
+            },
+            {
+               "chapter-id": 65,
+               "chapter-checked": false,
+               "chapter-name": "第六十五章 无字丹书",
+               "href": "/8_8846/4629720.html"
+            },
+            {
+               "chapter-id": 66,
+               "chapter-checked": false,
+               "chapter-name": "第六十六章 凶手",
+               "href": "/8_8846/4633266.html"
+            },
+            {
+               "chapter-id": 67,
+               "chapter-checked": false,
+               "chapter-name": "第六十七章 加入仙门",
+               "href": "/8_8846/4634685.html"
+            },
+            {
+               "chapter-id": 68,
+               "chapter-checked": false,
+               "chapter-name": "第六十八章 血藕湖",
+               "href": "/8_8846/4637434.html"
+            },
+            {
+               "chapter-id": 69,
+               "chapter-checked": false,
+               "chapter-name": "第六十九章 诡异的丹书",
+               "href": "/8_8846/4638829.html"
+            },
+            {
+               "chapter-id": 70,
+               "chapter-checked": false,
+               "chapter-name": "第七十章 暗中出手",
+               "href": "/8_8846/4640012.html"
+            },
+            {
+               "chapter-id": 71,
+               "chapter-checked": false,
+               "chapter-name": "第七十一章 石丹师的狗爬式",
+               "href": "/8_8846/4640893.html"
+            },
+            {
+               "chapter-id": 72,
+               "chapter-checked": false,
+               "chapter-name": "第七十二章 拒绝好意",
+               "href": "/8_8846/4646254.html"
+            },
+            {
+               "chapter-id": 73,
+               "chapter-checked": false,
+               "chapter-name": "第七十三章 临行安排",
+               "href": "/8_8846/4646838.html"
+            },
+            {
+               "chapter-id": 74,
+               "chapter-checked": false,
+               "chapter-name": "第七十四章 五行荒域",
+               "href": "/8_8846/4648899.html"
+            },
+            {
+               "chapter-id": 75,
+               "chapter-checked": false,
+               "chapter-name": "第七十五章 石丹师的惊慌",
+               "href": "/8_8846/46489071.html"
+            },
+            {
+               "chapter-id": 76,
+               "chapter-checked": false,
+               "chapter-name": "第七十六章 人无贵贱，品有高低",
+               "href": "/8_8846/465717106.html"
+            },
+            {
+               "chapter-id": 77,
+               "chapter-checked": false,
+               "chapter-name": "第七十七章 进入剑山淘汰赛",
+               "href": "/8_8846/4652892.html"
+            },
+            {
+               "chapter-id": 78,
+               "chapter-checked": false,
+               "chapter-name": "第七十八章 变故",
+               "href": "/8_8846/46547710.html"
+            },
+            {
+               "chapter-id": 79,
+               "chapter-checked": false,
+               "chapter-name": "第七十九章 再晋级，一品人丹师",
+               "href": "/8_8846/4656517.html"
+            },
+            {
+               "chapter-id": 80,
+               "chapter-checked": false,
+               "chapter-name": "第八十章 被剥夺生机的殷浅茵",
+               "href": "/8_8846/4658777.html"
+            },
+            {
+               "chapter-id": 81,
+               "chapter-checked": false,
+               "chapter-name": "第八十一章 敢不敢搏",
+               "href": "/8_8846/4658778.html"
+            },
+            {
+               "chapter-id": 82,
+               "chapter-checked": false,
+               "chapter-name": "第八十二章 决定联手",
+               "href": "/8_8846/4660633.html"
+            },
+            {
+               "chapter-id": 83,
+               "chapter-checked": false,
+               "chapter-name": "第八十三章 殷浅茵的震惊",
+               "href": "/8_8846/466809807.html"
+            },
+            {
+               "chapter-id": 84,
+               "chapter-checked": false,
+               "chapter-name": "第八十四章 噬生兽",
+               "href": "/8_8846/46626808.html"
+            },
+            {
+               "chapter-id": 85,
+               "chapter-checked": false,
+               "chapter-name": "第八十五章 生机昙花丹",
+               "href": "/8_8846/4663558.html"
+            },
+            {
+               "chapter-id": 86,
+               "chapter-checked": false,
+               "chapter-name": "第八十六章 半截断剑",
+               "href": "/8_8846/46648092.html"
+            },
+            {
+               "chapter-id": 87,
+               "chapter-checked": false,
+               "chapter-name": "第八十七章 莫落曲的传承",
+               "href": "/8_8846/4666233.html"
+            },
+            {
+               "chapter-id": 88,
+               "chapter-checked": false,
+               "chapter-name": "第八十八章 客卿丹师",
+               "href": "/8_8846/46674806.html"
+            },
+            {
+               "chapter-id": 89,
+               "chapter-checked": false,
+               "chapter-name": "第八十九章 找上门来的狠人",
+               "href": "/8_8846/4669371.html"
+            },
+            {
+               "chapter-id": 90,
+               "chapter-checked": false,
+               "chapter-name": "第九十章 一根铁棍",
+               "href": "/8_8846/4669372.html"
+            },
+            {
+               "chapter-id": 91,
+               "chapter-checked": false,
+               "chapter-name": "第九十一章 斗转星移",
+               "href": "/8_8846/46790074.html"
+            },
+            {
+               "chapter-id": 92,
+               "chapter-checked": false,
+               "chapter-name": "第九十一章 藕剑峰",
+               "href": "/8_8846/46790075.html"
+            },
+            {
+               "chapter-id": 93,
+               "chapter-checked": false,
+               "chapter-name": "第九十三章 拓脉四层",
+               "href": "/8_8846/46746390.html"
+            },
+            {
+               "chapter-id": 94,
+               "chapter-checked": false,
+               "chapter-name": "第九十四章 诡异的悬剑崖",
+               "href": "/8_8846/4674632.html"
+            },
+            {
+               "chapter-id": 95,
+               "chapter-checked": false,
+               "chapter-name": "第九十五章 麻烦上门",
+               "href": "/8_8846/4675440.html"
+            },
+            {
+               "chapter-id": 96,
+               "chapter-checked": false,
+               "chapter-name": "第九十六章 殷浅茵的目的",
+               "href": "/8_8846/4680796.html"
+            },
+            {
+               "chapter-id": 97,
+               "chapter-checked": false,
+               "chapter-name": "第九十七章 她救了你一命",
+               "href": "/8_8846/4680797.html"
+            },
+            {
+               "chapter-id": 98,
+               "chapter-checked": false,
+               "chapter-name": "第九十八章 边城仙炼塔",
+               "href": "/8_8846/4680798.html"
+            },
+            {
+               "chapter-id": 99,
+               "chapter-checked": false,
+               "chapter-name": "第九十九章 边城仙炼塔",
+               "href": "/8_8846/4682473.html"
+            },
+            {
+               "chapter-id": 100,
+               "chapter-checked": false,
+               "chapter-name": "第一百章 活着就是赚到",
+               "href": "/8_8846/4683135.html"
+            },
+            {
+               "chapter-id": 101,
+               "chapter-checked": false,
+               "chapter-name": "第一百零一章 升级药方",
+               "href": "/8_8846/4684013.html"
+            },
+            {
+               "chapter-id": 102,
+               "chapter-checked": false,
+               "chapter-name": "第一百零二章 受到连累",
+               "href": "/8_8846/4684634.html"
+            },
+            {
+               "chapter-id": 103,
+               "chapter-checked": false,
+               "chapter-name": "第一百零三章 好心有好报",
+               "href": "/8_8846/4686000.html"
+            },
+            {
+               "chapter-id": 104,
+               "chapter-checked": false,
+               "chapter-name": "第一百零四章 惊喜的丹方",
+               "href": "/8_8846/4686426.html"
+            },
+            {
+               "chapter-id": 105,
+               "chapter-checked": false,
+               "chapter-name": "第一百零五章 欺上门来",
+               "href": "/8_8846/4686624.html"
+            },
+            {
+               "chapter-id": 106,
+               "chapter-checked": false,
+               "chapter-name": "第一百零六章 胆大包天",
+               "href": "/8_8846/4687428.html"
+            },
+            {
+               "chapter-id": 107,
+               "chapter-checked": false,
+               "chapter-name": "第一百零七章 宝血藕",
+               "href": "/8_8846/4687429.html"
+            },
+            {
+               "chapter-id": 108,
+               "chapter-checked": false,
+               "chapter-name": "第一百零八章 再炼开脉药液",
+               "href": "/8_8846/4688997.html"
+            },
+            {
+               "chapter-id": 109,
+               "chapter-checked": false,
+               "chapter-name": "第一百零九章 二入雷炼室",
+               "href": "/8_8846/46895102.html"
+            },
+            {
+               "chapter-id": 110,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十章 实力狂飙",
+               "href": "/8_8846/46895113.html"
+            },
+            {
+               "chapter-id": 111,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十一章 神念力量",
+               "href": "/8_8846/46895114.html"
+            },
+            {
+               "chapter-id": 112,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十二章 东窗事发",
+               "href": "/8_8846/4690298.html"
+            },
+            {
+               "chapter-id": 113,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十三章 玖月丹阁（为第一盟万年青加更）",
+               "href": "/8_8846/4690299.html"
+            },
+            {
+               "chapter-id": 114,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十四章 柳暗花明",
+               "href": "/8_8846/46933511.html"
+            },
+            {
+               "chapter-id": 115,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十五章 玲珑婆婆要的东西",
+               "href": "/8_8846/4693352.html"
+            },
+            {
+               "chapter-id": 116,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十六章 二阁主（第二盟耳根加）",
+               "href": "/8_8846/4695000.html"
+            },
+            {
+               "chapter-id": 117,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十七章 丹师交流会",
+               "href": "/8_8846/4697073.html"
+            },
+            {
+               "chapter-id": 118,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十八章 贡献最大的丹师",
+               "href": "/8_8846/4697074.html"
+            },
+            {
+               "chapter-id": 119,
+               "chapter-checked": false,
+               "chapter-name": "第一百一十九章 瞬间反转（为三盟老姐加）",
+               "href": "/8_8846/4698459.html"
+            },
+            {
+               "chapter-id": 120,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十章 五行丹比开始",
+               "href": "/8_8846/4699788.html"
+            },
+            {
+               "chapter-id": 121,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十一章 艰难的第一题",
+               "href": "/8_8846/47000912.html"
+            },
+            {
+               "chapter-id": 122,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十二章 世事无常（为第四盟一醉青松加更）",
+               "href": "/8_8846/47021259.html"
+            },
+            {
+               "chapter-id": 123,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十三章 傻眼的第二题",
+               "href": "/8_8846/47025612.html"
+            },
+            {
+               "chapter-id": 124,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十四章 修炼也有生命",
+               "href": "/8_8846/4703829.html"
+            },
+            {
+               "chapter-id": 125,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十五章 632号（为第五盟夜枫喑加更）",
+               "href": "/8_8846/47053123.html"
+            },
+            {
+               "chapter-id": 126,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十六章 第三轮比赛",
+               "href": "/8_8846/4705883.html"
+            },
+            {
+               "chapter-id": 127,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十七章 五行丹比结束",
+               "href": "/8_8846/4705884.html"
+            },
+            {
+               "chapter-id": 128,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十八章 火热的手环（为第六盟羽丶Kai加更）",
+               "href": "/8_8846/4708792.html"
+            },
+            {
+               "chapter-id": 129,
+               "chapter-checked": false,
+               "chapter-name": "第一百二十九章 别人眼中的莫无忌",
+               "href": "/8_8846/4708793.html"
+            },
+            {
+               "chapter-id": 130,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十章 出售五行荒域手环",
+               "href": "/8_8846/4708794.html"
+            },
+            {
+               "chapter-id": 131,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十一章 唯道阁拍卖（为七盟道道加）",
+               "href": "/8_8846/4708795.html"
+            },
+            {
+               "chapter-id": 132,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十二章 被人威胁了",
+               "href": "/8_8846/4709609.html"
+            },
+            {
+               "chapter-id": 133,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十三章 要命的天雷七式",
+               "href": "/8_8846/4709890.html"
+            },
+            {
+               "chapter-id": 134,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十四章 进入五行荒域（为第九盟浅笑菲菲加）",
+               "href": "/8_8846/471313334.html"
+            },
+            {
+               "chapter-id": 135,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十五章 吓的不轻",
+               "href": "/8_8846/471313665.html"
+            },
+            {
+               "chapter-id": 136,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十六章 仇人见面",
+               "href": "/8_8846/471313925.html"
+            },
+            {
+               "chapter-id": 137,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十七章 我想灭你好久了",
+               "href": "/8_8846/47133459.html"
+            },
+            {
+               "chapter-id": 138,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十八章 天魔宗侯玉乘（为第八盟人生所为加更）",
+               "href": "/8_8846/47134349.html"
+            },
+            {
+               "chapter-id": 139,
+               "chapter-checked": false,
+               "chapter-name": "第一百三十九章 高不见顶的冰峰",
+               "href": "/8_8846/4714610.html"
+            },
+            {
+               "chapter-id": 140,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十章 我从小爱帮人（为第十盟1431445200052加更）",
+               "href": "/8_8846/47145922.html"
+            },
+            {
+               "chapter-id": 141,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十一章 一个好人",
+               "href": "/8_8846/47146464.html"
+            },
+            {
+               "chapter-id": 142,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十二章 储物戒指和铜钥匙",
+               "href": "/8_8846/47146695.html"
+            },
+            {
+               "chapter-id": 143,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十三章 可怖的冰寒（为第十一盟wska0014加）",
+               "href": "/8_8846/47147632.html"
+            },
+            {
+               "chapter-id": 144,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十四章 小鸡条和储星子",
+               "href": "/8_8846/47147949.html"
+            },
+            {
+               "chapter-id": 145,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十五章 监控阵纹",
+               "href": "/8_8846/47148226.html"
+            },
+            {
+               "chapter-id": 146,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十六章 蕴府丹和蕴府草（为第十二盟梦熙岩加更）",
+               "href": "/8_8846/47149302.html"
+            },
+            {
+               "chapter-id": 147,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十七章 争夺灵芝",
+               "href": "/8_8846/471496142.html"
+            },
+            {
+               "chapter-id": 148,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十八章 无量锻魂晶",
+               "href": "/8_8846/47149863.html"
+            },
+            {
+               "chapter-id": 149,
+               "chapter-checked": false,
+               "chapter-name": "第一百四十九章 没有手环（为第十三盟神矩阵加更）",
+               "href": "/8_8846/47214184.html"
+            },
+            {
+               "chapter-id": 150,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十章 玲珑婆婆",
+               "href": "/8_8846/472150499.html"
+            },
+            {
+               "chapter-id": 151,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十一章 锻魂晶算什么东西",
+               "href": "/8_8846/472150735.html"
+            },
+            {
+               "chapter-id": 152,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十二章 就让她为自己活着",
+               "href": "/8_8846/4722763.html"
+            },
+            {
+               "chapter-id": 153,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十三章 晋级四品地丹师（为十四盟主落÷伍加更）",
+               "href": "/8_8846/472315063.html"
+            },
+            {
+               "chapter-id": 154,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十四章 问天学宫",
+               "href": "/8_8846/472515067.html"
+            },
+            {
+               "chapter-id": 155,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十五章 一批废物（为第十五盟五竹加更）",
+               "href": "/8_8846/472515068.html"
+            },
+            {
+               "chapter-id": 156,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十六章 问天城",
+               "href": "/8_8846/472615065.html"
+            },
+            {
+               "chapter-id": 157,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十七章 困难重重",
+               "href": "/8_8846/472615066.html"
+            },
+            {
+               "chapter-id": 158,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十八章 艰难的成功（为十六盟叫我等待加）",
+               "href": "/8_8846/472615067.html"
+            },
+            {
+               "chapter-id": 159,
+               "chapter-checked": false,
+               "chapter-name": "第一百五十九章 你进去必死",
+               "href": "/8_8846/472615068.html"
+            },
+            {
+               "chapter-id": 160,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十章 岑书音的请求",
+               "href": "/8_8846/4726169.html"
+            },
+            {
+               "chapter-id": 161,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十一章 开辟一个时代",
+               "href": "/8_8846/472616170.html"
+            },
+            {
+               "chapter-id": 162,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十二章 哪里来的外门弟子",
+               "href": "/8_8846/4728738.html"
+            },
+            {
+               "chapter-id": 163,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十三章 储元络（为第十七盟archicad加更）",
+               "href": "/8_8846/4729584.html"
+            },
+            {
+               "chapter-id": 164,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十四章 问天学宫丹塔（为第十八盟高Big松加更）",
+               "href": "/8_8846/4732349.html"
+            },
+            {
+               "chapter-id": 165,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十五章 失落天墟和天络花",
+               "href": "/8_8846/473301610.html"
+            },
+            {
+               "chapter-id": 166,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十六章 截杀",
+               "href": "/8_8846/4733409.html"
+            },
+            {
+               "chapter-id": 167,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十七章 说了别来惹我（为十九盟主折羽鸿鹄加）",
+               "href": "/8_8846/4736635.html"
+            },
+            {
+               "chapter-id": 168,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十八章 失落天墟的地下交易",
+               "href": "/8_8846/4737230.html"
+            },
+            {
+               "chapter-id": 169,
+               "chapter-checked": false,
+               "chapter-name": "第一百六十九章 是隐世高人还是奸诈",
+               "href": "/8_8846/4737378.html"
+            },
+            {
+               "chapter-id": 170,
+               "chapter-checked": false,
+               "chapter-name": "第一百七十章 齐老实的算计（为第二十盟一楼~加）",
+               "href": "/8_8846/4738786.html"
+            },
+            {
+               "chapter-id": 171,
+               "chapter-checked": false,
+               "chapter-name": "第一百七十一章 齐老实的失误",
+               "href": "/8_8846/473917004.html"
+            },
+            {
+               "chapter-id": 172,
+               "chapter-checked": false,
+               "chapter-name": "第一百七十二章 恶心的虫子",
+               "href": "/8_8846/4739307.html"
+            },
+            {
+               "chapter-id": 173,
+               "chapter-checked": false,
+               "chapter-name": "第一百七十三章 天络花（为二十一盟王者总裁加）",
+               "href": "/8_8846/4746533.html"
+            },
+            {
+               "chapter-id": 174,
+               "chapter-checked": false,
+               "chapter-name": "第一百七十四章 筑灵",
+               "href": "/8_8846/4746534.html"
+            },
+            {
+               "chapter-id": 175,
+               "chapter-checked": false,
+               "chapter-name": "弟一百七十五章 仙葵",
+               "href": "/8_8846/4746802.html"
+            },
+            {
+               "chapter-id": 176,
+               "chapter-checked": false,
+               "chapter-name": "第一百七十六章 突飞猛进",
+               "href": "/8_8846/4747847.html"
+            },
+            {
+               "chapter-id": 177,
+               "chapter-checked": false,
+               "chapter-name": "第一百七十七章 联手杀元丹（为第二十二盟知zxhy加更）",
+               "href": "/8_8846/4747848.html"
+            },
+            {
+               "chapter-id": 178,
+               "chapter-checked": false,
+               "chapter-name": "第一百七十八章 骄傲不起来",
+               "href": "/8_8846/4749855.html"
+            },
+            {
+               "chapter-id": 179,
+               "chapter-checked": false,
+               "chapter-name": "第一百七十九章 域外飞船",
+               "href": "/8_8846/475170763.html"
+            },
+            {
+               "chapter-id": 180,
+               "chapter-checked": false,
+               "chapter-name": "第一百八十章 我永远都是你大哥",
+               "href": "/8_8846/4752590.html"
+            },
+            {
+               "chapter-id": 181,
+               "chapter-checked": false,
+               "chapter-name": "第一百八十一章 和岑书音的交易",
+               "href": "/8_8846/4752591.html"
+            },
+            {
+               "chapter-id": 182,
+               "chapter-checked": false,
+               "chapter-name": "第一百八十二章 脉络全开的修炼",
+               "href": "/8_8846/4752592.html"
+            },
+            {
+               "chapter-id": 183,
+               "chapter-checked": false,
+               "chapter-name": "第一百八十三章 莫无忌得意的事情",
+               "href": "/8_8846/4753603.html"
+            },
+            {
+               "chapter-id": 184,
+               "chapter-checked": false,
+               "chapter-name": "第一百八十四章 联盟贡献分",
+               "href": "/8_8846/4754322.html"
+            },
+            {
+               "chapter-id": 185,
+               "chapter-checked": false,
+               "chapter-name": "第一百八十五章 星汉帝国的老熟人",
+               "href": "/8_8846/4756388.html"
+            },
+            {
+               "chapter-id": 186,
+               "chapter-checked": false,
+               "chapter-name": "第一百八十六章 散修贡献分玉牌",
+               "href": "/8_8846/4756960.html"
+            },
+            {
+               "chapter-id": 187,
+               "chapter-checked": false,
+               "chapter-name": "第一百八十七章 落进敌窝",
+               "href": "/8_8846/475721884.html"
+            },
+            {
+               "chapter-id": 188,
+               "chapter-checked": false,
+               "chapter-name": "第一百八十八章 修士大战",
+               "href": "/8_8846/4758566.html"
+            }
+         ]
+      },
+      {
+         "book_id": 7,
+         "book_img": "http://www.vipxs.la/files/article/image/92/92695/92695s.jpg",
+         "book_title": "超神级科技帝国",
+         "book_type": "science",
+         "book_author": "石头成精",
+         "book_intro": "【爆笑都市科技无敌爽文】【都市重生+未来科技=一个人吊打全世界】科学的尽头是神学？是的，重生回来的陈浪比谁都清楚，在不久远的未来，世界毁灭的压力下，人类能爆发出多么强大的智慧和创造力。这是一个人人如龙，众生成神的时代，而陈浪，立志要做那众生之父，众神干爹！",
+         "book_checked": false,
+         "book_cate": "科技", 
+         "detail": [
+            {  
+               "chapter-id": 1,
+               "chapter-name": "第1章 长生",
+               "href": "/92_92695/31950839.html"
+            },
+            {  
+               "chapter-id": 2,
+               "chapter-name": "第2章 新的开始，众筹",
+               "href": "/92_92695/31950840.html"
+            },
+            {  
+               "chapter-id": 3,
+               "chapter-name": "第3章 你妈都饿的吃树皮了",
+               "href": "/92_92695/31950841.html"
+            },
+            {  
+               "chapter-id": 4,
+               "chapter-name": "第4章 都是套路！",
+               "href": "/92_92695/31950842.html"
+            },
+            {  
+               "chapter-id": 5,
+               "chapter-name": "第5章 老板心情复杂",
+               "href": "/92_92695/31950843.html"
+            },
+            {  
+               "chapter-id": 6,
+               "chapter-name": "第6章 从今天开始当老板！",
+               "href": "/92_92695/31950844.html"
+            },
+            {  
+               "chapter-id": 7,
+               "chapter-name": "第7章 第一轮更新",
+               "href": "/92_92695/31950845.html"
+            },
+            {  
+               "chapter-id": 8,
+               "chapter-name": "第8章 智脑，智能生命",
+               "href": "/92_92695/31950846.html"
+            },
+            {  
+               "chapter-id": 9,
+               "chapter-name": "第9章 信仰",
+               "href": "/92_92695/31950847.html"
+            },
+            {  
+               "chapter-id": 10,
+               "chapter-name": "第10章 老姜，够辣！",
+               "href": "/92_92695/31950848.html"
+            },
+            {  
+               "chapter-id": 11,
+               "chapter-name": "第11章 氪金吧少年",
+               "href": "/92_92695/31950849.html"
+            },
+            {  
+               "chapter-id": 12,
+               "chapter-name": "第12章 人心所向",
+               "href": "/92_92695/31950850.html"
+            },
+            {  
+               "chapter-id": 13,
+               "chapter-name": "第13章 氪不改命",
+               "href": "/92_92695/31950851.html"
+            },
+            {  
+               "chapter-id": 14,
+               "chapter-name": "第14章 这些人都贼特么有钱",
+               "href": "/92_92695/31950852.html"
+            },
+            {  
+               "chapter-id": 15,
+               "chapter-name": "第15章 财大气粗",
+               "href": "/92_92695/31950853.html"
+            },
+            {  
+               "chapter-id": 16,
+               "chapter-name": "第16章 核心技术",
+               "href": "/92_92695/31950854.html"
+            },
+            {  
+               "chapter-id": 17,
+               "chapter-name": "第17章 5G3+万物互联",
+               "href": "/92_92695/31950855.html"
+            },
+            {  
+               "chapter-id": 18,
+               "chapter-name": "第18章 万事开头难",
+               "href": "/92_92695/31950856.html"
+            },
+            {  
+               "chapter-id": 19,
+               "chapter-name": "第19章 咱们只是打工仔！",
+               "href": "/92_92695/31950857.html"
+            },
+            {  
+               "chapter-id": 20,
+               "chapter-name": "第20章 ‘黑脸汉子’",
+               "href": "/92_92695/31950858.html"
+            },
+            {  
+               "chapter-id": 21,
+               "chapter-name": "第21章 50个G",
+               "href": "/92_92695/31950859.html"
+            },
+            {  
+               "chapter-id": 22,
+               "chapter-name": "第22章 第二世界",
+               "href": "/92_92695/31950860.html"
+            },
+            {  
+               "chapter-id": 23,
+               "chapter-name": "第23章 【邀请计划】",
+               "href": "/92_92695/31950861.html"
+            },
+            {  
+               "chapter-id": 24,
+               "chapter-name": "第24章 这叫热血！",
+               "href": "/92_92695/31950862.html"
+            },
+            {  
+               "chapter-id": 25,
+               "chapter-name": "第25章 魔法世界，好玩不充钱！",
+               "href": "/92_92695/31950863.html"
+            },
+            {  
+               "chapter-id": 26,
+               "chapter-name": "第26章 猪厂鹅厂",
+               "href": "/92_92695/31950864.html"
+            },
+            {  
+               "chapter-id": 27,
+               "chapter-name": "第27章 首日6000万",
+               "href": "/92_92695/31950865.html"
+            },
+            {  
+               "chapter-id": 28,
+               "chapter-name": "第28章 然后中间难",
+               "href": "/92_92695/31950866.html"
+            },
+            {  
+               "chapter-id": 29,
+               "chapter-name": "第29章 她喜欢偷偷的哭",
+               "href": "/92_92695/31950867.html"
+            },
+            {  
+               "chapter-id": 30,
+               "chapter-name": "第30章 大佬准备下场",
+               "href": "/92_92695/31950868.html"
+            },
+            {  
+               "chapter-id": 31,
+               "chapter-name": "第31章 破局，平手",
+               "href": "/92_92695/31950869.html"
+            },
+            {  
+               "chapter-id": 32,
+               "chapter-name": "第32章 为什么叫第二世界",
+               "href": "/92_92695/31950870.html"
+            },
+            {  
+               "chapter-id": 33,
+               "chapter-name": "第33章 浪哥",
+               "href": "/92_92695/31950871.html"
+            },
+            {  
+               "chapter-id": 34,
+               "chapter-name": "第34章 女人都是善变的",
+               "href": "/92_92695/31950872.html"
+            },
+            {  
+               "chapter-id": 35,
+               "chapter-name": "第35章 我不要工资",
+               "href": "/92_92695/31950873.html"
+            },
+            {  
+               "chapter-id": 36,
+               "chapter-name": "第36章 龙首庄园",
+               "href": "/92_92695/31950874.html"
+            },
+            {  
+               "chapter-id": 37,
+               "chapter-name": "第37章 盛名之下无虚士",
+               "href": "/92_92695/31950875.html"
+            },
+            {  
+               "chapter-id": 38,
+               "chapter-name": "第38章 和大佬的第一次接触",
+               "href": "/92_92695/31950876.html"
+            },
+            {  
+               "chapter-id": 39,
+               "chapter-name": "第39章 商业鬼才？",
+               "href": "/92_92695/31950877.html"
+            },
+            {  
+               "chapter-id": 40,
+               "chapter-name": "第40章 两个目标",
+               "href": "/92_92695/31950878.html"
+            },
+            {  
+               "chapter-id": 41,
+               "chapter-name": "第41章 天鸿工业",
+               "href": "/92_92695/31950879.html"
+            },
+            {  
+               "chapter-id": 42,
+               "chapter-name": "第42章 老爷子牛逼",
+               "href": "/92_92695/31950880.html"
+            },
+            {  
+               "chapter-id": 43,
+               "chapter-name": "第43章 感谢刘大爷",
+               "href": "/92_92695/31950881.html"
+            },
+            {  
+               "chapter-id": 44,
+               "chapter-name": "第44章 陈浪火了",
+               "href": "/92_92695/31950882.html"
+            },
+            {  
+               "chapter-id": 45,
+               "chapter-name": "第45章 这就是现实",
+               "href": "/92_92695/31950883.html"
+            },
+            {  
+               "chapter-id": 46,
+               "chapter-name": "第46章 今天发福利！",
+               "href": "/92_92695/31950884.html"
+            },
+            {  
+               "chapter-id": 47,
+               "chapter-name": "第47章 在网上赚钱",
+               "href": "/92_92695/31950885.html"
+            },
+            {  
+               "chapter-id": 48,
+               "chapter-name": "第48章 全要了！",
+               "href": "/92_92695/31950886.html"
+            },
+            {  
+               "chapter-id": 49,
+               "chapter-name": "第49章 妈您知道保时捷么？",
+               "href": "/92_92695/31950887.html"
+            },
+            {  
+               "chapter-id": 50,
+               "chapter-name": "第50章 邀请函",
+               "href": "/92_92695/31950888.html"
+            },
+            {  
+               "chapter-id": 51,
+               "chapter-name": "第51章 老子有私人飞机",
+               "href": "/92_92695/31950889.html"
+            },
+            {  
+               "chapter-id": 52,
+               "chapter-name": "第52章 陈浪，陈总！",
+               "href": "/92_92695/31950890.html"
+            },
+            {  
+               "chapter-id": 53,
+               "chapter-name": "第53章 年轻真好",
+               "href": "/92_92695/31950891.html"
+            },
+            {  
+               "chapter-id": 54,
+               "chapter-name": "第54章 卖脸获取信任",
+               "href": "/92_92695/31950892.html"
+            },
+            {  
+               "chapter-id": 55,
+               "chapter-name": "第55章 来自大佬的指点",
+               "href": "/92_92695/31950893.html"
+            },
+            {  
+               "chapter-id": 56,
+               "chapter-name": "第56章 登临绝顶者",
+               "href": "/92_92695/31950894.html"
+            },
+            {  
+               "chapter-id": 57,
+               "chapter-name": "第57章 听天，由命！",
+               "href": "/92_92695/31950895.html"
+            },
+            {  
+               "chapter-id": 58,
+               "chapter-name": "第58章 公子耳卿",
+               "href": "/92_92695/31950896.html"
+            },
+            {  
+               "chapter-id": 59,
+               "chapter-name": "第59章 注意形象！",
+               "href": "/92_92695/31950897.html"
+            },
+            {  
+               "chapter-id": 60,
+               "chapter-name": "第60章 杭城陈爷",
+               "href": "/92_92695/31950898.html"
+            },
+            {  
+               "chapter-id": 61,
+               "chapter-name": "第61章 接受采访",
+               "href": "/92_92695/31950899.html"
+            },
+            {  
+               "chapter-id": 62,
+               "chapter-name": "第62章 年轻气盛？",
+               "href": "/92_92695/31950900.html"
+            },
+            {  
+               "chapter-id": 63,
+               "chapter-name": "第63章 长生之谜",
+               "href": "/92_92695/31950901.html"
+            },
+            {  
+               "chapter-id": 64,
+               "chapter-name": "第64章 相约打球",
+               "href": "/92_92695/31950902.html"
+            },
+            {  
+               "chapter-id": 65,
+               "chapter-name": "第65章 三十亿改造！",
+               "href": "/92_92695/31950903.html"
+            },
+            {  
+               "chapter-id": 66,
+               "chapter-name": "第66章 刘老头的师侄",
+               "href": "/92_92695/31950904.html"
+            },
+            {  
+               "chapter-id": 67,
+               "chapter-name": "第67章 身体不行",
+               "href": "/92_92695/31950905.html"
+            },
+            {  
+               "chapter-id": 68,
+               "chapter-name": "第68章 文明的断层时期",
+               "href": "/92_92695/31950906.html"
+            },
+            {  
+               "chapter-id": 69,
+               "chapter-name": "第69章 你可愿意当英雄？",
+               "href": "/92_92695/31950907.html"
+            },
+            {  
+               "chapter-id": 70,
+               "chapter-name": "第70章 封闭式工业基地",
+               "href": "/92_92695/31950908.html"
+            },
+            {  
+               "chapter-id": 71,
+               "chapter-name": "第71章 路子这么野？",
+               "href": "/92_92695/31950909.html"
+            },
+            {  
+               "chapter-id": 72,
+               "chapter-name": "第72章 人工智能启动",
+               "href": "/92_92695/31950910.html"
+            },
+            {  
+               "chapter-id": 73,
+               "chapter-name": "第73章 人对外界的认知，谓之科学。",
+               "href": "/92_92695/31950911.html"
+            },
+            {  
+               "chapter-id": 74,
+               "chapter-name": "第74章 败家子",
+               "href": "/92_92695/31950912.html"
+            },
+            {  
+               "chapter-id": 75,
+               "chapter-name": "第75章 老子要冲一个亿！",
+               "href": "/92_92695/31950913.html"
+            },
+            {  
+               "chapter-id": 76,
+               "chapter-name": "第76章 傲视群雄",
+               "href": "/92_92695/31950914.html"
+            },
+            {  
+               "chapter-id": 77,
+               "chapter-name": "第77章 强买强卖",
+               "href": "/92_92695/31950915.html"
+            },
+            {  
+               "chapter-id": 78,
+               "chapter-name": "第78章 《巅峰303》",
+               "href": "/92_92695/31950916.html"
+            },
+            {  
+               "chapter-id": 79,
+               "chapter-name": "第79章 放假，学车！",
+               "href": "/92_92695/31950917.html"
+            },
+            {  
+               "chapter-id": 80,
+               "chapter-name": "第80章 思想出了问题",
+               "href": "/92_92695/31950918.html"
+            },
+            {  
+               "chapter-id": 81,
+               "chapter-name": "第81章 来点彩头",
+               "href": "/92_92695/31950919.html"
+            },
+            {  
+               "chapter-id": 82,
+               "chapter-name": "第82章 厨王争霸赛",
+               "href": "/92_92695/31950920.html"
+            },
+            {  
+               "chapter-id": 83,
+               "chapter-name": "第83章 大道至简",
+               "href": "/92_92695/31950921.html"
+            },
+            {  
+               "chapter-id": 84,
+               "chapter-name": "第84章 陈总大气！",
+               "href": "/92_92695/31950922.html"
+            },
+            {  
+               "chapter-id": 85,
+               "chapter-name": "第85章 超级电池技术",
+               "href": "/92_92695/31950923.html"
+            },
+            {  
+               "chapter-id": 86,
+               "chapter-name": "第86章 我，理科高材生陈浪",
+               "href": "/92_92695/31950924.html"
+            },
+            {  
+               "chapter-id": 87,
+               "chapter-name": "第87章 汪汪汪！",
+               "href": "/92_92695/31950925.html"
+            },
+            {  
+               "chapter-id": 88,
+               "chapter-name": "第88章 我养他们",
+               "href": "/92_92695/31950926.html"
+            },
+            {  
+               "chapter-id": 89,
+               "chapter-name": "第89章 十日之约",
+               "href": "/92_92695/31950927.html"
+            },
+            {  
+               "chapter-id": 90,
+               "chapter-name": "第90章 你行你上！",
+               "href": "/92_92695/31950928.html"
+            },
+            {  
+               "chapter-id": 91,
+               "chapter-name": "第91章 智能科技展示",
+               "href": "/92_92695/31950929.html"
+            },
+            {  
+               "chapter-id": 92,
+               "chapter-name": "第92章 除非你再给我一碗！",
+               "href": "/92_92695/31950930.html"
+            },
+            {  
+               "chapter-id": 93,
+               "chapter-name": "第93章 七千五百万的抽奖活动",
+               "href": "/92_92695/31950931.html"
+            },
+            {  
+               "chapter-id": 94,
+               "chapter-name": "第94章 狂欢之夜",
+               "href": "/92_92695/31950932.html"
+            },
+            {  
+               "chapter-id": 95,
+               "chapter-name": "第95章 三级超特性合金",
+               "href": "/92_92695/31950933.html"
+            },
+            {  
+               "chapter-id": 96,
+               "chapter-name": "第96章 我有！",
+               "href": "/92_92695/31950934.html"
+            },
+            {  
+               "chapter-id": 97,
+               "chapter-name": "第97章 液态钢铁",
+               "href": "/92_92695/31950935.html"
+            },
+            {  
+               "chapter-id": 98,
+               "chapter-name": "第98章 超级加倍",
+               "href": "/92_92695/31950936.html"
+            },
+            {  
+               "chapter-id": 99,
+               "chapter-name": "第99章 星河标准",
+               "href": "/92_92695/31950937.html"
+            },
+            {  
+               "chapter-id": 100,
+               "chapter-name": "第100章 网络之神",
+               "href": "/92_92695/31950938.html"
+            },
+            {  
+               "chapter-id": 101,
+               "chapter-name": "第101章 拿我的黑金卡",
+               "href": "/92_92695/31950939.html"
+            },
+            {  
+               "chapter-id": 102,
+               "chapter-name": "第102章 就算一个亿也得办",
+               "href": "/92_92695/31950940.html"
+            },
+            {  
+               "chapter-id": 103,
+               "chapter-name": "第103章 看麒麟哥的手段",
+               "href": "/92_92695/31950941.html"
+            },
+            {  
+               "chapter-id": 104,
+               "chapter-name": "第104章 星河单兵套装",
+               "href": "/92_92695/31950942.html"
+            },
+            {  
+               "chapter-id": 105,
+               "chapter-name": "第105章 魔音炮",
+               "href": "/92_92695/31950943.html"
+            },
+            {  
+               "chapter-id": 106,
+               "chapter-name": "第106章 看我浪哥儿的大红包",
+               "href": "/92_92695/31950944.html"
+            },
+            {  
+               "chapter-id": 107,
+               "chapter-name": "第107章 超神科技",
+               "href": "/92_92695/31950945.html"
+            },
+            {  
+               "chapter-id": 108,
+               "chapter-name": "第108章 活太岁和魔法棒",
+               "href": "/92_92695/31950946.html"
+            },
+            {  
+               "chapter-id": 109,
+               "chapter-name": "第109章 小型重核聚变反应堆",
+               "href": "/92_92695/31950947.html"
+            },
+            {  
+               "chapter-id": 110,
+               "chapter-name": "第110章 天科能源",
+               "href": "/92_92695/31950948.html"
+            },
+            {  
+               "chapter-id": 111,
+               "chapter-name": "第111章 ‘新生’计划！",
+               "href": "/92_92695/31950949.html"
+            },
+            {  
+               "chapter-id": 112,
+               "chapter-name": "第112章 来自赵听云的打脸",
+               "href": "/92_92695/31950950.html"
+            },
+            {  
+               "chapter-id": 113,
+               "chapter-name": "第113章 厚积薄发",
+               "href": "/92_92695/31950951.html"
+            },
+            {  
+               "chapter-id": 114,
+               "chapter-name": "第114章 资产估值3100亿",
+               "href": "/92_92695/31950952.html"
+            },
+            {  
+               "chapter-id": 115,
+               "chapter-name": "第115章 虚拟现实",
+               "href": "/92_92695/31950953.html"
+            },
+            {  
+               "chapter-id": 116,
+               "chapter-name": "第116章 对未来充满信心",
+               "href": "/92_92695/31950954.html"
+            },
+            {  
+               "chapter-id": 117,
+               "chapter-name": "第117章 星空中的宝藏",
+               "href": "/92_92695/31950955.html"
+            },
+            {  
+               "chapter-id": 118,
+               "chapter-name": "第118章 引起轰动",
+               "href": "/92_92695/31950956.html"
+            },
+            {  
+               "chapter-id": 119,
+               "chapter-name": "第119章 风雨欲来",
+               "href": "/92_92695/31950957.html"
+            },
+            {  
+               "chapter-id": 120,
+               "chapter-name": "第120章 老子又抓到一只",
+               "href": "/92_92695/31950958.html"
+            },
+            {  
+               "chapter-id": 121,
+               "chapter-name": "第121章 竟然是你！！！",
+               "href": "/92_92695/31950959.html"
+            },
+            {  
+               "chapter-id": 122,
+               "chapter-name": "第122章 看我摔奶为号！",
+               "href": "/92_92695/31950960.html"
+            },
+            {  
+               "chapter-id": 123,
+               "chapter-name": "第123章 ‘戈与矛’",
+               "href": "/92_92695/31950961.html"
+            },
+            {  
+               "chapter-id": 124,
+               "chapter-name": "第124章 最锋利的矛",
+               "href": "/92_92695/31950962.html"
+            },
+            {  
+               "chapter-id": 125,
+               "chapter-name": "第125章 初代进化者",
+               "href": "/92_92695/31950963.html"
+            },
+            {  
+               "chapter-id": 126,
+               "chapter-name": "第126章 我，陈浪，有钱！",
+               "href": "/92_92695/31950964.html"
+            },
+            {  
+               "chapter-id": 127,
+               "chapter-name": "第127章 长生不老，牢底坐穿！",
+               "href": "/92_92695/31950965.html"
+            },
+            {  
+               "chapter-id": 128,
+               "chapter-name": "第128章 下个版本",
+               "href": "/92_92695/31950966.html"
+            },
+            {  
+               "chapter-id": 129,
+               "chapter-name": "第129章 关你屁事！",
+               "href": "/92_92695/31950967.html"
+            },
+            {  
+               "chapter-id": 130,
+               "chapter-name": "第130章 关爱智障",
+               "href": "/92_92695/31950968.html"
+            },
+            {  
+               "chapter-id": 131,
+               "chapter-name": "第131章 执行指令",
+               "href": "/92_92695/31950969.html"
+            },
+            {  
+               "chapter-id": 132,
+               "chapter-name": "第132章 给他绑了",
+               "href": "/92_92695/31950970.html"
+            },
+            {  
+               "chapter-id": 133,
+               "chapter-name": "第133章 我不要上学啊！",
+               "href": "/92_92695/31950971.html"
+            },
+            {  
+               "chapter-id": 134,
+               "chapter-name": "第134章 拒绝申请",
+               "href": "/92_92695/31950972.html"
+            },
+            {  
+               "chapter-id": 135,
+               "chapter-name": "第135章 新闻爆发",
+               "href": "/92_92695/31950973.html"
+            },
+            {  
+               "chapter-id": 136,
+               "chapter-name": "第136章 星河战机",
+               "href": "/92_92695/31950974.html"
+            },
+            {  
+               "chapter-id": 137,
+               "chapter-name": "第137章 游轮庆典",
+               "href": "/92_92695/31950975.html"
+            },
+            {  
+               "chapter-id": 138,
+               "chapter-name": "第138章 测试资格",
+               "href": "/92_92695/31950976.html"
+            },
+            {  
+               "chapter-id": 139,
+               "chapter-name": "第139章 拿去，不谢！",
+               "href": "/92_92695/31950977.html"
+            },
+            {  
+               "chapter-id": 140,
+               "chapter-name": "第140章 没钱了",
+               "href": "/92_92695/31950978.html"
+            },
+            {  
+               "chapter-id": 141,
+               "chapter-name": "第141章 #委屈",
+               "href": "/92_92695/31950979.html"
+            },
+            {  
+               "chapter-id": 142,
+               "chapter-name": "第142章 募集3000亿",
+               "href": "/92_92695/31950980.html"
+            },
+            {  
+               "chapter-id": 143,
+               "chapter-name": "第143章 辰皇",
+               "href": "/92_92695/31950981.html"
+            },
+            {  
+               "chapter-id": 144,
+               "chapter-name": "第144章 璀璨六芒星",
+               "href": "/92_92695/31950982.html"
+            },
+            {  
+               "chapter-id": 145,
+               "chapter-name": "第145章 版本更新",
+               "href": "/92_92695/31950983.html"
+            },
+            {  
+               "chapter-id": 146,
+               "chapter-name": "第146章 有人欢喜有人愁",
+               "href": "/92_92695/31950984.html"
+            },
+            {  
+               "chapter-id": 147,
+               "chapter-name": "第147章 超级智能系统",
+               "href": "/92_92695/31950985.html"
+            },
+            {  
+               "chapter-id": 148,
+               "chapter-name": "第148章 十块钱一年（求订阅）",
+               "href": "/92_92695/31950986.html"
+            },
+            {  
+               "chapter-id": 149,
+               "chapter-name": "第149章 颠覆生活体系（求订阅）",
+               "href": "/92_92695/31950987.html"
+            },
+            {  
+               "chapter-id": 150,
+               "chapter-name": "第150章 互联征信（求订阅）",
+               "href": "/92_92695/31950988.html"
+            },
+            {  
+               "chapter-id": 151,
+               "chapter-name": "第151章 效率太差（求订阅）",
+               "href": "/92_92695/31950989.html"
+            },
+            {  
+               "chapter-id": 152,
+               "chapter-name": "第152章 举起断龙石（求订阅）",
+               "href": "/92_92695/31950990.html"
+            },
+            {  
+               "chapter-id": 153,
+               "chapter-name": "第153章 狩猎活太岁（求订阅！）",
+               "href": "/92_92695/31950991.html"
+            },
+            {  
+               "chapter-id": 154,
+               "chapter-name": "第154章 生死有命（求订阅！）",
+               "href": "/92_92695/31950992.html"
+            },
+            {  
+               "chapter-id": 155,
+               "chapter-name": "第155章 手机产业大会（求订阅！）",
+               "href": "/92_92695/31950993.html"
+            },
+            {  
+               "chapter-id": 156,
+               "chapter-name": "第156章 虚拟游戏即将出现（求订阅）",
+               "href": "/92_92695/31950994.html"
+            },
+            {  
+               "chapter-id": 157,
+               "chapter-name": "第157章 1毛钱100G（求订阅）",
+               "href": "/92_92695/31950995.html"
+            },
+            {  
+               "chapter-id": 158,
+               "chapter-name": "第158章 太空基金？（求订阅）",
+               "href": "/92_92695/31950996.html"
+            },
+            {  
+               "chapter-id": 159,
+               "chapter-name": "第159章 一锅端（求订阅）",
+               "href": "/92_92695/31950997.html"
+            },
+            {  
+               "chapter-id": 160,
+               "chapter-name": "第160章 基因修复药剂（求订阅）",
+               "href": "/92_92695/31950998.html"
+            },
+            {  
+               "chapter-id": 161,
+               "chapter-name": "第161章 相亲？（求订阅！）",
+               "href": "/92_92695/31950999.html"
+            },
+            {  
+               "chapter-id": 162,
+               "chapter-name": "第162章 产品测试（求订阅）",
+               "href": "/92_92695/31951000.html"
+            },
+            {  
+               "chapter-id": 163,
+               "chapter-name": "第163章 这也太舒服了吧？（求订阅）",
+               "href": "/92_92695/31951001.html"
+            },
+            {  
+               "chapter-id": 164,
+               "chapter-name": "第164章 全部开除（求订阅）",
+               "href": "/92_92695/31951002.html"
+            },
+            {  
+               "chapter-id": 165,
+               "chapter-name": "第165章 生物基因（求订阅）",
+               "href": "/92_92695/31951003.html"
+            },
+            {  
+               "chapter-id": 166,
+               "chapter-name": "第166章 颠覆的开始（求订阅）",
+               "href": "/92_92695/31951004.html"
+            },
+            {  
+               "chapter-id": 167,
+               "chapter-name": "第167章 世界之王（求订阅）",
+               "href": "/92_92695/31951005.html"
+            },
+            {  
+               "chapter-id": 168,
+               "chapter-name": "第168章 帽子戴正（求订阅）",
+               "href": "/92_92695/31951006.html"
+            }
+         ]
+      }
+   ]
+}

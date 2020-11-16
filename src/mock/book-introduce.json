@@ -10,8 +10,8 @@
             "book_publish_company":"铁蛋文化传媒有限公司",
             "book_price":"1024元",
             "book_binding":"000",
-            "book_publish_year":"2020.02.02",
-            "img":"http://localhost:3000/static/media/details.810581e9.png",
+            "book_publish_year":"2020.03.03",
+            "img":"/img/index-list-2.png",
             "rating":{
                 "read":"2345",
                 "collection":"888",
@@ -267,8 +267,8 @@
             "book_publish_company":"黑潮科技传媒有限公司",
             "book_price":"400元",
             "book_binding":"000",
-            "book_publish_year":"2015.08.25",
-            "img":"https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3921349353,3979715514&fm=26&gp=0.jpg",
+            "book_publish_year":"2020.02.02",
+            "img":"/img/details.png",
             "rating":{
                 "read":"9563",
                 "collection":"7415",

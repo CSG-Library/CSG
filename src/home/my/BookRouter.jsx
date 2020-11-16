@@ -4,10 +4,19 @@ import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 import MyAccount from './container/MyAccount';
 import MyBook from './container/MyBook'
 import MyData from './container/MyData'
-
 import { SLeft } from './ui/Stylemy'
 
+import { actionCreator as ac } from './'
+import { connect } from 'react-redux';
+
 @withRouter
+@connect(state => ({
+   routeIndex: state.getIn(['my', 'routeIndex'])
+}), dispatch => ({
+   saveIndex(routeIndex){
+      dispatch(ac.SaveCompAction(routeIndex))
+   }
+}))
 class BookRouter extends PureComponent {
    state = {
       list: [
@@ -16,18 +25,22 @@ class BookRouter extends PureComponent {
          { id: 2, path: '/data', name: '个人资料' },
          { id: 3, path: '/switch', name: '切换账号' },
       ],
-      curIndex: 0,
+      curIndex: this.props.routeIndex
    }
+
    clickHandle = (v) => {
       return () => {
          this.setState({ curIndex: v.id })
+         localStorage.setItem("routeIndex", v.id)
+
          // let url = Object.keys(value)
          this.props.history.push("/home/bookshelf" + v.path)
       }
    }
-
+   
    render() {
       let { url } = this.props.match;
+      let { curIndex } = this.state;
       return (
          <main
             className="container"
@@ -40,7 +53,7 @@ class BookRouter extends PureComponent {
                         return (
                            <li
                               key={v.id}
-                              className={this.state.curIndex === v.id ? 'active' : ''}
+                              className={curIndex === v.id ? 'active' : ''}
                               onClick={this.clickHandle(v)}
                            >{v.name}</li>
                         )

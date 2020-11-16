@@ -1,24 +1,27 @@
-import React, { Component } from 'react';
-
+import React, { useCallback } from 'react';
+import { useHistory } from 'react-router-dom';
 import { MoreWrap } from './styleChapterDet';
 
-import img from '@a/imgs/novel.png';
-
 const More = (props) => {
+   const history = useHistory()
+   const handleClick = useCallback(({book_id}) => {
+      return () => {
+         history.push('/home/introduce', {book_id})
+      }
+   }, [history])
+
    return (
       <MoreWrap>
-         <dl>
-            <dt><img src={img} alt=""/></dt>
-            <dd>天下第一妃</dd>
-         </dl>
-         <dl>
-            <dt><img src={img} alt=""/></dt>
-            <dd>天下第一妃</dd>
-         </dl>
-         <dl>
-            <dt><img src={img} alt=""/></dt>
-            <dd>天下第一妃</dd>
-         </dl>
+         {
+            props.detlist && props.detlist.map(v =>
+               (
+                  <dl key={v.book_id}>
+                     <dt><img src={v.book_img} onClick={handleClick(v)} alt="" /></dt>
+                     <dd>{v.book_title}</dd>
+                  </dl>
+               )
+            )
+         }
 
          <div>发现更多好书 &gt; </div>
       </MoreWrap>

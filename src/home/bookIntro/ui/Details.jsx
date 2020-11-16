@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 
-import img from '@a/imgs/details.png'
-
-import { Rate } from 'antd';
-
-import { Button } from 'antd';
+import { Rate, Button } from 'antd';
 
 import { TitleWraper, DetailsWraper } from './StyledIntroduce'
 import { withRouter } from 'react-router-dom';
@@ -18,11 +14,10 @@ class Details extends Component {
 
    handleClick = () => {
       return () => {
-         this.props.history.push('/home/chapterpage')
+         this.props.history.push('/home/chapterdet', {  })
       }
    }
 
-   
    render() {
       // console.log(this.props)
       const details  = this.props.details

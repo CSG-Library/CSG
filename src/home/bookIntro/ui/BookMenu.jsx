@@ -1,110 +1,83 @@
-import React, { useState ,usecallBack} from 'react';
+import React, { useState, useCallback }/* , { Component }  */ from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { TitleWraper, BookMenuWraper } from './StyledIntroduce'
 
 const MenuList = [
-   { id: 0, number: '第一章', title: '前端发展史' },
-   { id: 1, number: '第二章', title: 'html发展史' },
-   { id: 2, number: '第三章', title: 'CSS发展史' },
-   { id: 3, number: '第四章', title: 'JS发展史' },
-   { id: 4, number: '第五章', title: 'Vue发展史' },
-   { id: 5, number: '第六章', title: 'React发展史' },
-   { id: 6, number: '第七章', title: 'Jquery发展史' },
-   { id: 7, number: '第八章', title: 'Java发展史' },
-   { id: 8, number: '第九章', title: 'Php发展史' },
-   { id: 9, number: '第十章', title: 'C语言发展史' },
-   { id: 10, number: '第十一章', title: 'Go发展史' },
-   { id: 11, number: '第十二章', title: 'NBA发展' },
-   { id: 12, number: '第十三章', title: 'CBA发展' },
-   { id: 13, number: '第十四章', title: '211发展' },
-   { id: 14, number: '第十五章', title: '985发展' },
-   { id: 15, number: '第十六章', title: '华科之子' },
-   { id: 16, number: '第十七章', title: '武大樱花' },
-   { id: 17, number: '第十八章', title: '厦大之美' },
-   { id: 18, number: '第十九章', title: '北大之路' },
-   { id: 19, number: '第二十章', title: '清华历史' },
-   { id: 20, number: '第二十一章', title: '同济骄傲' },
-   { id: 21, number: '第二十二章', title: '南开之花' },
-   { id: 22, number: '第二十三章', title: '川大典雅' },
-   { id: 23, number: '第二十四章', title: '交大雄起' },
-   { id: 24, number: '第二十五章', title: '人大霸气' },
+   { id: 0, title: '第一章 落魄王子' },
+   { id: 1, title: '第二章 活着的艰难' },
+   { id: 2, title: '第三章 只是凡根'},
+   { id: 3, title: '第四章 一饭之恩' },
+   { id: 4, title: '第五章 有些事情我很忌' },
+   { id: 5, title: '第六章 丹汉炼药' },
+   { id: 6, title: '第七章 首席炼药师' },
+   { id: 7, title: '第八章 极品灵根' },
+   { id: 8, title: '第九章 无实力无尊严' },
+   { id: 9, title: '第十章 一线曙光' },
+   { id: 10, title: '第十一章 就是你了' },
+   { id: 11, title: '第十二章 将轰动炼药界' },
+   { id: 12, title: '第十三章 莫无忌的担忧' },
+   { id: 13, title: '第十四章 轰动的九命疗伤' },
+   { id: 14, title: '第十五章 火爆再现' },
+   { id: 15, title: '第十六章 开拓经脉' },
+   { id: 16, title: '第十七章 功亏一篑' },
+   { id: 17, title: '第十八章 终于明白' },
+   { id: 18, title: '第十九章 推出去杀了' },
+   { id: 19, title: '第二十章 生死之间' },
+   { id: 20, title: '第二十一章 寻找退路' },
+   { id: 21, title: '第二十二章 加入寒府' },
+   { id: 22, title: '第二十三章 你就是莫无忌？' },
+   { id: 23, title: '第二十四章 雷雾森林' },
+   { id: 24, title: '第二十五章 被逼入雷雾森林' },
+   { id: 25, title: '第二十六章 雷雾森林的雷泽' }
 ]
 
 const BookMenu = (props) => {
    // console.log(props.book_menu)
    let [menuList] = useState(MenuList)
 
-   // let [isShow, setIsShow] = useState({
-   //    show: false,
-   // })
+   let [isShow, setIsShow] = useState({ show: false })
 
    let [state, setState] = useState(0)
 
-   // let style1 = {
-   //    height: 52,
-   //    // backgroundColor:'#f56c',
-   //    // transition:' all 1s',
-   //    // lc:4
-   // }
-   // let style2 = {
-   //    height: '100%',
-   //    // backgroundColor: '#d84',
-   // }
-   //函数时组件中，setState有bug，如果还是直接返回一个原值，总是不能拿到最新的数据，所以我们要返回一个新值，这样每次都会拿到新值
    let history = useHistory()
-
-   const handleClick1 =(v) => {
+   const handleClick1 = useCallback((v) => {
       return () => {
          setState(() => {
             let newstate = v.id
-            // console.log(newstate)
-            // console.log(state)
             return newstate
          })
-         history.push('/home/chapterpage')
+         history.push('/home/chapterpage', { book_id: v.id })
       }
-   }
+   }, [history])
 
    const handleClick2 = () => {
-      // console.log(isShow.show,isShow)
-      // setIsShow({
-      //    show: !isShow.show,
-      // })
-      return () => {
-         history.push('/home/chapterdet')
-      }
+      setIsShow({ show: !isShow.show })
    }
+
    return (
       < BookMenuWraper>
-         <TitleWraper
-            width="0 0 1px 0"
-         >
+         <TitleWraper width="0 0 1px 0">
             <span>书籍目录</span>
          </TitleWraper>
-         <ul
-            // style={isShow.show ? style2 : style1}
-         >
+         <ul>
             {
-               /* menuList.map */props.book_menu.map((v, i) => {
-                  return (<li
+               props.book_menu.map((v, i) => 
+                  (<li
                      key={i}
                      onClick={handleClick1(v)}
                      className={v.id === state ? 'active' : ''}
                   >
-                     <span>{v.number}</span>
-                            &nbsp;
                      <span>{v.title}</span>
                   </li>)
-               })
+               )
             }
          </ul>
-         {
-            <div onClick={handleClick2()}>查看更多{`>`}</div>
-         }
+         <div className='iconfont' onClick={handleClick2}>
+            { isShow.show ? '收起更多 \ue602' : '查看更多 \ue601' }
+         </div>
       </ BookMenuWraper>
    );
-
 }
 
 export default BookMenu;

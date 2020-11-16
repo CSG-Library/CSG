@@ -30,7 +30,7 @@ const BookRecommend = () => {
                 <span>更多{'>'}</span>
               </h3>
               <div className='book-content'>
-                <img src="/img/img1.png" alt=""/>
+                <img src="/img/index-list-1.png" alt=""/>
                 <div>
                   <h5>绝色毒医王妃</h5>
                   <p>角色容颜，吸引狂蜂浪蝶无数。。。。</p>
@@ -51,9 +51,9 @@ const BookRecommend = () => {
                 <span>更多{'>'}</span>
               </h3>
               <div className='book-content'>
-                <img src="/img/img1.png" alt=""/>
+                <img src="/img/index-bottom-1.png" alt=""/>
                 <div>
-                  <h5>绝色毒医王妃</h5>
+                  <h5>蛋宝会卖萌</h5>
                   <p>角色容颜，吸引狂蜂浪蝶无数。。。。</p>
                 </div>
               </div>
@@ -72,9 +72,9 @@ const BookRecommend = () => {
                 <span>更多{'>'}</span>
               </h3>
               <div className='book-content'>
-                <img src="/img/img1.png" alt=""/>
+                <img src="/img/index-bottom-2.png" alt=""/>
                 <div>
-                  <h5>绝色毒医王妃</h5>
+                  <h5>红色魔妈</h5>
                   <p>角色容颜，吸引狂蜂浪蝶无数。。。。</p>
                 </div>
               </div>

@@ -2,10 +2,11 @@ import React from 'react';
 
 import Library from './Library'
 
-const OnlineLibraryUi = () => {
+const OnlineLibraryUi = (props) => {
+
   return (
     <>
-      <Library />
+      <Library list={props.list} />
     </>
   );
 }

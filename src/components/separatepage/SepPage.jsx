@@ -1,52 +1,32 @@
-import React, { useCallback, useState ,useEffect} from 'react';
+import React from 'react';
 
-import { Pagination } from 'antd';
 import { Sepwrap } from './styleSepPage';
 
-// import {get} from '@u/http'
+const SepPage = props => {
+   console.log(props)
+   const list = []
+   for(var i = 1; i <= props.totalPage; i++){
+      list.push({ id: i, pageNum: i })
+   }
 
-const SepPage = (props) => {
-   //  console.log(props)
-   // let [ data ,setdata] = useState(0)
-   // const [current, setCurrent] = useState(1);
-   //  console.log(typeof props.current)
-   
-   //  let newCurrent =  (typeof props.current == 'object' ? props.current.current : 1 )
-   // console.log(newCurrent)
-   //  const onChange = useCallback((page,pageSize) => {
-     
-   //    setCurrent({ current: page })
-   //    console.log(page)
-   //    console.log(pageSize)
-      
-   // },[]) 
-   // console.log(page)
-   
-//    const onChangeAjax = useEffect((current, size)=>{
-//       (async()=>{
-//           let result = await get ({
-//               url:'/api/user/bookEssay'
-//           })  
-//           console.log(result.data.shortComments)
-//           // console.log(result.data.shortComments.slice((current-1)*10,current*10))
-//           setdata({
-//               // data:result.data.shortComments
-//               data:result.data.shortComments.slice((current-1)*10,current*10)
-//           })
-//           // console.log(data)
-//       })()
-//   //加个空数组是为了防止疯狂打印
-//   },[])
    return (
       
       <Sepwrap>
-         <Pagination
-            defaultCurrent={props.current}
-            onChange={props.onChangePage}
-            pageSize={props.pageSize}
-            total={props.total}
-            // onShowSizeChange={props.onChangeAjax}
-         />
+         <p onClick={props.onTpFirst}>首页</p>
+         <p onClick={props.onTpPrev}>上一页</p>
+         <ul>
+            {
+               list.map(({id, pageNum}) => 
+                  <li 
+                     key={id} 
+                     onClick={props.onTpJump(pageNum)}
+                     className={props.current === pageNum ? 'active' : ''}
+                  >{pageNum}</li>
+               )
+            }
+         </ul>
+         <p onClick={props.onTpNext}>下一页</p>
+         <p onClick={props.onTpLast}>末页</p>
       </Sepwrap>
    )
 }

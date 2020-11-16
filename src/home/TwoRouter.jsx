@@ -6,16 +6,12 @@ import NavOne from '@c/navOne/NavOne';
 import NavTwo from '@c/navTwo/NavTwo';
 import Foot from '@c/footer/Footer';
 import { Div } from './styleRoute';
- 
-
 
 // 导入二级路由及其余页面组件
 import { HomeCategory } from './homepage';
-//cpf
 import { Introduce } from './bookIntro';
 import { ChapterDet } from './chapterdetail';
 import { ChapterRead } from './chapterdetail';
-//cpf
 import { ShortCommentList } from './shortCommentLists';
 import { Comment } from './bookReview';
 
@@ -23,9 +19,7 @@ import { OnlineLibrary } from './onlineLibrary';
 import { LibraryNew } from './onlineLibrary';
 
 import { MagazineCategory } from './magazineCategory';
-//cpf
 import { MagIntro } from './magaIntro';
-//cpf
 import { HotMag } from './hotMagazine';
 import { MagContent } from './magaContent';
 // import { HotMagdet } from './hotMagazine';
@@ -37,7 +31,6 @@ import { Paperpage } from './Newspaper';
 import { News } from './News';
 import { NewsContent } from './News';
 
-//cpf
 import { Rank } from './rank';
 import { RankPop } from './rank';
 
@@ -63,12 +56,12 @@ class HomeRouter extends Component {
 
          { path: '/online', component: OnlineLibrary },
          { path: '/onlinedet', component: LibraryNew },
-
+ 
          { path: '/magazine', component: MagazineCategory },
          { path: '/magadet', component: MagIntro },
          { path: '/magahot', component: HotMag },
          { path: '/magacontent', component: MagContent },
-         // { path: '/magazinedet', component: HotMagdet },
+         // { path: '/magadet', component: HotMagdet },
 
          { path: '/paper', component: PaperCate },
          { path: '/papernum', component: PaperNum },
@@ -90,9 +83,7 @@ class HomeRouter extends Component {
    }
 
    render() {
-      // console.log(this.props)
       let { url } = this.props.match
-      
       return (
          <Div>
             <Head></Head>
@@ -103,7 +94,7 @@ class HomeRouter extends Component {
                <Switch>
                   {
                      this.state.routes.map(v => 
-                        <Route path={`${url}${v.path}`} key={v.path+"cpf"}>
+                        <Route path={`${url}${v.path}`} key={v.path+"xyjy"}>
                            <v.component />
                         </Route>
                      )

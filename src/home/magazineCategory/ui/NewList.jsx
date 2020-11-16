@@ -11,13 +11,13 @@ const NewList = () => {
       return () => {
          history.push('/home/news')
       }
-   })
+   }, [history])
 
   return (
     <NewListWrap>
       <SmallTitle title='滚动新闻'></SmallTitle>
       <div className="content">
-        <img src="http://www.csg99.com/modules/article/images/nocover.jpg" alt=""/>
+        <img src="/img/hot4.png" alt=""/>
         <div className="new-right-content">
           <h3>模特上封面</h3>
           <p>超模之所以被称为“超级模特”其实说的就是她们的身价根据福布斯榜单显示，2017年国际超模Top 10的榜单实质地说明了现在的势力榜。但请注意，是势力而不是实力呦，这10位中，真正具备超模能力的是谁。

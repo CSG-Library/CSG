@@ -5,5 +5,14 @@
    
    "/api/introduce": "/introduce",
    "/api/longcom": "/longcom",
+   "/api/shortcom": "/shortcom",
+   "/api/bookdata": "/bookdata",
+   "/api/findAllbook": "/findAllbook",
+   "/api/findAllbookBytype": "/findAllbookBytype",
+   "/api/library":"/library",
+   "/api/findAllMagazineByTypeId": "/findAllMagazineByTypeId",
+   "/api/homepageCate": "/homepageCate",
+   "/api/rankArticle": "/rankArticle",
+   "/api/mybook":"/mybook",
    "/api/user/bookEssay": "/bookEssay"
-} 
+}

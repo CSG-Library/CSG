@@ -3,7 +3,8 @@ import {
   DELNUM,
   ADDNUM,
   DELETE,
-  ALLCHANGE
+  ALLCHANGE,
+  ADDSHOPPINGCART
 } from './actionTypes'
 
 const changeStatus = (checked, id) => {
@@ -42,11 +43,18 @@ const allChangeHandler = (checked) => {
   })
 }
 
+const addShoppingCart = (obj) => {
+  return({
+    type: ADDSHOPPINGCART,
+    obj
+  })
+}
 
 export default {
   changeStatus,
   delNumHandler,
   addNumHandler,
   deleteHandler,
-  allChangeHandler
+  allChangeHandler,
+  addShoppingCart
 }

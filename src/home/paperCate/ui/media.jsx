@@ -37,7 +37,7 @@ const Media = props => {
             <ul>
                {
                   props.cate[cateSide] && props.cate[cateSide].media.map(
-                     (v,i) => <li className="l" key={i}>{v}</li>
+                     (v,i) => <li className="l" key={i}><a style={{color:"#333"}} href={v.url}>{v.title}</a></li>
                   )
                }
             </ul>

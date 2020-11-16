@@ -5,7 +5,7 @@ import { ShoppingCartListWrap } from './StyledShoppingCart'
 const ShoppingCartList = (props) => {
 
   const { allSelect, allChangeHandler, shoppingList, changeHandler, delNumHandler, addNumHandler, deleteHandler } = props
-  
+
   return (
     <>
       <ShoppingCartListWrap>
@@ -50,7 +50,10 @@ const ShoppingCartList = (props) => {
                       onChange={(e) => changeHandler(e.target.checked, value.goods_id)}/>
                   </td>
                   <td> 
-                    {value.goods_details}
+                    <p>
+                      <span>{value.goods_name}</span>
+                      {value.goods_details}
+                    </p>
                   </td>
                   <td>
                     <span 

@@ -4,38 +4,7 @@ import IntroduceUi from '../ui/IntroduceUi'
 
 import {get} from '@u/http'
 import {withRouter} from 'react-router-dom'
-import { connect } from 'react-redux'
 
-
-// import { 
-//     // loadDataAsync, 
-//     loadDataAsync_ShortCom,
-//     loadDataAsync_LongCom 
-// } from '../actionCreator'
-
-// @connect(
-//     (state)=>{
-//         //  console.log(state.getIn())
-//         console.log(state.introcude)
-//         //必须得return什么东西
-//         return{
-//             // list:state.getIn(['introduce', 'list'])
-//             // list:state.introduce
-//         }
-//     }, 
-//     (dispatch)=>({
-//         // loadData(){
-//         //     dispatch(loadDataAsync())
-//         // },
-//         loadData_ShortCom(){
-//             dispatch(loadDataAsync_ShortCom())
-//         },
-//         loadData_LongCom(){
-//             dispatch(loadDataAsync_LongCom())
-//         }
-      
-//     })
-// )
 @withRouter
 class Introduce extends Component {
         state = {
@@ -52,7 +21,7 @@ class Introduce extends Component {
                 url:`/api/introduce/introduce?book_id=${this.props.location.state.book_id}`
                
             }) 
-            // console.log(result.data)
+            console.log(result)
             this.setState(()=>({
                 data:result.data
              })) 
@@ -65,7 +34,7 @@ class Introduce extends Component {
 
         
         render() {
-            // console.log(this.props.location.state.book_id)
+            console.log(this.props)
             const { book_id } = this.props.location.state
             // console.log(this.state.data)
             // const list = (this.state.data&&this.state.data.)

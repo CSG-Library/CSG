@@ -34,7 +34,8 @@ const BookCategoryWrap = styled.div`
           height: 181px;
           display: flex;
           margin: 0 16px 60px 16px;
-          justify-content: flex-start;
+          /* justify-content: flex-start; */
+          overflow: hidden;
           &:nth-child(odd){
             margin-right: 32px;
           }
@@ -83,16 +84,17 @@ const BookCategoryWrap = styled.div`
                 height: 20px;
                 font-size: 14px;
                 color: #319DF7;
+                cursor: pointer;
                 img{
                   width: 21px;
                   height: 17px;
                   margin-right: 5px; 
                 }
                 &.comment{
-                  margin-right: 26px;
+                  margin-right: 11px;
                 }
                 &.to-bookshelf-btn{
-                  margin-right: 36px;
+                  margin-right: 16px;
                   img{
                     width: 17px;
                     height: 17px;
@@ -153,6 +155,9 @@ const AsideTab = styled.aside`
 `
 
 const PagerWrap = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
   float: right;
 `
 

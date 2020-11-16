@@ -4,7 +4,20 @@ import { SearchUi } from './styleSearchUi'
 import { DatePicker, Space } from 'antd';
 import { withRouter } from 'react-router-dom';
 
+import { actionCreator as ac } from '../';
+import { connect } from 'react-redux';
+
 @withRouter
+@connect(
+   state => ({
+      renderData: state.getIn(['rankSeaArticle', 'renderData'])
+   }),
+   dispatch => ({
+      loadData(){
+         dispatch(ac.GetAsyncAction())
+      }
+   })
+)
 class PreciseSearchUi extends Component {
    state = {
       searchName: '',
@@ -15,7 +28,7 @@ class PreciseSearchUi extends Component {
       publisher: '',
       publicationData: true,
       stime: '',
-      etime: '',
+      etime: ''
    }
    handelChange(e) {
       if (e.target.name === 'name') {
@@ -40,9 +53,11 @@ class PreciseSearchUi extends Component {
 
    }
    click(i) {
-      this.setState({
-         content: i
-      })
+      return () => {
+         this.setState({
+            content: i,
+         })
+      }
    }
    change(e) {
       if (e.target.id === 'arbitrarily') {
@@ -64,14 +79,31 @@ class PreciseSearchUi extends Component {
          stime,
          etime
       })
-
    }
 
-   handleClick = () => {
+   componentDidUpdate(){
+      this.props.loadData()
+   }
+
+   handleClick = (content) => {
       return () => {
-         this.props.history.push("/home/searchres")
+         if(content === -1) {
+            this.props.history.push("/home/searchres", {
+               arr: []
+            })
+         } else if(content === 0) {
+            this.props.history.push("/home/searchres", { 
+               arr: this.props.renderData.rank_data,
+               limit: 6 
+            })
+         } else {
+            this.props.history.push("/home/searchres", { 
+               arr: this.props.renderData.rank_data.filter(v => v.cate_type === content),
+               limit: 6 
+            })
+         }
       }
-   } 
+   }
 
    render() {
       const { RangePicker } = DatePicker;
@@ -96,11 +128,26 @@ class PreciseSearchUi extends Component {
                   <li className='content'>
                      <em>内容</em>
                      <div>
-                        <div onClick={this.click.bind(this, 0)}><span id="all" value="0" className={this.state.content === 0 ? 'active' : ''}><img src={img} alt="" />  </span> <label htmlFor="all">全部书籍</label></div>
-                        <div onClick={this.click.bind(this, 1)}> <span id="printing" value="1" className={this.state.content === 1 ? 'active' : ''}><img src={img} alt="" /> </span><label htmlFor="printing">印刷出版</label></div>
-                        <div onClick={this.click.bind(this, 2)}> <span id="electronics" value="2" className={this.state.content === 2 ? 'active' : ''}><img src={img} alt="" /> </span><label htmlFor="electronics">电子出版</label></div>
-                        <div onClick={this.click.bind(this, 3)}> <span id="magazine" value="3" className={this.state.content === 3 ? 'active' : ''}><img src={img} alt="" /> </span><label htmlFor="magazine">杂志</label></div>
-                        <div onClick={this.click.bind(this, 4)}> <span id="newspapers" value="4" className={this.state.content === 4 ? 'active' : ''}><img src={img} alt="" /> </span><label htmlFor="newspapers">报刊</label></div>
+                        <div onClick={this.click(0)}>
+                           <span id="all" value="0" className={this.state.content === 0 ? 'active' : ''}>
+                              <img src={img} alt="" />  </span> <label htmlFor="all">全部书籍</label>
+                        </div>
+                        <div onClick={this.click('印刷出版')}> 
+                           <span id="printing" value="1" className={this.state.content === '印刷出版' ? 'active' : ''}>
+                              <img src={img} alt="" /> </span><label htmlFor="printing">印刷出版</label>
+                        </div>
+                        <div onClick={this.click('电子出版')}> 
+                           <span id="electronics" value="2" className={this.state.content === '电子出版' ? 'active' : ''}>
+                              <img src={img} alt="" /> </span><label htmlFor="electronics">电子出版</label>
+                        </div>
+                        <div onClick={this.click('杂志')}> 
+                           <span id="magazine" value="3" className={this.state.content === '杂志' ? 'active' : ''}>
+                              <img src={img} alt="" /> </span><label htmlFor="magazine">杂志</label>
+                        </div>
+                        <div onClick={this.click('报刊')}> 
+                           <span id="newspapers" value="4" className={this.state.content === '报刊' ? 'active' : ''}>
+                              <img src={img} alt="" /> </span><label htmlFor="newspapers">报刊</label>
+                        </div>
 
                      </div>
                   </li>
@@ -131,7 +178,7 @@ class PreciseSearchUi extends Component {
                         </Space>
                      </div>
                   </li>
-                  <li className='search'><button onClick={this.handleClick()}>查询</button> </li>
+                  <li className='search'><button onClick={this.handleClick(this.state.content)}>查询</button> </li>
                </ul>
             </SearchUi>
          </>

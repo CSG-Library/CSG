@@ -1,0 +1,25 @@
+{
+  "error_code": 0,
+  "data": [{
+    "bookTypeId": 1,
+    "bookTypeName": "杂文选刊",
+    "bookTypeNum":999,
+    "sort":1,
+    "show":true
+  },
+  {
+    "bookTypeId": 2,
+    "bookTypeName": "人民之友",
+    "bookTypeNum":666,
+     "sort":2,
+    "show":true
+  },
+  {
+    "bookTypeId": 3,
+    "bookTypeName": "哲学社会学",
+    "bookTypeNum":1236,
+    "sort":3,
+    "show":true
+  }
+  ]
+}

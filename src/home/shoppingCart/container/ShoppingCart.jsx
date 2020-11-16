@@ -4,6 +4,7 @@ import ShoppingCartUi from '../ui/ShoppingCartUi'
  
 import useGetState from './useGetState' 
 import useChange from './useChange'
+import usePay from './usePay'
 
 const ShoppingCart = () => {
   const { shoppingList, allSelect } =  useGetState()
@@ -13,6 +14,7 @@ const ShoppingCart = () => {
   // const changeHandler = (checked) => {
   //   console.log(checked.target.checked)
   // }
+  const { clickPayHandler } = usePay()
 
   return (
     <ShoppingCartUi
@@ -23,6 +25,7 @@ const ShoppingCart = () => {
       addNumHandler={addNumHandler}
       deleteHandler={deleteHandler}
       allChangeHandler={allChangeHandler}
+      clickPayHandler={clickPayHandler}
     ></ShoppingCartUi>
   );
 }

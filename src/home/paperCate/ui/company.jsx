@@ -59,7 +59,8 @@ class Company extends PureComponent {
                {
                   cate[cateSide] && cate[cateSide].company.map(v =>
                      <li key={v.companyId}>
-                        <div>{v.name}</div>
+                       <a href={v.url}>
+                       <div>{v.name}</div>
                         <div>
                            {
                               v.paper.map(item =>
@@ -67,6 +68,7 @@ class Company extends PureComponent {
                               )
                            }
                         </div>
+                       </a>
                      </li>
                   )
                }

@@ -18,7 +18,6 @@ const PaperCate = (props) => {
       dispatch(ac.loadActionAsync())
    }, [dispatch])
 
-
    return (
       <PaperCateUi cate={cate}></PaperCateUi>
    )

@@ -4,21 +4,20 @@ import { SideBar } from './stylePaperCate';
 import { get } from '@u/http';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { actionCreator as ac } from '..';
+import { actionCreator as ac } from '../';
 
 const AsideBar = (props) => {
 // react下的 hook
-   const [curIndex, setcurIndex] = useState(0)
    const [cate, setcate] = useState(null)
 
 // 使用 react-redux 下的Hooks(useSelector、useDispatch)钩子 可以代替@connect 
    const cateSide = useSelector(state => state.getIn(['paperCate', 'cateSide']))
+   localStorage.setItem("cateSide", cateSide)
    const dispatch = useDispatch()
 
 // react下的 hook
    const handleClick = useCallback(index => {
       return () => {
-         setcurIndex(index)
          dispatch(ac.changeAside(index))
          // console.log(index)
       }
@@ -40,7 +39,7 @@ const AsideBar = (props) => {
             cate && cate[Object.keys(cate)].map((v, i) => 
                <li 
                   key={v} 
-                  className={curIndex === i ? 'active':''} 
+                  className={cateSide === i ? 'active':''} 
                   onClick={handleClick(i)}
                >{ v }</li>
             )
