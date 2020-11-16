@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 import ChapterDetUi from '../detUi/ChapterDetUi';
 
@@ -8,4 +9,4 @@ const ChapterDet = (props) => {
    )
 }
 
-export default ChapterDet
+export default withRouter(ChapterDet)

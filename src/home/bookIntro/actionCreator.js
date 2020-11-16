@@ -1,5 +1,4 @@
 import { 
-    LOADDATA ,
     LOADDATA_ShortCom,
     LOADDATA_LongCom
 
@@ -37,10 +36,11 @@ const loadDataSync_ShortCom = list => {
 const loadDataAsync_ShortCom = () => {
     return async (dispatch) => {
       let result = await get({
-        url: '/api/shortcom'
+        url: '/api/user/bookEssay'
       })
-      //  console.log(result)
-      dispatch(loadDataSync_ShortCom (result.data.shortdata))
+       console.log(result)
+      // dispatch(loadDataSync_ShortCom (result.data.shortComments))
+      
     }
   }
 
@@ -56,7 +56,7 @@ const loadDataAsync_LongCom = () => {
       let result = await get({
         url: '/api/longcom'
       })
-    // console.log(result)
+    //  console.log(result)
       // dispatch(loadDataSync_LongCom(result.data.longdata))
     }
   }

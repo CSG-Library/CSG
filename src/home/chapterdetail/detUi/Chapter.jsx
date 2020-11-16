@@ -1,139 +1,32 @@
 import React, { useCallback } from 'react';
+import { withRouter } from 'react-router-dom';
 
 import { ChapterWrap, Title } from './styleChapterDet';
 
-import { withRouter,Route } from 'react-router-dom';
-
-import { ChapterRead } from '../'
-
 const Chapter = (props) => {
-   const handleClick = useCallback(() => {
+   const handleClick = useCallback((id) => {
       return () => {
-         props.history.push('/home/chapterpage')
+         props.history.push('/home/chapterpage', {book_id:id})
       }
-   })
+   }, [props.history])
 
+   let { detlist, book_id } = props;
+   let list = detlist[book_id] && detlist[book_id]['detail'];
+   // console.log(list)
    return (
-     <>
-         <ChapterWrap>
-            <Title width='0 0 1px 0'><span>章节详情</span></Title>
-            <ul>
-               <li onClick={handleClick()}>第一章 自告奋勇</li>
-               <li onClick={handleClick()}>第一百零七章 配合做戏</li>
-               <li onClick={handleClick()}>第六十二章 揭露阴谋</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第一章 自告奋勇</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第一章 自告奋勇</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第一章 自告奋勇</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第一章 自告奋勇</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第二章 穿越花轿</li>
-               <li>第一百零七章 配合做戏</li>
-               <li>第六十二章 揭露阴谋</li>
-               <li>第一章 自告奋勇</li>
-               <li>第二章 穿越花轿</li>
-               
-            </ul>
-         </ChapterWrap>
-
-         <Route path="/home/browse/chapterpage"><ChapterRead></ChapterRead></Route>
-     </>
+      <ChapterWrap>
+         <Title width='0 0 1px 0'><span>章节详情</span></Title>
+         <ul>
+            {
+               list && list.map(v =>
+                  <li
+                     key={v['chapter-id']}
+                     onClick={handleClick(v['chapter-id'])}
+                  >{v['chapter-name']}</li>
+               )
+            }
+         </ul>
+      </ChapterWrap>
    )
 }
 

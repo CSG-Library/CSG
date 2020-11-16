@@ -2,12 +2,22 @@
    "/api/cate": "/cate",
    "/api/corr": "/corr",
    "/api/maga": "/maga",
+   
    "/api/introduce": "/introduce",
    "/api/longcom": "/longcom",
    "/api/shortcom": "/shortcom",
+   "/api/bookdata": "/bookdata",
    "/api/findAllbook": "/findAllbook",
    "/api/findAllbookBytype": "/findAllbookBytype",
    "/api/library":"/library",
+<<<<<<< HEAD
    "/api/findAllMagazineByTypeId": "/findAllMagazineByTypeId",
    "/api/homepageCate": "/homepageCate"
 }
+=======
+   "/api/rankArticle": "/rankArticle",
+   "/api/mybook":"/mybook",
+   "/api/user/bookEssay": "/bookEssay",
+   "/api/findAllMagazineByTypeId": "/findAllMagazineByTypeId"
+}
+>>>>>>> master

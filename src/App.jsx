@@ -9,6 +9,7 @@ import Regsiter from './regsiter/Regsiter';
 export default class App extends PureComponent {
    render() {
       return (
+         // console.log(this.props),
          <Switch>
             <Route path='/home' {...this.props}>
                <TwoRouter />

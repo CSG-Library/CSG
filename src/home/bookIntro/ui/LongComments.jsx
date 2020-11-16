@@ -8,8 +8,8 @@ import {
 
 import img from '@a/imgs/lc1.png'
 
-const LongComments = () => {
-
+const LongComments = (props) => {
+   // console.log(props.long_comments)
    return (
       < LongCommentsWraper>
          <TitleWraper
@@ -22,65 +22,37 @@ const LongComments = () => {
             点击评论
                 </div>
          <ul>
-            <li>
-               <div>
+            {
+              props.long_comments.map((v,i)=>{
+                 return (
+                  <li
+                  key={i}
+                  >
                   <div>
-                     <img src={`${img}`} alt="" />
+                     <div>
+                        {/* <img src={`${img}`} alt="" /> */}
+                        <img src={v.img} alt=""/>
+                     </div>
+                  <span>{v.title}</span>
                   </div>
-                  <span>前端提升法宝</span>
-               </div>
-               <div >
-                  <span >标题</span>
-                  <span>评论时间:
-                  2020-02-02&nbsp;
-                  20:20
-                            </span>
-                  <span>
-                     千锋教育是互联网教育行业扛把子，在业界内有着良好的评价，万千学子通过这个平台，获得良好的就业前景，实现了人生价值。 千锋教育是互联网教育行业扛把子，在业界内有着良好的评价，万千学子通过这个平台，获得良好的就业前景，实现了人生价值。
-                            </span>
-                  <span className='r'>
-                     查看全文V
-                            </span>
-               </div>
-            </li>
-            <li>
-               <div>
-                  <p><img src={`${img}`} alt="" /></p>
-                  <span>前端提升法宝</span>
-               </div>
-               <div >
-                  <span >标题</span>
-                  <span>评论时间:
-                  2020-02-02&nbsp;
-                  20:20
-                            </span>
-                  <span>
-                     千锋教育是互联网教育行业扛把子，在业界内有着良好的评价，万千学子通过这个平台，获得良好的就业前景，实现了人生价值。 千锋教育是互联网教育行业扛把子，在业界内有着良好的评价，万千学子通过这个平台，获得良好的就业前景，实现了人生价值。
-                            </span>
-                  <span className='r'>
-                     查看全文V
-                            </span>
-               </div>
-            </li>
-            <li>
-               <div>
-                  <p><img src={`${img}`} alt="" /></p>
-                  <span>前端提升法宝</span>
-               </div>
-               <div >
-                  <span >标题</span>
-                  <span>评论时间:
-                  2020-02-02&nbsp;
-                  20:20
-                            </span>
-                  <span>
-                     千锋教育是互联网教育行业扛把子，在业界内有着良好的评价，万千学子通过这个平台，获得良好的就业前景，实现了人生价值。 千锋教育是互联网教育行业扛把子，在业界内有着良好的评价，万千学子通过这个平台，获得良好的就业前景，实现了人生价值。
-                            </span>
-                  <span className='r'>
-                     查看全文V
-                            </span>
-               </div>
-            </li>
+                  <div >
+                     <span >标题</span>
+                     <span>评论时间&nbsp;：&nbsp;
+                     {v.publish_date}&nbsp;
+                     {v.publish_time}
+                     </span>
+                     <span>
+                        {v.abstruct}
+                     </span>
+                     {/* <span className='r'>
+                        查看全文{`>`}
+                     </span> */}
+                  </div>
+               </li>
+                 )
+              })
+            }
+           
             <div>
                <span className='r'>所有长评（222）{`>`}</span>
             </div>

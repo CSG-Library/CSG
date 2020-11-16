@@ -3,7 +3,7 @@ import React from 'react';
 import { AsideBarWrap } from './StyledAsideBar'
 
 const AsideBar = (props) => {
-  // console.log(props)
+//   console.log(props)
   let { title, list } = props.list
   const { asideCate, onChangeAsideCate } = props
   return (

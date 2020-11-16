@@ -4,6 +4,7 @@ import SmallTitle from '@c/smallTitle/SmallTitle'
 
 import { HotRecommendWrap } from './StyledMagazineCategory'
 import { useHistory } from 'react-router-dom';
+import useGoHot from './useGoHot';
 
 const HotRecommend = () => {
    let history = useHistory()
@@ -11,14 +12,9 @@ const HotRecommend = () => {
       return () => {
          history.push('/home/magacontent')
       }
-   })
+   }, [history])
 
-   const GotoHot = useCallback(() => {
-      return () => {
-         history.push('/home/magahot')
-      }
-   })
-
+   const { GotoHot } = useGoHot()
 
   return (
     <HotRecommendWrap>

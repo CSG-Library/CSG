@@ -1,24 +1,32 @@
-import React, { useCallback, useState } from 'react';
+import React from 'react';
 
-import { Pagination } from 'antd';
 import { Sepwrap } from './styleSepPage';
 
 const SepPage = props => {
-   // console.log(props)
-   const [current, setCurrent] = useState(1);
-   const onChange = useCallback(page => {
-      // console.log(page)
-      setCurrent({ current: page })
-   },[])
+   console.log(props)
+   const list = []
+   for(var i = 1; i <= props.totalPage; i++){
+      list.push({ id: i, pageNum: i })
+   }
 
    return (
+      
       <Sepwrap>
-         <Pagination
-            defaultCurrent={current}
-            onChange={onChange}
-            pageSize={6}
-            total={50}
-         />
+         <p onClick={props.onTpFirst}>首页</p>
+         <p onClick={props.onTpPrev}>上一页</p>
+         <ul>
+            {
+               list.map(({id, pageNum}) => 
+                  <li 
+                     key={id} 
+                     onClick={props.onTpJump(pageNum)}
+                     className={props.current === pageNum ? 'active' : ''}
+                  >{pageNum}</li>
+               )
+            }
+         </ul>
+         <p onClick={props.onTpNext}>下一页</p>
+         <p onClick={props.onTpLast}>末页</p>
       </Sepwrap>
    )
 }

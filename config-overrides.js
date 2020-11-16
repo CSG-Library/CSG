@@ -31,5 +31,15 @@ module.exports = override(
    }),
 
    // 配置装饰器的方法
-   addDecoratorsLegacy()
+   addDecoratorsLegacy(),
+
+   // 配置本地静态图片
+   /* {
+      test: [/\.jpe?g$/, /\.png$/, /\.bmp$/, /\.gif$/],
+      loader: require.resolve('file-loader'),
+      options: {
+         limit: 1,
+         name: 'static/media/[name].[hash:8].[ext]',
+      }
+   } */
 )

@@ -140,13 +140,13 @@ a {
 }
 
 @font-face {
-   font-family: 'iconfont';  /* project id 2164627 */
-   src: url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.eot');
-   src: url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.eot?#iefix') format('embedded-opentype'),
-   url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.woff2') format('woff2'),
-   url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.woff') format('woff'),
-   url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.ttf') format('truetype'),
-   url('//at.alicdn.com/t/font_2164627_fni7vqngmvb.svg#iconfont') format('svg');
+   font-family: 'iconfont'; 
+   src: url('//at.alicdn.com/t/font_2164627_bouhzapzdht.eot');
+   src: url('//at.alicdn.com/t/font_2164627_bouhzapzdht.eot?#iefix') format('embedded-opentype'),
+   url('//at.alicdn.com/t/font_2164627_bouhzapzdht.woff2') format('woff2'),
+   url('//at.alicdn.com/t/font_2164627_bouhzapzdht.woff') format('woff'),
+   url('//at.alicdn.com/t/font_2164627_bouhzapzdht.ttf') format('truetype'),
+   url('//at.alicdn.com/t/font_2164627_bouhzapzdht.svg#iconfont') format('svg');
  }
 
 .iconfont {
@@ -182,32 +182,12 @@ a {
 .clear_fix{
     zoom:1;
 }
+img{
+   display: block;
+}
 
 #root{
    height: 100%;
    overflow-y: scroll;
 }
 
-/* 
-zml未改
-@font-face {
-   font-family: yofont;
-   src: url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.eot');
-   src: url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.eot?#iefix') format('embedded-opentype'),
-   url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.woff2') format('woff2'),
-   url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.woff') format('woff'),
-   url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.ttf') format('truetype'),
-   url('//at.alicdn.com/t/font_2164844_z3sxrad5vc.svg#iconfont') format('svg');
-
-   src: url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.eot');
-   src: url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.eot?#iefix') format('embedded-opentype'),
-   url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.woff2') format('woff2'),
-   url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.woff') format('woff'),
-   url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.ttf') format('truetype'),
-   url('//at.alicdn.com/t/font_2164844_1s140w7xwjh.svg#iconfont') format('svg');
-}
-
-.yo-ico {
-   font-family: yofont !important; */
-
-   

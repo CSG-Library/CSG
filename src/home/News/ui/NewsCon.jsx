@@ -10,7 +10,7 @@ const MagazineCon = (props) => {
       return () => {
          props.history.push('/home/newcontent')
       }
-   })
+   }, [props.history])
 
   return (
     <MagazineWrap>

@@ -75,8 +75,8 @@ const ShoppingCartListWrap = styled.table`
         /* margin-top: 25px; */
       }
       img{
-        width: 68px;
-        height: 68px;
+        width: 80px;
+        height: 80px;
         float: right;
         margin-right: 10px;
         /* position: absolute; */
@@ -91,9 +91,10 @@ const ShoppingCartListWrap = styled.table`
         /* padding-bottom: 20px; */
         /* position: absolute;
         top: 35%; */
-        float: left;
+        /* float: left; */
         span{
           display: block;
+          text-align: center;
         }
       }
     }

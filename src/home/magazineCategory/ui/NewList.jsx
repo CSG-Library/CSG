@@ -11,7 +11,7 @@ const NewList = () => {
       return () => {
          history.push('/home/news')
       }
-   })
+   }, [history])
 
   return (
     <NewListWrap>

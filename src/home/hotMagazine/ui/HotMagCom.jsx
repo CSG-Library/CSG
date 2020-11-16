@@ -7,7 +7,7 @@ import { HotMagWrap } from './styleHotMag';
 const HotMagCom = (props) => {
    return (
       <HotMagWrap>
-         <UlWrap></UlWrap>
+         <UlWrap currentPageList={props.currentPageList}></UlWrap>
       </HotMagWrap>
    )
 }

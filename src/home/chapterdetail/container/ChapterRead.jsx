@@ -4,7 +4,7 @@ import ChapterReadUi from '../readUi/ChapterReadUi';
 
 const ChapterRead = (props) => {
    return (
-      <ChapterReadUi />
+      <ChapterReadUi {...props} />
    )
 }
 

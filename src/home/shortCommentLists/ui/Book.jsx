@@ -4,6 +4,8 @@ import React,{useState,useEffect} from 'react';
 
 import {get} from '@u/http'
 
+// import {get} from '@u/http'
+
 import { Button } from 'antd';
 
 import {
@@ -11,9 +13,10 @@ import {
     BookWraper
 } from './StyledShortCommentLists'
 
-
+ 
 const Book = () => {
     let [state ,setstate] = useState(0)
+    
     useEffect(()=>{
         (async()=>{
             let result = await get({

@@ -49,6 +49,7 @@ const Ul = styled.ul`
             div{
                display: flex;
                color: #319DF7;
+               cursor: pointer;
                .iconfont{
                   display: block;
                   width: 20px;

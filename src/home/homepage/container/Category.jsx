@@ -47,6 +47,7 @@ class Category extends Component {
     pageShowNum: 6
   }
 
+  
   // 分页按钮
   ClickPageNumHandler = (pageNum) => {
     return () => {
@@ -88,6 +89,7 @@ class Category extends Component {
   }
   render() {
     const lis = memoize(list => list[this.props.asideECate])
+    //  console.log(this.props)
     return (
       <>
         {

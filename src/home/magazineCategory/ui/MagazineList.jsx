@@ -12,7 +12,7 @@ const MagazineList = (props) => {
       return () => {
          history.push('/home/magadet')
       }
-   })
+   }, [history])
 
    const { bookList, totalPageNum, curPageNum, onClickPageNum, onClickLeftPageBtn, onClickRightPageBtn } = props
   //  console.log(bookList)

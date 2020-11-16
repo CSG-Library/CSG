@@ -1,4 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
+//引入immutable
 import Immutable from 'immutable';
 
 import reducer from './reducer';

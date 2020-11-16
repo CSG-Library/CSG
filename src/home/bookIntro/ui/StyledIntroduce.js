@@ -79,10 +79,11 @@ const DetailsWraper = styled.div`
                 /* background-color:#ccc; */
                 margin-right:36px;
                >div:first-child{
+                    width:179px;
+                    height:263px;
                     img{
                         display:inline-block;
-                        width:179px;
-                        height:263px;
+                        width:100%
                     }
                }
                button{
@@ -273,6 +274,7 @@ const BookMenuWraper = styled.div`
     /* background-color:#354; */
     ul{
         width:800px;
+        height:100%;
         margin-top:21px;
         line-height:26px;
         font-size: 14px;
@@ -311,7 +313,7 @@ const AlsoLoveWraper = styled.div`
         ul{
             display:flex;
             margin-top:26px;
-            background-color:#58b;
+            /* background-color:#58b; */
             overflow-x:scroll;
             li{
                 flex:1;
@@ -319,9 +321,9 @@ const AlsoLoveWraper = styled.div`
                 div:first-child{
                     width:150px;
                     height:208px;
-                    image{
-                        display:block;
-                        width:inherit;
+                    img{
+                        /* display:block; */
+                        width:100%;
                     }
                 }
                 div:last-child{
@@ -531,7 +533,8 @@ const AboutBookWraper = styled.div`
     >div:nth-child(2){
         margin-top:27px;
         width: 381px;
-        height: 228px;
+        /* height: 228px; */
+        
         background: #F7F7F7;
         .title{
             padding-top:16px;
@@ -547,7 +550,7 @@ const AboutBookWraper = styled.div`
         }
         ul{
             text-align:center;
-            /* background-color:#895; */
+            overflow:hidden;
             li{
                 /* padding-bottom:14px; */
                 height:26px;
@@ -556,11 +559,13 @@ const AboutBookWraper = styled.div`
                 font-family: Microsoft YaHei;
                 font-weight: 400;
                 color: #666666;
+              
             }
         }
         div:last-child{
             margin-left:159px;
-            margin-top:21px;
+            margin-top:15px;
+            padding-bottom:21px;
             height: 15px;
             line-height:15px;
             font-size: 14px;
@@ -572,7 +577,7 @@ const AboutBookWraper = styled.div`
     >div:nth-child(3){
         margin-top:17px;
         width: 381px;
-        height: 337px;
+        /* height: 337px; */
         background: #F7F7F7;
         .title{
             padding-top:15px;
@@ -588,6 +593,7 @@ const AboutBookWraper = styled.div`
         >div:nth-child(2){
             padding:0 37px;
             /* background-color:#8256; */
+            overflow:hidden;
             .ant-col{
                 width:75px;
                 margin-right:15px;
@@ -629,7 +635,7 @@ const AboutBookWraper = styled.div`
     >div:nth-child(4){
         margin-top:17px;
         width: 381px;
-        height: 337px;
+        /* height: 337px; */
         background: #F7F7F7;
         .title{
             padding-top:15px;
@@ -645,12 +651,16 @@ const AboutBookWraper = styled.div`
         >div:nth-child(2){
             padding:0 37px;
             /* background-color:#8256; */
+            overflow:hidden;
             .ant-col{
-                width:75px;
+                /* width:75px; */
+                /* height:75px; */
+                /* height:100%; */
                 margin-right:15px;
                 img{
                     display:block;
-                    width:100%
+                    width:75px;
+                    height:75px;
                 }
                 span{
                     height:44px;
@@ -686,7 +696,7 @@ const AboutBookWraper = styled.div`
     >div:nth-child(5){
         margin-top:17px;
         width: 381px;
-        height: 337px;
+        /* height: 337px; */
         background: #F7F7F7;
         .title{
             padding-top:15px;
@@ -702,6 +712,7 @@ const AboutBookWraper = styled.div`
         ul{
             margin-left:65px;
             margin-top:3px;
+            overflow:hidden;
             li{
                 display:flex;
                 margin-bottom:20px;
@@ -709,6 +720,10 @@ const AboutBookWraper = styled.div`
                     width:127px;
                     height:66px;
                     margin-right:16px;
+                    img{
+                        width:100%;
+                        display:block;                        
+                    }
                 }
             }
         }

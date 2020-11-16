@@ -3,25 +3,41 @@ import { useEffect , useState } from 'react'
 
 import {get} from '@u/http'
 
-// import img from '@a/imgs/lc1.png'
-import { TitleWraper,ShortCommentListsWraper } from './StyledShortCommentLists'
+import {
+    TitleWraper,
+    ShortCommentListsWraper
+} from './StyledShortCommentLists'
 
-const Lists = () => {
-    let [ data ,setdata] = useState(0)
-    useEffect(()=>{
-        (async()=>{
-            let result = await get ({
-                url:'/api/longcom'
-            })  
-            // console.log(result.data.longdata)
-            setdata({
-                data:result.data.longdata
-            })
 
-        })()
-    //加个空数组是为了防止疯狂打印
-    },[])
-    // console.log(data.data)
+const Lists = (props) => {
+    //   console.log(props)
+    //  let current = ( typeof(props.current) === Number? 
+    //                 props.current :
+    //                 props.current.current 
+    //     )
+    // console.log(current)
+    // let [ list ,setdata] = useState(0)
+    let list = props.data
+    let currentPage = props.current
+    let currentList = list.slice((currentPage-1)*10 , currentPage*10)
+
+    //  console.log(currentList)
+    // useEffect(()=>{
+    //     (async()=>{
+    //         let result = await get ({
+    //             url:'/api/user/bookEssay'
+    //         })  
+    //         console.log(result.data.shortComments.slice((current-1)*10,current*10))
+    //         setdata({
+    //             // data:result.data.shortComments
+    //             data:result.data.shortComments.slice((current-1)*10,current*10)
+    //         })
+    //         // console.log(data)
+    //     })()
+    // //加个空数组是为了防止疯狂打印
+    // },[])
+    // console.log(data) 
+
     return (
         <ShortCommentListsWraper className = 'l'>
             <TitleWraper
@@ -34,7 +50,8 @@ const Lists = () => {
             </div>
             <ul>
                 {
-                    data.data && data.data.map((v,i)=>{
+                    currentList.map((v,i)=>{
+                    // data.data && data.data.map((v,i)=>{
                         return (
                             <li 
                             key={i}

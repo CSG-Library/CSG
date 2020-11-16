@@ -184,9 +184,5 @@
     "sort":1,
     "show":true,
     "book_price": 100
-  }
-  ],
-  "page_now":0,
-  "all_books":999,
-  "page_num":6
+  }]
 }
