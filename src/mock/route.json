@@ -10,14 +10,9 @@
    "/api/findAllbook": "/findAllbook",
    "/api/findAllbookBytype": "/findAllbookBytype",
    "/api/library":"/library",
-<<<<<<< HEAD
    "/api/findAllMagazineByTypeId": "/findAllMagazineByTypeId",
-   "/api/homepageCate": "/homepageCate"
-}
-=======
+   "/api/homepageCate": "/homepageCate",
    "/api/rankArticle": "/rankArticle",
    "/api/mybook":"/mybook",
-   "/api/user/bookEssay": "/bookEssay",
-   "/api/findAllMagazineByTypeId": "/findAllMagazineByTypeId"
+   "/api/user/bookEssay": "/bookEssay"
 }
->>>>>>> master
