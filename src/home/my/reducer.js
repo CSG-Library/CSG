@@ -20,12 +20,13 @@ const reducer = (state = defaultState, action) => {
          }
 
       case ADDBOOKSHELF: 
-         console.log(action.bookObj);
-         let shelfArr = state.shelfList.filter(v => v.book_id !== action.bookObj.book_id)
+         // console.log(action.bookObj);
+         
          state.shelfList.push(action.bookObj)
-
+         let shelfArr = state.shelfList.filter(v => v.book_id !== action.bookObj.book_id)
+         console.log(shelfArr)
          localStorage.setItem('shelfList', JSON.stringify(state.shelfList))
-         return {
+         return { 
             ...state,
             shelfList: shelfArr
          }
