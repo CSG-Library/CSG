@@ -25,10 +25,13 @@ import { withRouter } from 'react-router-dom';
 
 class Head extends PureComponent {
    
-   handleClick(){
+   loginHandleClick(){
       return () => {
-         // this.props.history.push('/login')
+         this.props.history.push('/login')
       }
+   }
+   regsiterHandleClick(){
+      this.props.history.push('/reg')
    }
    
    render() {
@@ -36,9 +39,9 @@ class Head extends PureComponent {
          <Header>
             <div className='container'>
                <section className="r">
-                  <span onClick={this.handleClick()}>登录</span>
+                  <span onClick={this.loginHandleClick()}>登录</span>
                   <i>|</i>
-                  <span onClick={this.handleClick()}>注册</span>
+                  <span onClick={this.regsiterHandleClick()}>注册</span>
                </section>
             </div>
          </Header>

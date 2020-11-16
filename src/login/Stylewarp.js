@@ -73,7 +73,6 @@ const StyReg=styled.div`
   }
   .box{
     height:700px;
-    background-color:yellow;
     margin:auto;
     .ant-form {
       width:400px;
