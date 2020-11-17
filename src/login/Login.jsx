@@ -44,7 +44,7 @@ const Regsite = (props) => {
             alert("登陆成功");
             localStorage.setItem("userNew",JSON.stringify(userNew[0]));
             localStorage.setItem("log",true)
-            props.history.push("/home/bookshelf/account");
+            props.history.push("/home/bookshelf/data");
 
          }else{
             alert("账号密码错误，请重新登陆")
