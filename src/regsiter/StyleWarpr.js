@@ -26,10 +26,10 @@ const StyReg=styled.div`
     margin:auto;
     position: relative;
     background:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605528139892&di=6d1a98418dcbeb5b44ed3753ac8ddef8&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Fback_origin_min_pic%2F20%2F04%2F12%2F10a04eaff9e6db052ee10d6c3b549ca2.jpg%2521%2Ffw%2F750%2Fquality%2F99%2Funsharp%2Ftrue%2Fcompress%2Ftrue')no-repeat  0  0 ;
-    background-size:100%;
+    background-size:100% 100%;
     .ant-form {
       width:320px;
-      height:280px;
+      height:400px;
       border-radius:10px;
       background-color:rgba(244,159,68,0.1);
       position: absolute;
@@ -76,8 +76,6 @@ const StyReg=styled.div`
           width:100px;
           height:50px;
         }
-       
-       
        
         
       }
