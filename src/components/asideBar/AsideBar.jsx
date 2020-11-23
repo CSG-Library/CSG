@@ -10,14 +10,14 @@ const AsideBar = (props) => {
     <AsideBarWrap>
       <h3>{title}</h3>  
       <ul>
-        {
+        { 
           list.map(item => {
             return (
               <li 
                 key={item.bookTypeId} 
                 className={asideCate === item.bookTypeName ? 'active' : ''}
-                onClick={() => onChangeAsideCate(item.bookTypeName)}
-              >{item.bookTypeName}（{item.bookTypeNum}）</li>
+                onClick={() => onChangeAsideCate(item.bookTypeName, item.asideECate)}
+              >{item.bookTypeName}（{item.bookTypeNum}）</li> 
             )
           })
         }

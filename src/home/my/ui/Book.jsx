@@ -9,10 +9,10 @@ import { useSelector } from 'react-redux'
 
 const Book = (props) => {
    const list = useSelector(state => state.getIn(["my", "shelfList"]))
-
+   // console.log(list)
    let [state, setState] = useState({ info: [], list: list })
 
-   console.log(state.list)
+   // console.log(state.list)
    return (
       <StyBook>
          <div>

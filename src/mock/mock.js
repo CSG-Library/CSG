@@ -14,6 +14,7 @@ module.exports = function () {
       mybook:require('./my-book.json'),
       bookEssay: require('./short-comments.json'),
       library:require('./library.json'),
-      findAllMagazineByTypeId: require('./magazineCategoryBookList.json')
+      findAllMagazineByTypeId: require('./magazineCategoryBookList.json'),
+      homepageCate: require('./homepageCate')
    }
 }

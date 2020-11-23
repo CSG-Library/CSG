@@ -477,43 +477,64 @@ const StyData = styled.div`
     font-size:16px;
     color:#666;
     margin-top:30px;
-    label{
-      margin:0 25px;
-      input{
-        width:16px;
-        height:16px;
-        margin-bottom:30px;
-      }
+    position: relative;
+    
+    >ul{
+      display:flex;
+      flex-flow:nowrap column;
+      width:420px;
+      li{
+        display:flex;
+        margin:15px  0;
+        flex-flow:nowrap row;
+        align-items:center;
+        justify-content:start;
+        position: relative;
+        /* width:800px; */
+        p{
+          position: absolute;
+          bottom:2px;
+          right:38px;
+          color:#e3e3e3;
+        }
+        span{
+          width:100px;
+          text-align:right;
+          margin-right:20px;
+        }
+        >input{
+          height:30px;
+          width:220px;
+          border-radius:5px;
+          border: 1px solid #EEEEEE;
+          padding:5px 0 5px 10px;
+        }
+        >div{
+          display:flex;
+          align-items:center;
+          width:80px;
+          line-height:30px;
+          label{
+           margin-right:10px;
+           
+          }
+          input{
+          border:1px solid red;
+          font-size:16px;
+          }
+        }
+        textarea{
+          height:54px;
+          border:1px solid #EEEEEE;
+          text-indent:1em;
+          line-height:24px;
+          padding:5px;
+          height:100px;
+          resize:none;
+         } 
+       }
     }
-    textarea{
-      width:266px;
-      height:54px;
-      border:1px solid #EEEEEE;
-      margin-left:50px;
-    }
-  }
-  
-  input{
-    margin:0px 0 30px 25px;
-    width: 177px;
-    height: 30px;
-    font-size:16px;
-    border: 1px solid #EEEEEE;
-  }
-  p{
-    width: 196px;
-    line-height: 16px;
-    font-size: 16px;
-    font-family: Microsoft YaHei;
-    font-weight: 400;
-    color: #666666;
-    margin-left:80px;
-    margin-bottom:30px;
-    span{
-      color:#319DF7
-    }
-  }
-  button{
+    button{
     display:block;
     width: 88px;
     line-height: 31px;
@@ -524,6 +545,67 @@ const StyData = styled.div`
     font-weight: 400;
     color: #FFFFFF;
   }
+  .sc-jgPznn{
+    display:flex;
+    flex-flow:nowrap column;
+    width:420px;
+    height:500px;
+    li{
+      display:flex;
+      margin:20px  0;
+      flex-flow:nowrap row;
+      align-items:center;
+      justify-content:start;
+      position: relative;
+      /* width:800px; */
+      p{
+        position: absolute;
+        bottom:2px;
+        right:38px;
+        color:#e3e3e3;
+      }
+      span{
+        width:100px;
+        text-align:right;
+        margin-right:20px;
+      }
+      >input{
+        height:30px;
+        border-radius:5px;
+        border: 1px solid #EEEEEE;
+        padding:5px 0 5px 10px;
+      }
+      >div{
+        display:flex;
+        align-items:center;
+        width:80px;
+        line-height:30px;
+        label{
+          margin-right:10px;
+        }
+        input{
+        font-size:16px;
+        }
+      }
+      
+    }
+    button{
+      display:block;
+      width: 88px;
+      line-height: 31px;
+      background: #319DF7;
+      text-align:center;
+      font-size: 16px;
+      margin-left:100px;
+      font-weight: 400;
+      color: #FFFFFF;
+      margin-top:30px;
+    }
+  }
+  }
+ 
+    
+ 
 `
 export {
    SLeft,

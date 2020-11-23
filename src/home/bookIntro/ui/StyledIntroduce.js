@@ -361,9 +361,9 @@ const ShortCommentsWraper = styled.div`
         text-align:center;
         margin-bottom:25px;
     }
+    
     ul{
         clear:both;
-        
         li{
             margin-bottom:13px;
             >span:nth-child(1){
@@ -398,6 +398,7 @@ const ShortCommentsWraper = styled.div`
             margin-bottom:9px;
         }
     }
+    
     div:nth-child(4){
         margin-bottom:37px;
         span{
@@ -409,8 +410,10 @@ const ShortCommentsWraper = styled.div`
             color: #319DF7;
        }
     }
+    
 
 `
+
 const LongCommentsWraper = styled.div`
     width:742px;
     >div:nth-child(2){
@@ -722,6 +725,7 @@ const AboutBookWraper = styled.div`
                     margin-right:16px;
                     img{
                         width:100%;
+                        height:100%;
                         display:block;                        
                     }
                 }

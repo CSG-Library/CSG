@@ -4,6 +4,7 @@
     "bookTypeId": "001",
     "bookTypeName": "小说",
     "bookTypeNum":999,
+    "asideECate": "novel",
     "sort":1,
     "show":true
   },
@@ -11,6 +12,7 @@
     "bookTypeId": "002",
     "bookTypeName": "文艺",
     "bookTypeNum":666,
+    "asideECate": "literature",
      "sort":2,
     "show":true
   },
@@ -18,6 +20,7 @@
     "bookTypeId": "003",
     "bookTypeName": "青春",
     "bookTypeNum":1213,
+    "asideECate": "novel",
     "sort":3,
     "show":true
   }

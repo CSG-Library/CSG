@@ -8,7 +8,7 @@ import { withRouter } from 'react-router-dom';
 
 const BookCategory = (props) => {
    const history = useHistory()
-   console.log(props)
+   // console.log(props)
 
    const handleClick = useCallback((book_id) => {
 
