@@ -2,10 +2,15 @@ import React from 'react';
 
 import ChapterReadUi from '../readUi/ChapterReadUi';
 
+import { withRouter,  NavLink } from 'react-router-dom';
+
 const ChapterRead = (props) => {
+   const { url } = props.match;
    return (
-      <ChapterReadUi {...props} />
+      <NavLink to={`${url}?book_id=0`}>
+         <ChapterReadUi  {...props}></ChapterReadUi>
+      </NavLink>
    )
 }
 
-export default ChapterRead
+export default withRouter(ChapterRead)

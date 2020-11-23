@@ -3,7 +3,7 @@ import React from 'react';
 import { Sepwrap } from './styleSepPage';
 
 const SepPage = props => {
-   console.log(props)
+   // console.log(props)
    const list = []
    for(var i = 1; i <= props.totalPage; i++){
       list.push({ id: i, pageNum: i })
