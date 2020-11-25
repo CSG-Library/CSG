@@ -22,7 +22,7 @@ const usePay = () => {
        out_trade_no: + new Date(),
        total_fee: 1,
        body,
-       url: 'http://localhost:3000/home/browse'
+       url: '/api/home/browse' 
      }
     })
 

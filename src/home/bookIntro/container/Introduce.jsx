@@ -18,7 +18,7 @@ class Introduce extends Component {
         //     // console.log(this.props.list)
         //     //  console.log(this.props.loadData_ShortCom)
             let result = await get ({
-                url:`/api/introduce/introduce?book_id=${this.props.location.state.book_id}`
+                url:`/api/introduce?book_id=${this.props.location.state.book_id}`
                
             }) 
             console.log(result)

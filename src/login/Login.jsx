@@ -37,14 +37,14 @@ const Regsite = (props) => {
       const userList = JSON.parse(localStorage.getItem('userList'))||[];
       console.log(userList);
       let userNew = userList.filter(v=>v.username===name)
-      console.log(userNew);
+      // console.log(userNew);
       if(userNew.length>0){
          console.log(userNew);
          if(userNew[0].username ===name){
-            alert("登陆成功");
+            alert("登陆成功"); 
             localStorage.setItem("userNew",JSON.stringify(userNew[0]));
             localStorage.setItem("log",true)
-            props.history.push("/home/bookshelf/data");
+            props.history.push("/api/home/browse");
 
          }else{
             alert("账号密码错误，请重新登陆")
@@ -56,7 +56,7 @@ const Regsite = (props) => {
      
    };
    function clickHandle(){
-         props.history.push("/reg")
+         props.history.push("/api/reg")
       }
    return (
       <StyReg>
