@@ -74,11 +74,11 @@ class Category extends Component {
   componentDidMount = async () => {
 
     let list = await post({
-      url: "http://localhost:3000/api/homepageCate"
+      url: "/api/homepageCate"
     })
  
     let _asideList = await get({
-      url: "http://localhost:3000/api/findAllbookBytype"
+      url: "/api/findAllbookBytype"
     }) 
     
     this.setState({

@@ -8,7 +8,7 @@ const useGetBookList = () => {
   useEffect(() => {
     ;(async ()=>{
       let res = await get({
-        url: "http://localhost:3000/api/findAllMagazineByTypeId"
+        url: "/api/findAllMagazineByTypeId"
       })
       setResult(result => (res.data.data))
     })()
