@@ -13,7 +13,24 @@ import { useEffect } from 'react';
 import memoizeOne from 'memoize-one';
 
 const ChapterDetUi = (props) => {
-   const { book_id } = props.location.state;
+   const { search } = props.location;
+   // let query = new URLSearchParams(search);
+   // console.log(query.get('book_id')); 
+   let obj = search.split('?')[1].split("&").reduce( (initValue,v) => {
+      var arr = v.split("=")
+      initValue[arr[0]] = arr[1]
+      return initValue
+   }, {})
+   // console.log(obj);
+
+   // var book_id 
+   // if(props.location.state) {
+   //    const { book_id } = props.location.state
+   // }else {
+   //    const { book_id } = obj
+   // }
+   const { book_id } = props.location.state || obj;
+   // console.log(book_id);
    
    const bookdetail = useSelector(state => state.getIn(['chapterdet', 'bookdetail']))
    const dispatch = useDispatch()
@@ -30,7 +47,7 @@ const ChapterDetUi = (props) => {
             <Chapter detlist={bookdetail} book_id={book_id}></Chapter>
             <More detlist={moreList(bookdetail)}></More>
          </Div2>
-         <SepPage {...props}></SepPage>
+         {/* <SepPage {...props}></SepPage> */}
       </>
    )
 }

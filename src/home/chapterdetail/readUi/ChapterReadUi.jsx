@@ -12,8 +12,16 @@ import { actionCreator as ac } from '../';
 import memoizeOne from 'memoize-one';
 import { useLocation } from 'react-router-dom';
 
+
 const ChapterReadUi = (props) => {
-   const { book_id } = useLocation().state;
+   const { search } = props.location;
+   let obj = search.split('?').reduce( (initValue,v) => {
+      var arr = v.split("=")
+      initValue[arr[0]] = arr[1]
+      return initValue
+   }, {})
+   const { book_id } = useLocation().state || obj;
+
 
    const booklist = useSelector(state => state.getIn(["chapterdet", "bookdetail"]))
    const dispatch = useDispatch()

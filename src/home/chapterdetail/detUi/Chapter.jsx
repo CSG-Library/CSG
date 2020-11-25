@@ -3,14 +3,21 @@ import { withRouter } from 'react-router-dom';
 
 import { ChapterWrap, Title } from './styleChapterDet';
 
+
+import { useHistory } from 'react-router-dom';
+
 const Chapter = (props) => {
+   const history = useHistory()
    const handleClick = useCallback((id) => {
       return () => {
-         props.history.push('/home/chapterpage', {book_id:id})
+         console.log(props);
+         // props.history.push('/home/chapterpage', {book_id:id})
+         window.location.history.push('/home/chapterpage')
       }
-   }, [props.history])
+   }, [history])
 
    let { detlist, book_id } = props;
+   // console.log(detlist);
    let list = detlist[book_id] && detlist[book_id]['detail'];
    // console.log(list)
    return (
@@ -18,9 +25,9 @@ const Chapter = (props) => {
          <Title width='0 0 1px 0'><span>章节详情</span></Title>
          <ul>
             {
-               list && list.map(v =>
+               list && list.map((v, i) =>
                   <li
-                     key={v['chapter-id']}
+                     key={i}
                      onClick={handleClick(v['chapter-id'])}
                   >{v['chapter-name']}</li>
                )

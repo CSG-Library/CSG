@@ -22,9 +22,10 @@ const Book = () => {
             let result = await get({
                 url:'/api/introduce'
             })
-            //  console.log(result.data.book_introduce_detail)
+              console.log(result.data[0])
             setstate({
-                state:result.data.book_introduce_detail[0]
+                state:result.data[0]
+                
             })
             
         })()
@@ -82,7 +83,7 @@ const Book = () => {
                 <>
             <div>
                 <div>
-                    <img src={state.state.book_introduce.img} alt=""/>
+                    <img src={state.state.details.img} alt=""/>
                 </div>
                 <Button 
                 className='button' 
@@ -92,15 +93,15 @@ const Book = () => {
                 </Button>
             </div>
             <div >
-                书名：{state.state.book_introduce.title}<br/>
-                作者：{state.state.book_introduce.author}<br/>
-                译者：{state.state.book_introduce.translator}<br/>
-                副标题：{state.state.book_introduce.sub_title}<br/>
-                页数：{state.state.book_introduce.page}<br/>
-                出版社：{state.state.book_introduce.publish_company}<br/>
-                定价：{state.state.book_introduce.price}<br/>
-                装帧：{state.state.book_introduce.binding}<br/>
-                出版年：{state.state.book_introduce.publish_year}<br/>
+                书名：{state.state.details.book_name}<br/>
+                作者：{state.state.details.book_author}<br/>
+                译者：{state.state.details.book_translator}<br/>
+                副标题：{state.state.details.book_subtitle}<br/>
+                页数：{state.state.details.book_page}<br/>
+                出版社：{state.state.details.book_publish_company}<br/>
+                定价：{state.state.details.book_price}<br/>
+                装帧：{state.state.details.book_binding}<br/>
+                出版年：{state.state.details.book_publish_year}<br/>
             </div>
             <div>
                 <p>著作权声明</p>

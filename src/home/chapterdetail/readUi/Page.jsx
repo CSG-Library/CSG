@@ -1,11 +1,21 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { PageWrap, H6Wrap } from './styleChapterRead';
 
-export default class App extends Component {
+import E from 'wangeditor'
+
+export default class App extends PureComponent {
    handleClick = () => {
       return () => {
          
       }
+   }
+
+   componentDidMount(){
+      const editor = new E('#div1')
+      editor.config.height = 720
+      // editor.config.zIndex = 1000
+      editor.create()
+      console.log(editor.config)
    }
 
    render() {
@@ -15,7 +25,7 @@ export default class App extends Component {
                <span>下一章</span>
                <i className='iconfont' onClick={this.handleClick()}>&#xe773;</i>
             </div>
-            <div>
+            <div id='div1'>
                <H6Wrap width='0 0 1px 0' color='#eee'>正文第一章 远古神墓</H6Wrap>
                <p>
                   穿越了宇宙洪荒，凝练了天地玄黄……纵使摆脱了六道轮回，也难逃那天地动荡……
