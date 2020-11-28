@@ -26,7 +26,7 @@ const usePay = () => {
      }
     })
 
-    history.push('/pay')
+    history.push('/api/pay')
     document.write(res.data)
 
   }
