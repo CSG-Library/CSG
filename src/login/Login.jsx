@@ -40,11 +40,11 @@ const Regsite = (props) => {
       // console.log(userNew);
       if(userNew.length>0){
          console.log(userNew);
-         if(userNew[0].username ===name){
+         if(userNew[0].password ===password){
             alert("登陆成功"); 
             localStorage.setItem("userNew",JSON.stringify(userNew[0]));
             localStorage.setItem("log",true)
-            props.history.push("/api/home/browse");
+            props.history.push("/home/bookshelf/data");
 
          }else{
             alert("账号密码错误，请重新登陆")
@@ -56,7 +56,7 @@ const Regsite = (props) => {
      
    };
    function clickHandle(){
-         props.history.push("/api/reg")
+         props.history.push("/reg")
       }
    return (
       <StyReg>

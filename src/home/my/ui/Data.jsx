@@ -9,6 +9,7 @@ const user = JSON.parse(localStorage.getItem('userNew'))
 class Data extends Component {
    constructor(props) {
       super(props);
+      let user  =JSON.parse(localStorage.getItem('userNew'))
       this.state = {
          sex: user.sex,
          address: user.address,
@@ -60,7 +61,7 @@ class Data extends Component {
       this.setState({ introduction: event.target.value });
       console.log(this.state.introduction);
    }
-   click() {
+  async  click() {
       let list = JSON.parse(localStorage.getItem('userList'));
 
       list.forEach(v => {
@@ -77,7 +78,7 @@ class Data extends Component {
       localStorage.setItem("userList", JSON.stringify(list))
       localStorage.setItem("userNew", JSON.stringify(user[0]))
        user = JSON.parse(localStorage.getItem('userNew'))
-      this.setState({
+        this.setState({
          sex: user.sex,
          address: user.address,
          birthday: user.birthday,
@@ -88,8 +89,11 @@ class Data extends Component {
          oldPassword:'',
          newPassword:'',
          rNewPassword:''
-      })
-      alert("修改成功")
+      },()=>{
+         console.log(this.state.introduction);
+         alert("修改成功")
+      }
+      )
       // this.props.history.push('/home/bookshelf/data')
 
 
@@ -132,6 +136,7 @@ class Data extends Component {
          })
          return;
       }
+      console.log(this.state);
       if(this.state.oldPassword === user.password){
          let list = JSON.parse(localStorage.getItem('userList'));
 

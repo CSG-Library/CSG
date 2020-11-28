@@ -389,81 +389,78 @@ const StyBook = styled.div`
    }
 `
 
-
 const StyDatum = styled.div`
-  /* margin-left:55px; */
   margin-top:30px;
   width: 810px;
-  height:100%;
-  /* >div:first-child{
-    height:72px;
-    display:flex;
-    width: 810px;
-    border-bottom:1px solid #eee;
-    margin-bottom:110px;
-    h1{
-      margin-left:64px;
-      margin-top:36px;
-      line-height: 16px;
-      font-size: 16px;
-      font-family: Microsoft YaHei;
-      font-weight: 400;
-      width:90px;
-      &::after{
-        content:'';
-        border:1px solid #EAEAEA;
-        margin:0px 23px;
-        height:16px;
-      }
-    }
-    >h3{
-      margin-top:36px;
-      width: 64px;
-      line-height: 16px;
-      font-size: 16px;
-      font-weight: 400;
-      color: #666666;
-      margin-left:26px;
-    }
-  } */
-  >div:last-child{
-    margin-left:36px;
-    font-size: 16px;
-    color: #666666;
-    margin-right:25px;
-    input{
-      margin:0px 0 30px 25px;
-      width: 177px;
-      height: 30px;
-      border: 1px solid #EEEEEE;
-    }
-    p{
-      width: 196px;
-      line-height: 15px;
-      font-size: 14px;
-      font-family: Microsoft YaHei;
-      font-weight: 400;
-      color: #666666;
-      margin-left:80px;
-      margin-bottom:30px;
-      span{
-        color:#319DF7
-      }
+  height:300px;
+  >ul{
+      display:flex;
+      flex-flow:nowrap column;
+      width:420px;
+      li{
+        display:flex;
+        margin:15px  0;
+        flex-flow:nowrap row;
+        align-items:center;
+        justify-content:start;
+        position: relative;
+        /* width:800px; */
+        p{
+          position: absolute;
+          bottom:2px;
+          right:38px;
+          color:#e3e3e3;
+        }
+        span{
+          width:100px;
+          text-align:right;
+          margin-right:20px;
+        }
+        >input{
+          height:30px;
+          width:220px;
+          border-radius:5px;
+          border: 1px solid #EEEEEE;
+          padding:5px 0 5px 10px;
+        }
+        >div{
+          display:flex;
+          align-items:center;
+          width:80px;
+          line-height:30px;
+          label{
+           margin-right:10px;
+           
+          }
+          input{
+          border:1px solid red;
+          font-size:16px;
+          }
+        }
+        textarea{
+          height:54px;
+          border:1px solid #EEEEEE;
+          text-indent:1em;
+          line-height:24px;
+          padding:5px;
+          height:100px;
+          resize:none;
+         } 
+       }
     }
     button{
-      display:block;
-      width: 88px;
-      line-height: 31px;
-      background: #319DF7;
-      text-align:center;
-      font-size: 16px;
-      margin-left:82px;
-      font-weight: 400;
-      color: #FFFFFF;
-    }
-  }
+    display:block;
+    width: 88px;
+    line-height: 31px;
+    background: #319DF7;
+    text-align:center;
+    font-size: 16px;
+    margin-left:82px;
+    font-weight: 400;
+    color: #FFFFFF;
   
 `
+
 
 const StyData = styled.div`
   margin-left:85px;
@@ -614,6 +611,6 @@ export {
    StyPay,
    StyBook,
    StyDatum,
-   StyData,
+   StyData
 
 }
