@@ -92,12 +92,12 @@ const Regsite = (props) => {
                <Form.Item name={['user', 'password']} label="密码：" 
                rules={[{ required: true, message: '请按规则填写密码' }]}
                >
-                  <Input />
+                  <Input  type="password"/>
                </Form.Item>
                <Form.Item name={['user', 'rPassword']} label="确认密码：" 
                rules={[{ required: true, message: '密码请与上面保持一致' }]}
                >
-                  <Input />
+                  <Input  type="password"/>
                </Form.Item>
                <Form.Item name={['user', 'email']} label="邮箱："
                rules={[{ required: true, message: '请按规则填写邮箱' }]}

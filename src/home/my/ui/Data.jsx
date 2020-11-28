@@ -76,7 +76,22 @@ class Data extends Component {
       let user = list.filter(v => v.username === this.state.name)
       localStorage.setItem("userList", JSON.stringify(list))
       localStorage.setItem("userNew", JSON.stringify(user[0]))
+       user = JSON.parse(localStorage.getItem('userNew'))
+      this.setState({
+         sex: user.sex,
+         address: user.address,
+         birthday: user.birthday,
+         email: user.email,
+         introduction: user.introduction,
+         qq: user.qq,
+         name: user.username,
+         oldPassword:'',
+         newPassword:'',
+         rNewPassword:''
+      })
       alert("修改成功")
+      // this.props.history.push('/home/bookshelf/data')
+
 
    }
    handleChangeOld(event) {
@@ -188,16 +203,16 @@ class Data extends Component {
                            <span> 昵称：</span><input type="text" value={this.state.name} disabled={true} style={{ border: 'none', color: '#319DF7', backgroundColor: '#fff' }} />
                         </li>
                         <li>
-                           <span>旧密码：</span> <input type="text" value={this.state.oldPassword} onChange={this.handleChangeOld}/>
+                           <span>旧密码：</span> <input type="password" value={this.state.oldPassword} onChange={this.handleChangeOld}/>
                            {/* <p>没有或者忘记旧密码？<span>重置密码</span></p> */}
                         </li>
                         <li>
                            <span>新密码：</span>
-                           <input type="text" value={this.state.newPassword} onChange={this.handleChangeNew} />
+                           <input type="password" value={this.state.newPassword} onChange={this.handleChangeNew} />
 
                         </li>
                         <li>
-                           <span> 确认密码：</span><input type="text" value={this.state.rNewPassword} onChange={this.handleChangerNew}/>
+                           <span> 确认密码：</span><input type="password" value={this.state.rNewPassword} onChange={this.handleChangerNew}/>
                         </li>
 
                      </ul>
