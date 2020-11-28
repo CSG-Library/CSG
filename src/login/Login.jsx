@@ -79,7 +79,7 @@ const Regsite = (props) => {
                <Form.Item name={['user', 'password']} label="密码：" 
                rules={[{ required: true, message: '请按规则填写密码' }]}
                >
-                  <Input />
+                  <Input   type="password"/>
                </Form.Item>
                <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 4 }}>
                   <Button type="primary"  htmlType="submit">

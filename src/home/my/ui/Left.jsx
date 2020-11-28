@@ -14,7 +14,7 @@ class Left extends Component {
          { id: 0, path: '/account', name: '我的账户' },
          { id: 1, path: '/bookshelf', name: '我的书架' },
          { id: 2, path: '/data', name: '个人资料' },
-         { id: 3, path: '/switch', name: '切换账号' },
+         // { id: 3, path: '/switch', name: '切换账号' },
       ],
       curIndex: 0,
    }
